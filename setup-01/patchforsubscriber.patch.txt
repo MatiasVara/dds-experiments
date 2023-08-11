@@ -1,0 +1,268 @@
+diff --git a/src/core/ddsi/src/ddsi_ipaddr.c b/src/core/ddsi/src/ddsi_ipaddr.c
+index 5d737c03..1ebe0ca5 100644
+--- a/src/core/ddsi/src/ddsi_ipaddr.c
++++ b/src/core/ddsi/src/ddsi_ipaddr.c
+@@ -45,6 +45,14 @@ int ddsi_ipaddr_compare (const struct sockaddr *const sa1, const struct sockaddr
+         eq = memcmp(&sin1->sin_addr, &sin2->sin_addr, sz);
+         break;
+       }
++      case AF_VSOCK: {
++        struct sockaddr_vm *sin1, *sin2;
++        sin1 = (struct sockaddr_vm *)sa1;
++        sin2 = (struct sockaddr_vm *)sa2;
++        sz = sizeof(sin1->svm_cid);
++        eq = memcmp(&sin1->svm_cid, &sin2->svm_cid, sz);
++        break;
++      }
+       default: {
+         assert(0);
+       }
+@@ -241,6 +249,14 @@ void ddsi_ipaddr_to_loc (const struct ddsi_tran_factory *tran, ddsi_locator_t *d
+   dst->kind = kind;
+   switch (src->sa_family)
+   {
++    case AF_VSOCK:
++    {
++      const struct sockaddr_vm * x = (struct sockaddr_vm *) src;
++      dst->port = x->svm_port;
++      memset (dst->address, 0, sizeof (dst->address));
++      memcpy (dst->address, &x->svm_cid, sizeof(x->svm_cid));
++      break;
++    }
+     case AF_INET:
+     {
+       const struct sockaddr_in *x = (const struct sockaddr_in *) src;
+diff --git a/src/core/ddsi/src/ddsi_tcp.c b/src/core/ddsi/src/ddsi_tcp.c
+index 266ac606..bfdde52d 100644
+--- a/src/core/ddsi/src/ddsi_tcp.c
++++ b/src/core/ddsi/src/ddsi_tcp.c
+@@ -111,7 +111,7 @@ static ddsi_tcp_conn_t ddsi_tcp_new_conn (struct ddsi_tran_factory_tcp *fact, dd
+ static char *sockaddr_to_string_with_port (struct ddsi_tran_factory_tcp *fact, char *dst, size_t sizeof_dst, const struct sockaddr *src)
+ {
+   ddsi_locator_t loc;
+-  ddsi_ipaddr_to_loc(&fact->fact, &loc, src, src->sa_family == AF_INET ? NN_LOCATOR_KIND_TCPv4 : NN_LOCATOR_KIND_TCPv6);
++  ddsi_ipaddr_to_loc(&fact->fact, &loc, src, src->sa_family == AF_INET || src->sa_family == AF_VSOCK ? NN_LOCATOR_KIND_TCPv4 : NN_LOCATOR_KIND_TCPv6);
+   ddsi_locator_to_string(dst, sizeof_dst, &loc);
+   return dst;
+ }
+@@ -176,28 +176,28 @@ static dds_return_t ddsi_tcp_sock_new (struct ddsi_tran_factory_tcp * const fact
+ {
+   struct ddsi_domaingv const * const gv = fact->fact.gv;
+   const int one = 1;
+-  union addr socketname;
++  struct sockaddr_vm socketname;
+   dds_return_t rc;
+ 
+   memset (&socketname, 0, sizeof (socketname));
+   switch (fact->fact.m_kind)
+   {
+     case NN_LOCATOR_KIND_TCPv4:
+-      socketname.a4.sin_family = AF_INET;
+-      socketname.a4.sin_addr.s_addr = htonl (INADDR_ANY);
+-      socketname.a4.sin_port = htons (port);
++      socketname.svm_family = AF_VSOCK;
++      socketname.svm_cid = VMADDR_CID_ANY;
++      socketname.svm_port = port;
+       break;
+-#if DDSRT_HAVE_IPV6
+-    case NN_LOCATOR_KIND_TCPv6:
+-      socketname.a6.sin6_family = AF_INET6;
+-      socketname.a6.sin6_addr = ddsrt_in6addr_any;
+-      socketname.a6.sin6_port = htons (port);
+-      break;
+-#endif
++//#if DDSRT_HAVE_IPV6
++//    case NN_LOCATOR_KIND_TCPv6:
++//      socketname.a6.sin6_family = AF_INET6;
++//      socketname.a6.sin6_addr = ddsrt_in6addr_any;
++//      socketname.a6.sin6_port = htons (port);
++//      break;
++//#endif
+     default:
+       DDS_FATAL ("ddsi_tcp_sock_new: unsupported kind %"PRId32"\n", fact->fact.m_kind);
+   }
+-  if ((rc = ddsrt_socket (sock, socketname.a.sa_family, SOCK_STREAM, 0)) != DDS_RETCODE_OK)
++  if ((rc = ddsrt_socket (sock, AF_VSOCK, SOCK_STREAM, 0)) != DDS_RETCODE_OK)
+   {
+     GVERROR ("ddsi_tcp_sock_new: failed to create socket: %s\n", dds_strretcode (rc));
+     goto fail;
+@@ -210,12 +210,13 @@ static dds_return_t ddsi_tcp_sock_new (struct ddsi_tran_factory_tcp * const fact
+     goto fail_w_socket;
+   }
+ 
+-  if ((rc = ddsrt_bind (*sock, &socketname.a, ddsrt_sockaddr_get_size (&socketname.a))) != DDS_RETCODE_OK)
+-  {
+-    GVERROR ("ddsi_tcp_sock_new: failed to bind to ANY:%"PRIu16": %s\n", port,
+-             (rc == DDS_RETCODE_PRECONDITION_NOT_MET) ? "address in use" : dds_strretcode (rc));
+-    goto fail_w_socket;
+-  }
++  // this does not work with a client, we should not bind to a port when connect
++  //if ((rc = ddsrt_bind (*sock, (struct sockaddr*)&socketname, sizeof(socketname))) != DDS_RETCODE_OK)
++ // {
++ //   GVERROR ("ddsi_tcp_sock_new: failed to bind to ANY:%"PRIu16": %s\n", port,
++ //            (rc == DDS_RETCODE_PRECONDITION_NOT_MET) ? "address in use" : dds_strretcode (rc));
++  //  goto fail_w_socket;
++ // }
+ 
+ #ifdef SO_NOSIGPIPE
+   if (ddsrt_setsockopt (*sock, SOL_SOCKET, SO_NOSIGPIPE, &one, sizeof (one)) != DDS_RETCODE_OK)
+@@ -254,16 +255,21 @@ static void ddsi_tcp_conn_connect (ddsi_tcp_conn_t conn, const ddsrt_msghdr_t *
+   char buff[DDSI_LOCSTRLEN];
+   ddsrt_socket_t sock;
+   dds_return_t ret;
++struct sockaddr_vm test;
+ 
+   if (ddsi_tcp_sock_new (fact, &sock, 0) != DDS_RETCODE_OK)
+   {
+     /* error messages are logged by ddsi_tcp_sock_new */
+     return;
+   }
++   test.svm_family = AF_VSOCK;
++
++test.svm_cid = 2;
++test.svm_port = 3000;
+ 
+   /* Attempt to connect, expected that may fail */
+   do {
+-    ret = ddsrt_connect(sock, msg->msg_name, msg->msg_namelen);
++    ret = ddsrt_connect(sock, (struct sockaddr*)&test, sizeof(test));
+   } while (ret == DDS_RETCODE_INTERRUPTED);
+   if (ret != DDS_RETCODE_OK)
+     goto fail_w_socket;
+@@ -390,7 +396,7 @@ static ddsi_tcp_conn_t ddsi_tcp_cache_find (struct ddsi_tran_factory_tcp *fact,
+     }
+   }
+   if (ret == NULL)
+-  {
++  { 
+     ret = ddsi_tcp_new_conn (fact, DDSRT_INVALID_SOCKET, false, &key.m_peer_addr.a);
+     ddsi_tcp_cache_add (fact, ret, &path);
+   }
+@@ -450,8 +456,8 @@ static bool ddsi_tcp_select (struct ddsi_domaingv const * const gv, ddsrt_socket
+ 
+ static int32_t addrfam_to_locator_kind (int af)
+ {
+-  assert (af == AF_INET || af == AF_INET6);
+-  return (af == AF_INET) ? NN_LOCATOR_KIND_TCPv4 : NN_LOCATOR_KIND_TCPv6;
++  assert (af == AF_INET || af == AF_VSOCK || af == AF_INET6);
++  return (af == AF_INET || af == AF_VSOCK) ? NN_LOCATOR_KIND_TCPv4 : NN_LOCATOR_KIND_TCPv6;
+ }
+ 
+ static ssize_t ddsi_tcp_conn_read (ddsi_tran_conn_t conn, unsigned char *buf, size_t len, bool allow_spurious, ddsi_locator_t *srcloc)
+@@ -470,7 +476,6 @@ static ssize_t ddsi_tcp_conn_read (ddsi_tran_conn_t conn, unsigned char *buf, si
+     rd = ddsi_tcp_conn_read_ssl;
+   }
+ #endif
+-
+   while (true)
+   {
+     n = rd (tcp, (char *) buf + pos, len - pos, &rc);
+@@ -606,6 +611,7 @@ static ssize_t ddsi_tcp_conn_write (ddsi_tran_conn_t base, const ddsi_locator_t
+   int piecewise;
+   bool connect = false;
+   ddsrt_msghdr_t msg;
++  struct sockaddr_vm test;
+   union {
+     struct sockaddr_storage x;
+     union addr a;
+@@ -614,22 +620,25 @@ static ssize_t ddsi_tcp_conn_write (ddsi_tran_conn_t base, const ddsi_locator_t
+   ddsi_ipaddr_from_loc(&dstaddr.x, dst);
+   memset(&msg, 0, sizeof(msg));
+   set_msghdr_iov (&msg, (ddsrt_iovec_t *) iov, niov);
+-  msg.msg_name = &dstaddr;
+-  msg.msg_namelen = ddsrt_sockaddr_get_size(&dstaddr.a.a);
++  test.svm_family = AF_VSOCK;
++  test.svm_cid = 2;
++  test.svm_port = 3000;
++  msg.msg_name = (struct sockaddr*)&test;//&dstaddr;
++  msg.msg_namelen = sizeof(test);//ddsrt_sockaddr_get_size(&dstaddr.a.a);
+ #if DDSRT_MSGHDR_FLAGS
+   msg.msg_flags = (int) flags;
+ #endif
+   len = iovlen_sum (niov, iov);
+   (void) base;
+-
++  
+   conn = ddsi_tcp_cache_find (fact, &msg);
++
+   if (conn == NULL)
+   {
+     return -1;
+   }
+ 
+   ddsrt_mutex_lock (&conn->m_mutex);
+-
+   /* If not connected attempt to conect */
+ 
+   if (conn->m_sock == DDSRT_INVALID_SOCKET)
+@@ -1040,6 +1049,7 @@ static void ddsi_tcp_unblock_listener (ddsi_tran_listener_t listener)
+   ddsi_tcp_listener_t tl = (ddsi_tcp_listener_t) listener;
+   ddsrt_socket_t sock;
+   dds_return_t ret;
++  struct sockaddr_vm test;
+ 
+   /* Connect to own listener socket to wake listener from blocking 'accept()' */
+   if (ddsi_tcp_sock_new (fact_tcp, &sock, 0) != DDS_RETCODE_OK)
+@@ -1066,8 +1076,13 @@ static void ddsi_tcp_unblock_listener (ddsi_tran_listener_t listener)
+ #endif
+   }
+ 
++  test.svm_family = AF_VSOCK;
++  test.svm_cid = 2;
++  test.svm_port = 3000;
++
++
+   do {
+-    ret = ddsrt_connect (sock, &addr.a, ddsrt_sockaddr_get_size (&addr.a));
++    ret = ddsrt_connect (sock, (struct sockaddr*)&test, sizeof(test));
+   } while (ret == DDS_RETCODE_INTERRUPTED);
+   if (ret != DDS_RETCODE_OK)
+   {
+diff --git a/src/ddsrt/include/dds/ddsrt/sockets/posix.h b/src/ddsrt/include/dds/ddsrt/sockets/posix.h
+index 21cc3271..bd8a641a 100644
+--- a/src/ddsrt/include/dds/ddsrt/sockets/posix.h
++++ b/src/ddsrt/include/dds/ddsrt/sockets/posix.h
+@@ -22,6 +22,7 @@
+ #include <stddef.h>
+ #include <sys/types.h>
+ #include <sys/select.h>
++#include <linux/vm_sockets.h>
+ #endif
+ 
+ #if defined(__cplusplus)
+diff --git a/src/ddsrt/src/sockets.c b/src/ddsrt/src/sockets.c
+index 6ab9af3c..e009dfb2 100644
+--- a/src/ddsrt/src/sockets.c
++++ b/src/ddsrt/src/sockets.c
+@@ -59,6 +59,9 @@ ddsrt_sockaddr_get_size(const struct sockaddr *const sa)
+   assert(sa != NULL);
+ 
+   switch(sa->sa_family) {
++    case AF_VSOCK:
++      sz = sizeof(struct sockaddr_vm);
++      break;
+ #if DDSRT_HAVE_IPV6
+     case AF_INET6:
+       sz = sizeof(struct sockaddr_in6);
+@@ -88,6 +91,9 @@ uint16_t ddsrt_sockaddr_get_port(const struct sockaddr *const sa)
+       port = ntohs(((struct sockaddr_in6 *)sa)->sin6_port);
+       break;
+ #endif /* DDSRT_HAVE_IPV6 */
++    case AF_VSOCK:
++      port = ((struct sockaddr_vm *)sa)->svm_port;
++      break;
+     default:
+       assert(sa->sa_family == AF_INET);
+       port = ntohs(((struct sockaddr_in *)sa)->sin_port);
+diff --git a/src/ddsrt/src/sockets/posix/socket.c b/src/ddsrt/src/sockets/posix/socket.c
+index 952f8e1b..c647fee2 100644
+--- a/src/ddsrt/src/sockets/posix/socket.c
++++ b/src/ddsrt/src/sockets/posix/socket.c
+@@ -143,7 +143,6 @@ ddsrt_connect(
+ {
+   if (connect(sock, addr, addrlen) == 0)
+     return DDS_RETCODE_OK;
+-
+   switch (errno) {
+     case EACCES:
+     case EPERM:

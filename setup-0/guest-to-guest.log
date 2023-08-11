@@ -1,0 +1,19 @@
+
+[root@fedora30-guest-2 src]# ./iperf3 --vsock -c 2
+Connecting to host 2, port 5201
+[  5] local 5 port 3679077786 connected to 2 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   218 MBytes  1.83 Gbits/sec
+[  5]   1.00-2.00   sec   254 MBytes  2.13 Gbits/sec
+[  5]   2.00-3.00   sec   279 MBytes  2.34 Gbits/sec
+[  5]   3.00-4.00   sec   280 MBytes  2.35 Gbits/sec
+[  5]   4.00-5.00   sec   280 MBytes  2.35 Gbits/sec
+[  5]   5.00-6.00   sec   271 MBytes  2.27 Gbits/sec
+[  5]   6.00-7.00   sec   276 MBytes  2.31 Gbits/sec
+[  5]   7.00-8.00   sec   204 MBytes  1.71 Gbits/sec
+[  5]   8.00-9.00   sec   204 MBytes  1.71 Gbits/sec
+[  5]   9.00-10.00  sec   183 MBytes  1.54 Gbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.00  sec  2.39 GBytes  2.05 Gbits/sec                  sender
+[  5]   0.00-10.00  sec  2.39 GBytes  2.05 Gbits/sec                  receive

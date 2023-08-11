@@ -1,0 +1,609 @@
+1605697553.833666 [17]    ddsperf: config: Domain/General/NetworkInterfaceAddress/#text: enp1s0 {0}
+1605697553.833728 [17]    ddsperf: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1605697553.833750 [17]    ddsperf: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1605697553.833772 [17]    ddsperf: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1605697553.833792 [17]    ddsperf: config: Domain/General/AllowMulticast/#text: default {}
+1605697553.833813 [17]    ddsperf: config: Domain/General/PreferMulticast/#text: false {}
+1605697553.833833 [17]    ddsperf: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1605697553.833854 [17]    ddsperf: config: Domain/General/DontRoute/#text: false {}
+1605697553.833874 [17]    ddsperf: config: Domain/General/Transport/#text: udp {}
+1605697553.833895 [17]    ddsperf: config: Domain/General/EnableMulticastLoopback/#text: true {0}
+1605697553.833917 [17]    ddsperf: config: Domain/General/MaxMessageSize/#text: 14720 B {}
+1605697553.833938 [17]    ddsperf: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1605697553.833958 [17]    ddsperf: config: Domain/General/FragmentSize/#text: 1344 B {}
+1605697553.833982 [17]    ddsperf: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1605697553.834003 [17]    ddsperf: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1605697553.834024 [17]    ddsperf: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1605697553.834045 [17]    ddsperf: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1605697553.834065 [17]    ddsperf: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1605697553.834086 [17]    ddsperf: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1605697553.834106 [17]    ddsperf: config: Domain/Discovery/Tag/#text:  {}
+1605697553.834127 [17]    ddsperf: config: Domain/Discovery/ExternalDomainId/#text: 17 {}
+1605697553.834148 [17]    ddsperf: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1605697553.834169 [17]    ddsperf: config: Domain/Discovery/ParticipantIndex/#text: none {}
+1605697553.834190 [17]    ddsperf: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1605697553.834210 [17]    ddsperf: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1605697553.834231 [17]    ddsperf: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1605697553.834251 [17]    ddsperf: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1605697553.834273 [17]    ddsperf: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1605697553.834294 [17]    ddsperf: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1605697553.834315 [17]    ddsperf: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1605697553.834335 [17]    ddsperf: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1605697553.834396 [17]    ddsperf: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1605697553.834417 [17]    ddsperf: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1605697553.834439 [17]    ddsperf: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1605697553.834473 [17]    ddsperf: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config,discovery,throttle {0}
+1605697553.834495 [17]    ddsperf: config: Domain/Tracing/OutputFile/#text: latency-result/async-listener/cdds.log {0}
+1605697553.834516 [17]    ddsperf: config: Domain/Tracing/AppendToFile/#text: false {}
+1605697553.834536 [17]    ddsperf: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1605697553.834557 [17]    ddsperf: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1605697553.834578 [17]    ddsperf: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1605697553.834599 [17]    ddsperf: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1605697553.834619 [17]    ddsperf: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1605697553.834640 [17]    ddsperf: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1605697553.834673 [17]    ddsperf: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1605697553.834695 [17]    ddsperf: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1605697553.834716 [17]    ddsperf: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1605697553.834737 [17]    ddsperf: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 1 {0}
+1605697553.834757 [17]    ddsperf: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1605697553.834778 [17]    ddsperf: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1605697553.834799 [17]    ddsperf: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1605697553.834820 [17]    ddsperf: config: Domain/Internal/RetransmitMerging/#text: never {}
+1605697553.834841 [17]    ddsperf: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1605697553.834863 [17]    ddsperf: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1605697553.834884 [17]    ddsperf: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1605697553.834906 [17]    ddsperf: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1605697553.834927 [17]    ddsperf: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1605697553.834949 [17]    ddsperf: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1605697553.834970 [17]    ddsperf: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1605697553.834991 [17]    ddsperf: config: Domain/Internal/LeaseDuration/#text: 2 s {0}
+1605697553.835013 [17]    ddsperf: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1605697553.835033 [17]    ddsperf: config: Domain/Internal/MinimumSocketReceiveBufferSize/#text: default {}
+1605697553.835055 [17]    ddsperf: config: Domain/Internal/MinimumSocketSendBufferSize/#text: 64 KiB {}
+1605697553.835076 [17]    ddsperf: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1605697553.835097 [17]    ddsperf: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1605697553.835118 [17]    ddsperf: config: Domain/Internal/AutoReschedNackDelay/#text: 1 s {}
+1605697553.835139 [17]    ddsperf: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1605697553.835160 [17]    ddsperf: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1605697553.835181 [17]    ddsperf: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1605697553.835201 [17]    ddsperf: config: Domain/Internal/SquashParticipants/#text: false {}
+1605697553.835221 [17]    ddsperf: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1605697553.835242 [17]    ddsperf: config: Domain/Internal/LateAckMode/#text: false {}
+1605697553.835263 [17]    ddsperf: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1605697553.835283 [17]    ddsperf: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1605697553.835305 [17]    ddsperf: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1605697553.835325 [17]    ddsperf: config: Domain/Internal/WriteBatch/#text: false {}
+1605697553.835395 [17]    ddsperf: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1605697553.835423 [17]    ddsperf: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1605697553.835445 [17]    ddsperf: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1605697553.835466 [17]    ddsperf: config: Domain/Internal/MonitorPort/#text: -1 {}
+1605697553.835487 [17]    ddsperf: config: Domain/Internal/AssumeMulticastCapable/#text:  {}
+1605697553.835508 [17]    ddsperf: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1605697553.835529 [17]    ddsperf: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1605697553.835549 [17]    ddsperf: config: Domain/Internal/SendAsync/#text: false {}
+1605697553.835570 [17]    ddsperf: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1605697553.835590 [17]    ddsperf: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1605697553.835611 [17]    ddsperf: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1605697553.835642 [17]    ddsperf: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1605697553.835665 [17]    ddsperf: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1605697553.835687 [17]    ddsperf: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1605697553.835708 [17]    ddsperf: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1605697553.835730 [17]    ddsperf: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1605697553.835751 [17]    ddsperf: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1605697553.835773 [17]    ddsperf: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1605697553.835794 [17]    ddsperf: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1605697553.835816 [17]    ddsperf: config: Domain/Internal/EnableExpensiveChecks/#text:  [ignored] {}
+1605697553.835837 [17]    ddsperf: config: Domain/TCP/NoDelay/#text: true {}
+1605697553.835858 [17]    ddsperf: config: Domain/TCP/Port/#text: -1 {}
+1605697553.835879 [17]    ddsperf: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1605697553.835900 [17]    ddsperf: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1605697553.835920 [17]    ddsperf: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1605697553.835941 [17]    ddsperf: config: Domain/SSL/Enable/#text: false {}
+1605697553.835962 [17]    ddsperf: config: Domain/SSL/CertificateVerification/#text: true {}
+1605697553.835982 [17]    ddsperf: config: Domain/SSL/VerifyClient/#text: true {}
+1605697553.836003 [17]    ddsperf: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1605697553.836024 [17]    ddsperf: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1605697553.836044 [17]    ddsperf: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1605697553.836064 [17]    ddsperf: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1605697553.836085 [17]    ddsperf: config: Domain/SSL/EntropyFile/#text:  {}
+1605697553.836106 [17]    ddsperf: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1605697553.836126 [17]    ddsperf: config: Domain[@Id]: 17 {0}
+1605697553.836287 [17]    ddsperf: started at 1605697553.06836149 -- 2020-11-18 06:05:53-05:00
+1605697553.836309 [17]    ddsperf: udp initialized
+1605697553.837142 [17]    ddsperf: interfaces: lo udp/127.0.0.1(q1) enp1s0 udp/192.168.122.42(q9)
+1605697553.837179 [17]    ddsperf: selected interface: enp1s0 (index 2)
+1605697553.837197 [17]    ddsperf: presumed robust multicast support, use for everything
+1605697553.837243 [17]    ddsperf: ownip: udp/192.168.122.42
+1605697553.837263 [17]    ddsperf: extip: udp/192.168.122.42
+1605697553.837280 [17]    ddsperf: extmask: invalid/0
+1605697553.837298 [17]    ddsperf: SPDP MC: udp/239.255.0.1
+1605697553.837316 [17]    ddsperf: default MC: udp/239.255.0.1
+1605697553.837332 [17]    ddsperf: SSM support included
+1605697553.837656 [17]    ddsperf: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1605697553.837719 [17]    ddsperf: rtps_init: uc ports: disc 0 data 0
+1605697553.837738 [17]    ddsperf: rtps_init: domainid 17 participantid -2
+1605697553.837758 [17]    ddsperf: Unicast Ports: discovery 38658 data 38658
+1605697553.837887 [17]    ddsperf: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1605697553.838043 [17]    ddsperf: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1605697553.838089 [17]    ddsperf: Multicast Ports: discovery 11650 data 11651 
+1605697553.838441 [17]    ddsperf: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1605697553.838988 [17]    ddsperf: new_local_orphan_writer(DCPSParticipant/org::eclipse::cyclonedds::builtin::DCPSParticipant)
+1605697553.839064 [17]    ddsperf: WRITER 0:0:0:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="org::eclipse::cyclonedds::builtin::DCPSParticipant",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.839117 [17]    ddsperf: match_writer_with_readers(wr 0:0:0:100c2) scanning all rds of topic DCPSParticipant
+1605697553.839143 [17]    ddsperf: new_local_orphan_writer(DCPSPublication/org::eclipse::cyclonedds::builtin::DCPSPublication)
+1605697553.839192 [17]    ddsperf: WRITER 0:0:0:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="org::eclipse::cyclonedds::builtin::DCPSPublication",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.839217 [17]    ddsperf: match_writer_with_readers(wr 0:0:0:3c2) scanning all rds of topic DCPSPublication
+1605697553.839237 [17]    ddsperf: new_local_orphan_writer(DCPSSubscription/org::eclipse::cyclonedds::builtin::DCPSSubscription)
+1605697553.839295 [17]    ddsperf: WRITER 0:0:0:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="org::eclipse::cyclonedds::builtin::DCPSSubscription",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.839321 [17]    ddsperf: match_writer_with_readers(wr 0:0:0:4c2) scanning all rds of topic DCPSSubscription
+1605697553.839949 [17]    ddsperf: new_participant(e5dc1001:e60b9cd4:2456f33e:1c1, 0)
+1605697553.840058 [17]    ddsperf: PARTICIPANT e5dc1001:e60b9cd4:2456f33e:1c1 QOS={user_data=29<"DDSPerf:0:1486:fedora30-guest">,adlink_entity_factory=0}
+1605697553.840111 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:100c2, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1605697553.840135 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:100c2 @ 0x1c2d674) user 1 builtin 1
+1605697553.840188 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:100c2 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.840218 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:100c2) scanning proxy participants tgt=0
+1605697553.840250 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:4c2, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1605697553.840282 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:4c2 @ 0x1c2de54) user 1 builtin 2
+1605697553.840328 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:4c2 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.840523 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:4c2) scanning proxy participants tgt=4c7
+1605697553.840562 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:3c2, (null).DCPSPublication/PublicationBuiltinTopicData)
+1605697553.840586 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:3c2 @ 0x1c2e644) user 1 builtin 3
+1605697553.840633 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:3c2 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.840658 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:3c2) scanning proxy participants tgt=3c7
+1605697553.840682 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:200c2, (null).DCPSParticipantMessage/ParticipantMessageData)
+1605697553.840716 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:200c2 @ 0x1c2ee94) user 1 builtin 4
+1605697553.840762 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:200c2 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_writer_data_lifecycle=1}
+1605697553.840787 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:200c2) scanning proxy participants tgt=200c7
+1605697553.840809 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:100c7, (null).DCPSParticipant/ParticipantBuiltinTopicData)
+1605697553.840830 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:100c7 @ 0x1c2f3e4) user 1 builtin 5
+1605697553.840880 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:100c7 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="ParticipantBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=0:0,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_reader_lifespan=0:9223372036854775807,adlink_writer_data_lifecycle=1,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.840909 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:100c7) scanning proxy participants tgt=0
+1605697553.840932 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:4c7, (null).DCPSSubscription/SubscriptionBuiltinTopicData)
+1605697553.840953 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:4c7 @ 0x1c2f744) user 1 builtin 6
+1605697553.840998 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:4c7 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="SubscriptionBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.841032 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:4c7) scanning proxy participants tgt=4c2
+1605697553.841053 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:3c7, (null).DCPSPublication/PublicationBuiltinTopicData)
+1605697553.841075 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:3c7 @ 0x1c2fac4) user 1 builtin 7
+1605697553.841119 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:3c7 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="PublicationBuiltinTopicData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.841143 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:3c7) scanning proxy participants tgt=3c2
+1605697553.841164 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:200c7, (null).DCPSParticipantMessage/ParticipantMessageData)
+1605697553.841186 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:200c7 @ 0x1c2fe44) user 1 builtin 8
+1605697553.841240 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:200c7 QOS={user_data=0<>,topic_name="DCPSParticipantMessage",type_name="ParticipantMessageData",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.841265 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:200c7) scanning proxy participants tgt=200c2
+1605697553.841642 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:107, __BUILT-IN PARTITION__.DCPSParticipant/org::eclipse::cyclonedds::builtin::DCPSParticipant)
+1605697553.841748 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:107 @ 0x1c33934) user 2 builtin 8
+1605697553.841806 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:107 QOS={user_data=0<>,topic_name="DCPSParticipant",type_name="org::eclipse::cyclonedds::builtin::DCPSParticipant",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.841870 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:107) scanning all pwrs of topic DCPSParticipant
+1605697553.841893 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:107) scanning all wrs of topic DCPSParticipant
+1605697553.841920 [17]    ddsperf:   reader_add_local_connection(wr 0:0:0:100c2 rd e5dc1001:e60b9cd4:2456f33e:107)
+1605697553.841960 [17]    ddsperf:   writer_add_local_connection(wr 0:0:0:100c2 rd e5dc1001:e60b9cd4:2456f33e:107)
+1605697553.842017 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:207, __BUILT-IN PARTITION__.DCPSSubscription/org::eclipse::cyclonedds::builtin::DCPSSubscription)
+1605697553.842058 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:207 @ 0x1c34c24) user 3 builtin 8
+1605697553.842117 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:207 QOS={user_data=0<>,topic_name="DCPSSubscription",type_name="org::eclipse::cyclonedds::builtin::DCPSSubscription",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.842153 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:207) scanning all pwrs of topic DCPSSubscription
+1605697553.842174 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:207) scanning all wrs of topic DCPSSubscription
+1605697553.842197 [17]    ddsperf:   reader_add_local_connection(wr 0:0:0:4c2 rd e5dc1001:e60b9cd4:2456f33e:207)
+1605697553.842238 [17]    ddsperf:   writer_add_local_connection(wr 0:0:0:4c2 rd e5dc1001:e60b9cd4:2456f33e:207)
+1605697553.842296 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:307, __BUILT-IN PARTITION__.DCPSPublication/org::eclipse::cyclonedds::builtin::DCPSPublication)
+1605697553.842321 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:307 @ 0x1c36624) user 4 builtin 8
+1605697553.842410 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:307 QOS={user_data=0<>,topic_name="DCPSPublication",type_name="org::eclipse::cyclonedds::builtin::DCPSPublication",topic_data=0<>,group_data=0<>,durability=1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=1:0:0,partition={"__BUILT-IN PARTITION__"},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.842458 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:307) scanning all pwrs of topic DCPSPublication
+1605697553.842480 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:307) scanning all wrs of topic DCPSPublication
+1605697553.842503 [17]    ddsperf:   reader_add_local_connection(wr 0:0:0:3c2 rd e5dc1001:e60b9cd4:2456f33e:307)
+1605697553.842530 [17]    ddsperf:   writer_add_local_connection(wr 0:0:0:3c2 rd e5dc1001:e60b9cd4:2456f33e:307)
+1605697553.842671 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:402, (default).DDSPerfCPUStats/CPUStats)
+1605697553.842697 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:402 @ 0x1c389a4) user 5 builtin 8
+1605697553.842744 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:402 QOS={user_data=0<>,topic_name="DDSPerfCPUStats",type_name="CPUStats",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.842803 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:402) scanning all prds of topic DDSPerfCPUStats
+1605697553.842824 [17]    ddsperf: match_writer_with_readers(wr e5dc1001:e60b9cd4:2456f33e:402) scanning all rds of topic DDSPerfCPUStats
+1605697553.842882 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:507, (default).DDSPerfCPUStats/CPUStats)
+1605697553.842919 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:507 @ 0x1c39b64) user 6 builtin 8
+1605697553.842976 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:507 QOS={user_data=0<>,topic_name="DDSPerfCPUStats",type_name="CPUStats",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.843010 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:507) scanning all pwrs of topic DDSPerfCPUStats
+1605697553.843031 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:507) scanning all wrs of topic DDSPerfCPUStats
+1605697553.843088 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:607, (default).DDSPerfRPingKS/KeyedSeq)
+1605697553.843123 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:607 @ 0x1c3ace4) user 7 builtin 8
+1605697553.843170 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:607 QOS={user_data=0<>,topic_name="DDSPerfRPingKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.843203 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:607) scanning all pwrs of topic DDSPerfRPingKS
+1605697553.843224 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:607) scanning all wrs of topic DDSPerfRPingKS
+1605697553.843288 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:702, (default).DDSPerfRPingKS/KeyedSeq)
+1605697553.843312 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:702 @ 0x1c3c394) user 8 builtin 8
+1605697553.843432 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:702 QOS={user_data=0<>,topic_name="DDSPerfRPingKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.843478 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:702) scanning all prds of topic DDSPerfRPingKS
+1605697553.843500 [17]    ddsperf: match_writer_with_readers(wr e5dc1001:e60b9cd4:2456f33e:702) scanning all rds of topic DDSPerfRPingKS
+1605697553.843569 [17]    ddsperf: new_writer(guid e5dc1001:e60b9cd4:2456f33e:802, (default).DDSPerfRDataKS/KeyedSeq)
+1605697553.843604 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:802 @ 0x1c3ddf4) user 9 builtin 8
+1605697553.843651 [17]    ddsperf: WRITER e5dc1001:e60b9cd4:2456f33e:802 QOS={user_data=0<>,topic_name="DDSPerfRDataKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=10000:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.843923 [17]    ddsperf: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:802) scanning all prds of topic DDSPerfRDataKS
+1605697553.843947 [17]    ddsperf: match_writer_with_readers(wr e5dc1001:e60b9cd4:2456f33e:802) scanning all rds of topic DDSPerfRDataKS
+1605697553.844036 [17] dq.builtin: SPDP ST0 97e31001:7b52ea8f:e7db0d93:1c1 bes c3f NEW (0x00000000-0x0000002c-0x00000000-0x00000000-0x00000000 fedora30-guest-2/0.7.0/Linux/Linux) (data udp/239.255.0.1:11651 udp/192.168.122.221:36619 meta udp/239.255.0.1:11650 udp/192.168.122.221:36619) QOS={user_data=31<"DDSPerf:0:1149:fedora30-guest-2">}
+1605697553.844155 [17]    ddsperf: new_reader(guid e5dc1001:e60b9cd4:2456f33e:907, e5dc1001_e60b9cd4_2456f33e_000001c1.DDSPerfRPongKS/KeyedSeq)
+1605697553.844168 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:100c7) scanning participants tgt=0
+1605697553.844182 [17]    ddsperf: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:907 @ 0x1c3f5a4) user 10 builtin 8
+1605697553.844203 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:3c2) scanning participants tgt=3c7
+1605697553.844232 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:3c7 init_acknack_count = 1
+1605697553.844233 [17]    ddsperf: READER e5dc1001:e60b9cd4:2456f33e:907 QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,destination_order=0,history=1:1,resource_limits=10000:-1:-1,ownership=0,presentation=0:0:0,partition={"e5dc1001_e60b9cd4_2456f33e_000001c1"},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.844259 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:3c2 rd e5dc1001:e60b9cd4:2456f33e:3c7)
+1605697553.844312 [17]    ddsperf: match_reader_with_proxy_writers(rd e5dc1001:e60b9cd4:2456f33e:907) scanning all pwrs of topic DDSPerfRPongKS
+1605697553.844384 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:3c2 rd e5dc1001:e60b9cd4:2456f33e:3c7) - out-of-sync
+1605697553.844540 [17]    ddsperf: match_reader_with_writers(rd e5dc1001:e60b9cd4:2456f33e:907) scanning all wrs of topic DDSPerfRPongKS
+1605697553.844586 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:3c7) scanning participants tgt=3c2
+1605697553.844615 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:3c2 prd 97e31001:7b52ea8f:e7db0d93:3c7)
+1605697553.844641 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:3c2 prd 97e31001:7b52ea8f:e7db0d93:3c7) - ack seq 3
+1605697553.844679 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11650 udp/192.168.122.221:36619
+1605697553.844703 [17] dq.builtin: reduced nlocs=2
+1605697553.844731 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.844753 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11650           1 { 0 }
+1605697553.844770 [17] dq.builtin:   best = 0
+1605697553.844790 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.844816 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:3c2): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697553.844860 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:4c2) scanning participants tgt=4c7
+1605697553.844883 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:4c7 init_acknack_count = 1
+1605697553.844902 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:4c2 rd e5dc1001:e60b9cd4:2456f33e:4c7)
+1605697553.844926 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:4c2 rd e5dc1001:e60b9cd4:2456f33e:4c7) - out-of-sync
+1605697553.844955 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:4c7) scanning participants tgt=4c2
+1605697553.844994 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:4c2 prd 97e31001:7b52ea8f:e7db0d93:4c7)
+1605697553.845015 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:4c2 prd 97e31001:7b52ea8f:e7db0d93:4c7) - ack seq 3
+1605697553.845054 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11650 udp/192.168.122.221:36619
+1605697553.845074 [17] dq.builtin: reduced nlocs=2
+1605697553.845101 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.845122 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11650           1 { 0 }
+1605697553.845139 [17] dq.builtin:   best = 0
+1605697553.845158 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.845183 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:4c2): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697553.845213 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:200c2) scanning participants tgt=200c7
+1605697553.845235 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:200c7 init_acknack_count = 1
+1605697553.845254 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:200c2 rd e5dc1001:e60b9cd4:2456f33e:200c7)
+1605697553.845277 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:200c2 rd e5dc1001:e60b9cd4:2456f33e:200c7) - out-of-sync
+1605697553.845305 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:200c7) scanning participants tgt=200c2
+1605697553.845327 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:200c2 prd 97e31001:7b52ea8f:e7db0d93:200c7)
+1605697553.845388 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:200c2 prd 97e31001:7b52ea8f:e7db0d93:200c7) - ack seq 1
+1605697553.845427 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11650 udp/192.168.122.221:36619
+1605697553.845448 [17] dq.builtin: reduced nlocs=2
+1605697553.845474 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.845495 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11650           1 { 0 }
+1605697553.845512 [17] dq.builtin:   best = 0
+1605697553.845532 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.845557 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:200c2): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697553.845692 [17] dq.builtin: new_writer(guid e5dc1001:e60b9cd4:2456f33e:a02, 97e31001_7b52ea8f_e7db0d93_000001c1.DDSPerfRPongKS/KeyedSeq)
+1605697553.845718 [17] dq.builtin: ref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:a02 @ 0x7fa64c0050c4) user 11 builtin 8
+1605697553.845770 [17] dq.builtin: WRITER e5dc1001:e60b9cd4:2456f33e:a02 QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"97e31001_7b52ea8f_e7db0d93_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.845810 [17] dq.builtin: match_writer_with_proxy_readers(wr e5dc1001:e60b9cd4:2456f33e:a02) scanning all prds of topic DDSPerfRPongKS
+1605697553.845831 [17] dq.builtin: match_writer_with_readers(wr e5dc1001:e60b9cd4:2456f33e:a02) scanning all rds of topic DDSPerfRPongKS
+1605697553.845945 [17] dq.builtin: directed SPDP packet -> not responding
+1605697553.855434 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:402 reliable volatile writer: (default).DDSPerfCPUStats/CPUStats p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfCPUStats",type_name="CPUStats",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.855562 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:402) scanning all rds of topic DDSPerfCPUStats
+1605697553.855591 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:507 init_acknack_count = 1
+1605697553.855611 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:402 rd e5dc1001:e60b9cd4:2456f33e:507)
+1605697553.855656 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:402 rd e5dc1001:e60b9cd4:2456f33e:507) - out-of-sync
+1605697553.855800 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:702 reliable volatile writer: (default).DDSPerfRPingKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPingKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.855866 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:702) scanning all rds of topic DDSPerfRPingKS
+1605697553.855892 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:607 init_acknack_count = 1
+1605697553.855911 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:702 rd e5dc1001:e60b9cd4:2456f33e:607)
+1605697553.855986 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:702 rd e5dc1001:e60b9cd4:2456f33e:607) - out-of-sync
+1605697553.856252 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:802 reliable volatile writer: (default).DDSPerfRDataKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRDataKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=1:1,resource_limits=10000:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.856408 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:802) scanning all rds of topic DDSPerfRDataKS
+1605697553.856576 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:a02 reliable volatile writer: 051f1001_34d2fb44_f30ef297_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"051f1001_34d2fb44_f30ef297_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.856636 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:a02) scanning all rds of topic DDSPerfRPongKS
+1605697553.856757 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:b02 reliable volatile writer: e7841001_05fd1196_ec4d905d_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"e7841001_05fd1196_ec4d905d_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.856814 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:b02) scanning all rds of topic DDSPerfRPongKS
+1605697553.856931 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:c02 reliable volatile writer: 8f5b1001_91d03782_fe7a9257_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"8f5b1001_91d03782_fe7a9257_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.856982 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:c02) scanning all rds of topic DDSPerfRPongKS
+1605697553.857110 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:d02 reliable volatile writer: ae541001_918cff20_4a4fedd6_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"ae541001_918cff20_4a4fedd6_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.857162 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:d02) scanning all rds of topic DDSPerfRPongKS
+1605697553.857301 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:e02 reliable volatile writer: 53ca1001_572b13f0_664d070a_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"53ca1001_572b13f0_664d070a_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.857381 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:e02) scanning all rds of topic DDSPerfRPongKS
+1605697553.857515 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:f02 reliable volatile writer: a32b1001_64521de2_3fbff5c7_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"a32b1001_64521de2_3fbff5c7_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.857634 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:f02) scanning all rds of topic DDSPerfRPongKS
+1605697553.857776 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1002 reliable volatile writer: ff931001_f2a511ac_70f8c140_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"ff931001_f2a511ac_70f8c140_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.857829 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1002) scanning all rds of topic DDSPerfRPongKS
+1605697553.857952 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1102 reliable volatile writer: 52041001_cf1f294e_1a66c76c_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"52041001_cf1f294e_1a66c76c_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.857996 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1102) scanning all rds of topic DDSPerfRPongKS
+1605697553.858115 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1202 reliable volatile writer: 34631001_c77628a2_d15a580b_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"34631001_c77628a2_d15a580b_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.858227 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1202) scanning all rds of topic DDSPerfRPongKS
+1605697553.858396 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1302 reliable volatile writer: 1bdc1001_02b096b5_d5518545_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"1bdc1001_02b096b5_d5518545_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.858512 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1302) scanning all rds of topic DDSPerfRPongKS
+1605697553.858644 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1402 reliable volatile writer: 92b91001_50d2cf7a_4c185ce7_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"92b91001_50d2cf7a_4c185ce7_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.858712 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1402) scanning all rds of topic DDSPerfRPongKS
+1605697553.858858 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1502 reliable volatile writer: 702f1001_4bb403a1_7c9b1ace_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"702f1001_4bb403a1_7c9b1ace_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.858898 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1502) scanning all rds of topic DDSPerfRPongKS
+1605697553.859015 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1602 reliable volatile writer: ffba1001_f9b6e7b7_e6684a1b_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"ffba1001_f9b6e7b7_e6684a1b_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.859066 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1602) scanning all rds of topic DDSPerfRPongKS
+1605697553.859183 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1702 reliable volatile writer: cf5f1001_6d03aff6_3f4d50a2_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"cf5f1001_6d03aff6_3f4d50a2_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.859234 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1702) scanning all rds of topic DDSPerfRPongKS
+1605697553.859432 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1802 reliable volatile writer: 77371001_4e94ff38_7988d93c_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"77371001_4e94ff38_7988d93c_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.859486 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1802) scanning all rds of topic DDSPerfRPongKS
+1605697553.859606 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:1902 reliable volatile writer: e5dc1001_e60b9cd4_2456f33e_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,durability_service=0:0:1:-1:-1:-1,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,lifespan=9223372036854775807,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,ownership_strength=0,presentation=0:0:0,partition={"e5dc1001_e60b9cd4_2456f33e_000001c1"},transport_priority=0,adlink_entity_factory=1,adlink_writer_data_lifecycle=1}
+1605697553.859673 [17] dq.builtin: match_proxy_writer_with_readers(pwr 97e31001:7b52ea8f:e7db0d93:1902) scanning all rds of topic DDSPerfRPongKS
+1605697553.859698 [17] dq.builtin:   reader e5dc1001:e60b9cd4:2456f33e:907 init_acknack_count = 1
+1605697553.859717 [17] dq.builtin:   reader_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:1902 rd e5dc1001:e60b9cd4:2456f33e:907)
+1605697553.859762 [17] dq.builtin:   proxy_writer_add_connection(pwr 97e31001:7b52ea8f:e7db0d93:1902 rd e5dc1001:e60b9cd4:2456f33e:907) - out-of-sync
+1605697553.860507 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:507 reliable volatile reader: (default).DDSPerfCPUStats/CPUStats p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfCPUStats",type_name="CPUStats",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:100000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.860617 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:507) scanning all wrs of topic DDSPerfCPUStats
+1605697553.860647 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:402 prd 97e31001:7b52ea8f:e7db0d93:507)
+1605697553.860669 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:402 prd 97e31001:7b52ea8f:e7db0d93:507) - ack seq 0
+1605697553.860698 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11651 udp/192.168.122.221:36619
+1605697553.860719 [17] dq.builtin: reduced nlocs=2
+1605697553.860747 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.860769 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11651           1 { 0 }
+1605697553.860786 [17] dq.builtin:   best = 0
+1605697553.860805 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.860830 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:402): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697553.860923 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:607 reliable volatile reader: (default).DDSPerfRPingKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPingKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,destination_order=0,history=0:1,resource_limits=-1:-1:-1,ownership=0,presentation=0:0:0,partition={},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.860963 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:607) scanning all wrs of topic DDSPerfRPingKS
+1605697553.860988 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:702 prd 97e31001:7b52ea8f:e7db0d93:607)
+1605697553.861009 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:702 prd 97e31001:7b52ea8f:e7db0d93:607) - ack seq 0
+1605697553.861055 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11651 udp/192.168.122.221:36619
+1605697553.861076 [17] dq.builtin: reduced nlocs=2
+1605697553.861102 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.861124 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11651           1 { 0 }
+1605697553.861141 [17] dq.builtin:   best = 0
+1605697553.861160 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.861185 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:702): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697553.861285 [17] dq.builtin: SEDP ST0 97e31001:7b52ea8f:e7db0d93:907 reliable volatile reader: 97e31001_7b52ea8f_e7db0d93_000001c1.DDSPerfRPongKS/KeyedSeq p(open) NEW (as udp/239.255.0.1:11651 udp/192.168.122.221:36619 ssm=0) QOS={user_data=0<>,topic_name="DDSPerfRPongKS",type_name="KeyedSeq",topic_data=0<>,group_data=0<>,durability=0,deadline=9223372036854775807,latency_budget=0,liveliness=0:9223372036854775807,reliability=1:10000000000,destination_order=0,history=1:1,resource_limits=10000:-1:-1,ownership=0,presentation=0:0:0,partition={"97e31001_7b52ea8f_e7db0d93_000001c1"},time_based_filter=0,transport_priority=0,adlink_entity_factory=1,adlink_reader_lifespan=0:9223372036854775807,adlink_reader_data_lifecycle=9223372036854775807:9223372036854775807,adlink_subscription_keys=0:{}}
+1605697553.861324 [17] dq.builtin: match_proxy_reader_with_writers(prd 97e31001:7b52ea8f:e7db0d93:907) scanning all wrs of topic DDSPerfRPongKS
+1605697553.861393 [17] dq.builtin:   proxy_reader_add_connection(wr e5dc1001:e60b9cd4:2456f33e:a02 prd 97e31001:7b52ea8f:e7db0d93:907)
+1605697553.861425 [17] dq.builtin:   writer_add_connection(wr e5dc1001:e60b9cd4:2456f33e:a02 prd 97e31001:7b52ea8f:e7db0d93:907) - ack seq 0
+1605697553.861453 [17] dq.builtin: setcover: all_addrs udp/239.255.0.1:11651 udp/192.168.122.221:36619
+1605697553.861473 [17] dq.builtin: reduced nlocs=2
+1605697553.861499 [17] dq.builtin:   loc  0 = udp/192.168.122.221:36619       1 { 0 }
+1605697553.861521 [17] dq.builtin:   loc  1 = udp/239.255.0.1:11651           1 { 0 }
+1605697553.861537 [17] dq.builtin:   best = 0
+1605697553.861556 [17] dq.builtin:   simple udp/192.168.122.221:36619
+1605697553.861581 [17] dq.builtin: rebuild_writer_addrset(e5dc1001:e60b9cd4:2456f33e:a02): udp/192.168.122.221:36619 (burst size 4294901760 rexmit 283990)
+1605697584.051062 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:607) ...
+1605697584.051195 [17]         gc: gc_delete_reader(0x1c54350, e5dc1001:e60b9cd4:2456f33e:607)
+1605697584.051225 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:607, 2): reader no longer exists
+1605697584.051315 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:607 @ 0x1c3ace4) user 10 builtin 8
+1605697584.051513 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:507) ...
+1605697584.051631 [17]         gc: gc_delete_reader(0x1c54580, e5dc1001:e60b9cd4:2456f33e:507)
+1605697584.051659 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:507, 33): reader no longer exists
+1605697584.051728 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:507 @ 0x1c39b64) user 9 builtin 8
+1605697584.051897 [17]    ddsperf: unblock_throttled_writer(guid e5dc1001:e60b9cd4:2456f33e:a02) ...
+1605697584.051921 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:a02) state transition 0 -> 1
+1605697584.051944 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:a02) ...
+1605697584.051963 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:a02) - no unack'ed samples
+1605697584.051983 [17]    ddsperf: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:a02) ...
+1605697584.052023 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:a02) state transition 1 -> 3
+1605697584.052067 [17]         gc: gc_delete_writer(0x1c57730, e5dc1001:e60b9cd4:2456f33e:a02)
+1605697584.052152 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:a02 @ 0x7fa64c0050c4) user 8 builtin 8
+1605697584.052312 [17]    ddsperf: unblock_throttled_writer(guid e5dc1001:e60b9cd4:2456f33e:702) ...
+1605697584.052426 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:702) state transition 0 -> 1
+1605697584.052448 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:702) ...
+1605697584.052468 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:702) state transition 1 -> 2
+1605697584.052490 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:702) - unack'ed samples, will delete when ack'd or at t = 3178.500732
+1605697584.131667 [17]     recvUC: remove_acked_messages: deleting lingering writer e5dc1001:e60b9cd4:2456f33e:702
+1605697584.131726 [17]     recvUC: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:702) ...
+1605697584.131779 [17]     recvUC: writer_set_state(e5dc1001:e60b9cd4:2456f33e:702) state transition 2 -> 3
+1605697584.131855 [17]         gc: gc_delete_writer(0x7fa644117db0, e5dc1001:e60b9cd4:2456f33e:702)
+1605697584.131944 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:702 @ 0x1c3c394) user 7 builtin 8
+1605697584.132067 [17]    ddsperf: unblock_throttled_writer(guid e5dc1001:e60b9cd4:2456f33e:402) ...
+1605697584.132110 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:402) state transition 0 -> 1
+1605697584.132130 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:402) ...
+1605697584.132149 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:402) - no unack'ed samples
+1605697584.132166 [17]    ddsperf: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:402) ...
+1605697584.132203 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:402) state transition 1 -> 3
+1605697584.132251 [17]         gc: gc_delete_writer(0x1c57960, e5dc1001:e60b9cd4:2456f33e:402)
+1605697584.132317 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:402 @ 0x1c389a4) user 6 builtin 8
+1605697584.132490 [17]    ddsperf: unblock_throttled_writer(guid e5dc1001:e60b9cd4:2456f33e:802) ...
+1605697584.132527 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:802) state transition 0 -> 1
+1605697584.132548 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:802) ...
+1605697584.132566 [17]    ddsperf: delete_writer(guid e5dc1001:e60b9cd4:2456f33e:802) - no unack'ed samples
+1605697584.132583 [17]    ddsperf: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:802) ...
+1605697584.132620 [17]    ddsperf: writer_set_state(e5dc1001:e60b9cd4:2456f33e:802) state transition 1 -> 3
+1605697584.133778 [17]         gc: gc_delete_writer(0x1c57960, e5dc1001:e60b9cd4:2456f33e:802)
+1605697584.133853 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:802 @ 0x1c3ddf4) user 5 builtin 8
+1605697584.133990 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:907) ...
+1605697584.135180 [17]         gc: gc_delete_reader(0x1c57960, e5dc1001:e60b9cd4:2456f33e:907)
+1605697584.135231 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:907, 243): reader no longer exists
+1605697584.135328 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:907 @ 0x1c3f5a4) user 4 builtin 8
+1605697584.135451 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:107) ...
+1605697584.136665 [17]         gc: gc_delete_reader(0x1c57960, e5dc1001:e60b9cd4:2456f33e:107)
+1605697584.136741 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:107 @ 0x1c33934) user 3 builtin 8
+1605697584.136811 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:207) ...
+1605697584.136896 [17]         gc: gc_delete_reader(0x1c57960, e5dc1001:e60b9cd4:2456f33e:207)
+1605697584.136949 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:207 @ 0x1c34c24) user 2 builtin 8
+1605697584.137074 [17]    ddsperf: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:307) ...
+1605697584.137145 [17]         gc: gc_delete_reader(0x1c34140, e5dc1001:e60b9cd4:2456f33e:307)
+1605697584.137198 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:307 @ 0x1c36624) user 1 builtin 8
+1605697584.137417 [17]    ddsperf: delete_participant(e5dc1001:e60b9cd4:2456f33e:1c1)
+1605697584.137684 [17]         gc: gc_delete_participant(0x1c32e60, e5dc1001:e60b9cd4:2456f33e:1c1)
+1605697584.137708 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- 0:0:0:0 @ (nil)) user 0 builtin 8
+1605697584.137803 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:100c2) ...
+1605697584.137824 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:100c2) ...
+1605697584.137846 [17]         gc: writer_set_state(e5dc1001:e60b9cd4:2456f33e:100c2) state transition 0 -> 3
+1605697584.137867 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:2c2) - unknown guid
+1605697584.137886 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:3c2) ...
+1605697584.137904 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:3c2) ...
+1605697584.137925 [17]         gc: writer_set_state(e5dc1001:e60b9cd4:2456f33e:3c2) state transition 0 -> 3
+1605697584.137945 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:4c2) ...
+1605697584.137963 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:4c2) ...
+1605697584.138010 [17]         gc: writer_set_state(e5dc1001:e60b9cd4:2456f33e:4c2) state transition 0 -> 3
+1605697584.138032 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:200c2) ...
+1605697584.138050 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:200c2) ...
+1605697584.138087 [17]         gc: writer_set_state(e5dc1001:e60b9cd4:2456f33e:200c2) state transition 0 -> 3
+1605697584.138109 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:100c7) ...
+1605697584.138132 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:2c7) - unknown guid
+1605697584.138171 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:3c7) ...
+1605697584.138194 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:4c7) ...
+1605697584.138217 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:200c7) ...
+1605697584.138240 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:ff0003c2) - unknown guid
+1605697584.138259 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:ff0003c7) - unknown guid
+1605697584.138277 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:ff0004c2) - unknown guid
+1605697584.138296 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:ff0004c7) - unknown guid
+1605697584.138314 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:ff0200c2) - unknown guid
+1605697584.138332 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:ff0200c7) - unknown guid
+1605697584.138417 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:201c3) - unknown guid
+1605697584.138437 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:201c4) - unknown guid
+1605697584.138455 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:ff0101c2) - unknown guid
+1605697584.138504 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:ff0101c7) - unknown guid
+1605697584.138525 [17]         gc: delete_writer_nolinger(guid e5dc1001:e60b9cd4:2456f33e:ff0202c3) - unknown guid
+1605697584.138544 [17]         gc: delete_reader_guid(guid e5dc1001:e60b9cd4:2456f33e:ff0202c4) - unknown guid
+1605697584.138565 [17]         gc: gc_delete_writer(0x1c57730, e5dc1001:e60b9cd4:2456f33e:100c2)
+1605697584.138600 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:100c2 @ 0x1c2d674) user 0 builtin 7
+1605697584.138711 [17]         gc: gc_delete_writer(0x1c57500, e5dc1001:e60b9cd4:2456f33e:3c2)
+1605697584.138736 [17]    ddsperf: delete_proxy_participant_by_guid(97e31001:7b52ea8f:e7db0d93:1c1) - deleting
+1605697584.138747 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:3c2 @ 0x1c2e644) user 0 builtin 6
+1605697584.138770 [17]         gc: gc_delete_writer(0x1c54580, e5dc1001:e60b9cd4:2456f33e:4c2)
+1605697584.138775 [17]    ddsperf: delete_ppt(97e31001:7b52ea8f:e7db0d93:1c1) - deleting dependent proxy participants
+1605697584.138816 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:4c2 @ 0x1c2de54) user 0 builtin 5
+1605697584.138831 [17]    ddsperf: delete_ppt(97e31001:7b52ea8f:e7db0d93:1c1) - deleting endpoints
+1605697584.138838 [17]         gc: gc_delete_writer(0x1c54350, e5dc1001:e60b9cd4:2456f33e:200c2)
+1605697584.138886 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:907) - deleting
+1605697584.138919 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:607) - deleting
+1605697584.138975 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:507) - deleting
+1605697584.138977 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:200c2 @ 0x1c2ee94) user 0 builtin 4
+1605697584.139011 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1902) - deleting
+1605697584.139041 [17]         gc: gc_delete_reader(0x7fa64c00e710, e5dc1001:e60b9cd4:2456f33e:100c7)
+1605697584.139088 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1802) - deleting
+1605697584.139099 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:100c7 @ 0x1c2f3e4) user 0 builtin 3
+1605697584.139125 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1702) - deleting
+1605697584.139126 [17]         gc: gc_delete_reader(0x7fa64c008570, e5dc1001:e60b9cd4:2456f33e:3c7)
+1605697584.139168 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1602) - deleting
+1605697584.139181 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:3c7, 3): reader no longer exists
+1605697584.139199 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1502) - deleting
+1605697584.139208 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:3c7 @ 0x1c2fac4) user 0 builtin 2
+1605697584.139233 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1402) - deleting
+1605697584.139234 [17]         gc: gc_delete_reader(0x7fa64c006130, e5dc1001:e60b9cd4:2456f33e:4c7)
+1605697584.139274 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1302) - deleting
+1605697584.139288 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:4c7, 3): reader no longer exists
+1605697584.139306 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1202) - deleting
+1605697584.139314 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:4c7 @ 0x1c2f744) user 0 builtin 1
+1605697584.139372 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1102) - deleting
+1605697584.139372 [17]         gc: gc_delete_reader(0x7fa6500010e0, e5dc1001:e60b9cd4:2456f33e:200c7)
+1605697584.139444 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:1002) - deleting
+1605697584.139457 [17]         gc: update_reader_init_acknack_count (e5dc1001:e60b9cd4:2456f33e:200c7, 22): reader no longer exists
+1605697584.139476 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:f02) - deleting
+1605697584.139484 [17]         gc: unref_participant(e5dc1001:e60b9cd4:2456f33e:1c1 @ 0x1c2aba0 <- e5dc1001:e60b9cd4:2456f33e:200c7 @ 0x1c2fe44) user 0 builtin 0
+1605697584.139510 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:e02) - deleting
+1605697584.139516 [17]         gc: remove_deleted_participant_guid(e5dc1001:e60b9cd4:2456f33e:1c1 for_what=1)
+1605697584.139565 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:d02) - deleting
+1605697584.139597 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:c02) - deleting
+1605697584.139628 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:b02) - deleting
+1605697584.139658 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:a02) - deleting
+1605697584.139689 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:802) - deleting
+1605697584.139720 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:702) - deleting
+1605697584.139749 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:402) - deleting
+1605697584.139780 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:200c7) - deleting
+1605697584.139802 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:200c2) - deleting
+1605697584.139825 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:4c7) - deleting
+1605697584.139847 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:4c2) - deleting
+1605697584.139870 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:3c7) - deleting
+1605697584.139891 [17]    ddsperf: delete_proxy_writer (97e31001:7b52ea8f:e7db0d93:3c2) - deleting
+1605697584.139914 [17]    ddsperf: delete_proxy_reader (97e31001:7b52ea8f:e7db0d93:100c7) - deleting
+1605697584.140683 [17]         gc: gc_delete_proxy_reader(0x1c30c60, 97e31001:7b52ea8f:e7db0d93:907)
+1605697584.140729 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=29
+1605697584.140765 [17]         gc: gc_delete_proxy_reader(0x1c36940, 97e31001:7b52ea8f:e7db0d93:607)
+1605697584.140794 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=28
+1605697584.140827 [17]         gc: gc_delete_proxy_reader(0x1c31f70, 97e31001:7b52ea8f:e7db0d93:507)
+1605697584.140855 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=27
+1605697584.140889 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c2e8d0, 97e31001:7b52ea8f:e7db0d93:1902)
+1605697584.140936 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c32480, 97e31001:7b52ea8f:e7db0d93:1802)
+1605697584.140966 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c2e8d0, 97e31001:7b52ea8f:e7db0d93:1902)
+1605697584.140967 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c31960, 97e31001:7b52ea8f:e7db0d93:1702)
+1605697584.141027 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c32480, 97e31001:7b52ea8f:e7db0d93:1802)
+1605697584.141108 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c34140, 97e31001:7b52ea8f:e7db0d93:1602)
+1605697584.141134 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c31960, 97e31001:7b52ea8f:e7db0d93:1702)
+1605697584.141139 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c32e60, 97e31001:7b52ea8f:e7db0d93:1502)
+1605697584.141181 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c34140, 97e31001:7b52ea8f:e7db0d93:1602)
+1605697584.141225 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c35b30, 97e31001:7b52ea8f:e7db0d93:1402)
+1605697584.141268 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c32e60, 97e31001:7b52ea8f:e7db0d93:1502)
+1605697584.141312 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c2db40, 97e31001:7b52ea8f:e7db0d93:1302)
+1605697584.141407 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c35b30, 97e31001:7b52ea8f:e7db0d93:1402)
+1605697584.141490 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c3ca10, 97e31001:7b52ea8f:e7db0d93:1202)
+1605697584.141507 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c2db40, 97e31001:7b52ea8f:e7db0d93:1302)
+1605697584.141522 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c3e470, 97e31001:7b52ea8f:e7db0d93:1102)
+1605697584.141537 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c3ca10, 97e31001:7b52ea8f:e7db0d93:1202)
+1605697584.141552 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c3ebe0, 97e31001:7b52ea8f:e7db0d93:1002)
+1605697584.141566 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c3e470, 97e31001:7b52ea8f:e7db0d93:1102)
+1605697584.141608 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c38dc0, 97e31001:7b52ea8f:e7db0d93:f02)
+1605697584.141647 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c3ebe0, 97e31001:7b52ea8f:e7db0d93:1002)
+1605697584.141695 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c2ed40, 97e31001:7b52ea8f:e7db0d93:e02)
+1605697584.141704 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c38dc0, 97e31001:7b52ea8f:e7db0d93:f02)
+1605697584.141719 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c34f40, 97e31001:7b52ea8f:e7db0d93:d02)
+1605697584.141731 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c2ed40, 97e31001:7b52ea8f:e7db0d93:e02)
+1605697584.141740 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c35170, 97e31001:7b52ea8f:e7db0d93:c02)
+1605697584.141751 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c34f40, 97e31001:7b52ea8f:e7db0d93:d02)
+1605697584.141761 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c57960, 97e31001:7b52ea8f:e7db0d93:b02)
+1605697584.141771 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c35170, 97e31001:7b52ea8f:e7db0d93:c02)
+1605697584.141782 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c57b90, 97e31001:7b52ea8f:e7db0d93:a02)
+1605697584.141791 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c57960, 97e31001:7b52ea8f:e7db0d93:b02)
+1605697584.141803 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c58190, 97e31001:7b52ea8f:e7db0d93:802)
+1605697584.141811 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c57b90, 97e31001:7b52ea8f:e7db0d93:a02)
+1605697584.141825 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c583c0, 97e31001:7b52ea8f:e7db0d93:702)
+1605697584.141836 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c58190, 97e31001:7b52ea8f:e7db0d93:802)
+1605697584.141846 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c585f0, 97e31001:7b52ea8f:e7db0d93:402)
+1605697584.141856 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c583c0, 97e31001:7b52ea8f:e7db0d93:702)
+1605697584.141867 [17]         gc: gc_delete_proxy_reader(0x1c58820, 97e31001:7b52ea8f:e7db0d93:200c7)
+1605697584.141876 [17]    dq.user: gc_delete_proxy_writer_dqueue_bubble(0x1c585f0, 97e31001:7b52ea8f:e7db0d93:402)
+1605697584.141888 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=26
+1605697584.141910 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c58a50, 97e31001:7b52ea8f:e7db0d93:200c2)
+1605697584.141965 [17] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x1c58a50, 97e31001:7b52ea8f:e7db0d93:200c2)
+1605697584.141997 [17]         gc: gc_delete_proxy_reader(0x1c58c80, 97e31001:7b52ea8f:e7db0d93:4c7)
+1605697584.142018 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=25
+1605697584.142039 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c58eb0, 97e31001:7b52ea8f:e7db0d93:4c2)
+1605697584.142089 [17] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x1c58eb0, 97e31001:7b52ea8f:e7db0d93:4c2)
+1605697584.142120 [17]         gc: gc_delete_proxy_reader(0x1c56280, 97e31001:7b52ea8f:e7db0d93:3c7)
+1605697584.142140 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=24
+1605697584.142162 [17]         gc: gc_delete_proxy_writer_dqueue(0x1c564b0, 97e31001:7b52ea8f:e7db0d93:3c2)
+1605697584.142212 [17] dq.builtin: gc_delete_proxy_writer_dqueue_bubble(0x1c564b0, 97e31001:7b52ea8f:e7db0d93:3c2)
+1605697584.142243 [17]         gc: gc_delete_proxy_reader(0x1c566e0, 97e31001:7b52ea8f:e7db0d93:100c7)
+1605697584.142263 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=23
+1605697584.142285 [17]         gc: gc_delete_proxy_participant(0x1c56910, 97e31001:7b52ea8f:e7db0d93:1c1)
+1605697584.142305 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=22
+1605697584.142328 [17]         gc: gc_delete_proxy_writer(0x1c2e8d0, 97e31001:7b52ea8f:e7db0d93:1902)
+1605697584.142403 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=21
+1605697584.142438 [17]         gc: gc_delete_proxy_writer(0x1c32480, 97e31001:7b52ea8f:e7db0d93:1802)
+1605697584.142458 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=20
+1605697584.142483 [17]         gc: gc_delete_proxy_writer(0x1c31960, 97e31001:7b52ea8f:e7db0d93:1702)
+1605697584.142503 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=19
+1605697584.142526 [17]         gc: gc_delete_proxy_writer(0x1c34140, 97e31001:7b52ea8f:e7db0d93:1602)
+1605697584.142546 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=18
+1605697584.142570 [17]         gc: gc_delete_proxy_writer(0x1c32e60, 97e31001:7b52ea8f:e7db0d93:1502)
+1605697584.142590 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=17
+1605697584.142614 [17]         gc: gc_delete_proxy_writer(0x1c35b30, 97e31001:7b52ea8f:e7db0d93:1402)
+1605697584.142634 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=16
+1605697584.142658 [17]         gc: gc_delete_proxy_writer(0x1c2db40, 97e31001:7b52ea8f:e7db0d93:1302)
+1605697584.142678 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=15
+1605697584.142702 [17]         gc: gc_delete_proxy_writer(0x1c3ca10, 97e31001:7b52ea8f:e7db0d93:1202)
+1605697584.142722 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=14
+1605697584.142746 [17]         gc: gc_delete_proxy_writer(0x1c3e470, 97e31001:7b52ea8f:e7db0d93:1102)
+1605697584.142766 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=13
+1605697584.142789 [17]         gc: gc_delete_proxy_writer(0x1c3ebe0, 97e31001:7b52ea8f:e7db0d93:1002)
+1605697584.142809 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=12
+1605697584.142834 [17]         gc: gc_delete_proxy_writer(0x1c38dc0, 97e31001:7b52ea8f:e7db0d93:f02)
+1605697584.142854 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=11
+1605697584.142878 [17]         gc: gc_delete_proxy_writer(0x1c2ed40, 97e31001:7b52ea8f:e7db0d93:e02)
+1605697584.142898 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=10
+1605697584.142922 [17]         gc: gc_delete_proxy_writer(0x1c34f40, 97e31001:7b52ea8f:e7db0d93:d02)
+1605697584.142942 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=9
+1605697584.142965 [17]         gc: gc_delete_proxy_writer(0x1c35170, 97e31001:7b52ea8f:e7db0d93:c02)
+1605697584.142985 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=8
+1605697584.143009 [17]         gc: gc_delete_proxy_writer(0x1c57960, 97e31001:7b52ea8f:e7db0d93:b02)
+1605697584.143029 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=7
+1605697584.143053 [17]         gc: gc_delete_proxy_writer(0x1c57b90, 97e31001:7b52ea8f:e7db0d93:a02)
+1605697584.143073 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=6
+1605697584.143097 [17]         gc: gc_delete_proxy_writer(0x1c58190, 97e31001:7b52ea8f:e7db0d93:802)
+1605697584.143117 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=5
+1605697584.143141 [17]         gc: gc_delete_proxy_writer(0x1c583c0, 97e31001:7b52ea8f:e7db0d93:702)
+1605697584.143161 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=4
+1605697584.143184 [17]         gc: gc_delete_proxy_writer(0x1c585f0, 97e31001:7b52ea8f:e7db0d93:402)
+1605697584.143204 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=3
+1605697584.143228 [17]         gc: gc_delete_proxy_writer(0x1c58a50, 97e31001:7b52ea8f:e7db0d93:200c2)
+1605697584.143248 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=2
+1605697584.143270 [17]         gc: gc_delete_proxy_writer(0x1c58eb0, 97e31001:7b52ea8f:e7db0d93:4c2)
+1605697584.143290 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=1
+1605697584.143319 [17]         gc: gc_delete_proxy_writer(0x1c564b0, 97e31001:7b52ea8f:e7db0d93:3c2)
+1605697584.143367 [17]         gc: unref_proxy_participant(97e31001:7b52ea8f:e7db0d93:1c1): refc=0, freeing
+1605697584.143406 [17]         gc: remove_deleted_participant_guid(97e31001:7b52ea8f:e7db0d93:1c1 for_what=3)
+1605697584.143492 [17]    ddsperf: delete_writer_nolinger(guid 0:0:0:100c2) ...
+1605697584.143516 [17]    ddsperf: writer_set_state(0:0:0:100c2) state transition 0 -> 3
+1605697584.143553 [17]    ddsperf: delete_writer_nolinger(guid 0:0:0:3c2) ...
+1605697584.143574 [17]    ddsperf: writer_set_state(0:0:0:3c2) state transition 0 -> 3
+1605697584.143594 [17]    ddsperf: delete_writer_nolinger(guid 0:0:0:4c2) ...
+1605697584.143614 [17]    ddsperf: writer_set_state(0:0:0:4c2) state transition 0 -> 3
+1605697584.144696 [17]         gc: gc_delete_writer(0x1c36940, 0:0:0:100c2)
+1605697584.144747 [17]         gc: gc_delete_writer(0x1c31960, 0:0:0:3c2)
+1605697584.144783 [17]         gc: gc_delete_writer(0x1c34140, 0:0:0:4c2)
+1605697584.145775 [17]    ddsperf: udp finalized
+1605697584.147117 [17]    ddsperf: Finis.

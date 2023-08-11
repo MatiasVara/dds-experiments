@@ -1,0 +1,1951 @@
+[1149] participant fedora30-guest-2:1149: new (self)
+[1149] participant fedora30-guest:1320: new
+[1149] 2.000  rss:5.1MB vcsw:4315 ivcsw:273 dq.user:4%+10% recvUC:2%+4%
+[1149] 2.000  enp1s0: xmit 1.23 Mb/s recv 1.23 Mb/s [11382562060 11386318515]
+[1149] 2.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 3.000  rss:5.1MB vcsw:5466 ivcsw:9 dq.user:5%+18% recvUC:4%+5%
+[1149] 3.000  @fedora30-guest:1320 rss:5.1MB vcsw:4968 ivcsw:7 dq.user:7%+8% recvUC:2%+4%
+[1149] 3.000  enp1s0: xmit 3.19 Mb/s recv 3.19 Mb/s [11382960206 11386717415]
+[1149] 3.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 4.000  rss:5.6MB vcsw:5212 ivcsw:10 ddsperf:0%+1% dq.user:4%+16% recvUC:3%+5%
+[1149] 4.000  @fedora30-guest:1320 rss:5.1MB vcsw:5460 ivcsw:3 dq.user:9%+9% recvUC:2%+6%
+[1149] 4.000  enp1s0: xmit 3.04 Mb/s recv 3.04 Mb/s [11383340276 11387097157]
+[1149] 4.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 5.000  rss:5.9MB vcsw:5583 ivcsw:9 dq.user:6%+14% recvUC:3%+4%
+[1149] 5.000  @fedora30-guest:1320 rss:6.0MB vcsw:5181 ivcsw:13 ddsperf:1%+0% dq.user:9%+10% recvUC:3%+7%
+[1149] 5.000  enp1s0: xmit 3.25 Mb/s recv 3.25 Mb/s [11383747150 11387503949]
+[1149] 5.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 6.000  rss:5.9MB vcsw:5385 ivcsw:3 ddsperf:1%+0% dq.user:7%+11% recvUC:3%+5%
+[1149] 6.000  @fedora30-guest:1320 rss:6.0MB vcsw:5656 ivcsw:6 dq.user:6%+16% recvUC:5%+3%
+[1149] 6.000  enp1s0: xmit 3.14 Mb/s recv 3.14 Mb/s [11384139184 11387896401]
+[1149] 6.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 7.000  rss:5.9MB vcsw:5663 ivcsw:6 dq.user:8%+11% recvUC:3%+5%
+[1149] 7.000  @fedora30-guest:1320 rss:6.0MB vcsw:5348 ivcsw:18 ddsperf:0%+1% dq.user:10%+12% recvUC:6%+4%
+[1149] 7.000  enp1s0: xmit 3.30 Mb/s recv 3.30 Mb/s [11384552230 11388309065]
+[1149] 7.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 8.000  rss:5.9MB vcsw:5633 ivcsw:5 dq.user:7%+12% recvUC:3%+4%
+[1149] 8.000  @fedora30-guest:1320 rss:6.0MB vcsw:5699 ivcsw:7 dq.user:4%+18% recvUC:3%+5%
+[1149] 8.000  enp1s0: xmit 3.27 Mb/s recv 3.28 Mb/s [11384961484 11388718851]
+[1149] 8.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 9.000  rss:5.9MB vcsw:5474 ivcsw:9 dq.user:8%+12% recvUC:4%+6%
+[1149] 9.000  @fedora30-guest:1320 rss:6.0MB vcsw:5597 ivcsw:9 dq.user:6%+17% recvUC:3%+4%
+[1149] 9.000  enp1s0: xmit 3.19 Mb/s recv 3.19 Mb/s [11385360356 11389117373]
+[1149] 9.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 10.000  rss:5.9MB vcsw:5457 ivcsw:16 dq.user:8%+12% recvUC:3%+5%
+[1149] 10.000  @fedora30-guest:1320 rss:6.0MB vcsw:5469 ivcsw:7 dq.user:8%+15% recvUC:3%+5%
+[1149] 10.000  enp1s0: xmit 3.18 Mb/s recv 3.18 Mb/s [11385757448 11389514457]
+[1149] 10.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 11.000  rss:5.9MB vcsw:5460 ivcsw:17 dq.user:9%+10% recvUC:3%+5%
+[1149] 11.000  @fedora30-guest:1320 rss:6.0MB vcsw:5444 ivcsw:8 dq.user:6%+15% recvUC:5%+3%
+[1149] 11.000  enp1s0: xmit 3.18 Mb/s recv 3.18 Mb/s [11386154426 11389911925]
+[1149] 11.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 12.000  rss:5.9MB vcsw:5466 ivcsw:14 dq.user:8%+12% recvUC:3%+6%
+[1149] 12.000  @fedora30-guest:1320 rss:6.0MB vcsw:5449 ivcsw:11 dq.user:6%+16% recvUC:6%+2%
+[1149] 12.000  enp1s0: xmit 3.19 Mb/s recv 3.18 Mb/s [11386552872 11390309771]
+[1149] 12.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 13.000  rss:5.9MB vcsw:5680 ivcsw:5 ddsperf:0%+1% dq.user:8%+11% recvUC:3%+5%
+[1149] 13.000  @fedora30-guest:1320 rss:6.0MB vcsw:5510 ivcsw:9 dq.user:7%+16% recvUC:4%+5%
+[1149] 13.000  enp1s0: xmit 3.31 Mb/s recv 3.31 Mb/s [11386967212 11390724135]
+[1149] 13.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 14.000  rss:5.9MB vcsw:5614 ivcsw:7 dq.user:9%+10% recvUC:3%+5%
+[1149] 14.000  @fedora30-guest:1320 rss:6.0MB vcsw:5677 ivcsw:11 ddsperf:1%+1% dq.user:4%+18% recvUC:3%+5%
+[1149] 14.000  enp1s0: xmit 3.27 Mb/s recv 3.27 Mb/s [11387375578 11391132959]
+[1149] 14.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 15.000  rss:5.9MB vcsw:5635 ivcsw:3 dq.user:9%+10% recvUC:4%+4%
+[1149] 15.000  @fedora30-guest:1320 rss:6.0MB vcsw:5603 ivcsw:5 dq.user:7%+16% recvUC:4%+5%
+[1149] 15.000  enp1s0: xmit 3.29 Mb/s recv 3.29 Mb/s [11387786872 11391543851]
+[1149] 15.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 16.000  rss:5.9MB vcsw:5630 ivcsw:2 dq.user:8%+10% recvUC:4%+4%
+[1149] 16.000  @fedora30-guest:1320 rss:6.0MB vcsw:5647 ivcsw:4 dq.user:6%+16% recvUC:3%+5%
+[1149] 16.000  enp1s0: xmit 3.28 Mb/s recv 3.28 Mb/s [11388197002 11391954367]
+[1149] 16.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 17.000  rss:5.9MB vcsw:5616 ivcsw:3 dq.user:8%+11% recvUC:4%+4%
+[1149] 17.000  @fedora30-guest:1320 rss:6.0MB vcsw:5633 ivcsw:8 dq.user:5%+18% recvUC:4%+5%
+[1149] 17.000  enp1s0: xmit 3.27 Mb/s recv 3.27 Mb/s [11388606240 11392363401]
+[1149] 17.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 18.000  rss:5.9MB vcsw:5636 ivcsw:2 dq.user:10%+9% recvUC:4%+4%
+[1149] 18.000  @fedora30-guest:1320 rss:6.0MB vcsw:5608 ivcsw:5 dq.user:6%+16% recvUC:4%+4%
+[1149] 18.000  enp1s0: xmit 3.28 Mb/s recv 3.28 Mb/s [11389016764 11392773771]
+[1149] 18.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 19.000  rss:5.9MB vcsw:5626 ivcsw:2 dq.user:10%+8% recvUC:3%+6%
+[1149] 19.000  @fedora30-guest:1320 rss:6.0MB vcsw:5636 ivcsw:9 dq.user:7%+16% recvUC:4%+5%
+[1149] 19.000  enp1s0: xmit 3.28 Mb/s recv 3.28 Mb/s [11389426590 11393184087]
+[1149] 19.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 20.000  rss:5.9MB vcsw:5619 ivcsw:5 ddsperf:1%+0% dq.user:10%+10% recvUC:3%+5%
+[1149] 20.000  @fedora30-guest:1320 rss:6.0MB vcsw:5639 ivcsw:2 dq.user:5%+17% recvUC:5%+4%
+[1149] 20.000  enp1s0: xmit 3.27 Mb/s recv 3.27 Mb/s [11389835568 11393592737]
+[1149] 20.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 21.000  rss:5.9MB vcsw:5455 ivcsw:11 dq.user:8%+11% recvUC:3%+6%
+[1149] 21.000  @fedora30-guest:1320 rss:6.0MB vcsw:5579 ivcsw:4 ddsperf:1%+0% dq.user:6%+17% recvUC:4%+4%
+[1149] 21.000  enp1s0: xmit 3.13 Mb/s recv 3.13 Mb/s [11390226820 11393984053]
+[1149] 21.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 22.000  rss:5.9MB vcsw:5085 ivcsw:19 dq.user:13%+7% recvUC:3%+5%
+[1149] 22.000  @fedora30-guest:1320 rss:6.0MB vcsw:5304 ivcsw:5 dq.user:6%+15% recvUC:5%+3%
+[1149] 22.000  enp1s0: xmit 2.89 Mb/s recv 2.90 Mb/s [11390588612 11394346137]
+[1149] 22.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 23.000  rss:5.9MB vcsw:4999 ivcsw:5 dq.user:10%+9% recvUC:3%+5%
+[1149] 23.000  @fedora30-guest:1320 rss:6.0MB vcsw:4976 ivcsw:4 dq.user:8%+11% tev:0%+1% recvUC:3%+5%
+[1149] 23.000  enp1s0: xmit 2.92 Mb/s recv 2.92 Mb/s [11390953478 11394710617]
+[1149] 23.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 24.000  rss:5.9MB vcsw:4875 ivcsw:20 dq.user:11%+9% recvUC:3%+4%
+[1149] 24.000  @fedora30-guest:1320 rss:6.0MB vcsw:5003 ivcsw:3 ddsperf:0%+1% dq.user:7%+11% recvUC:0%+8%
+[1149] 24.000  enp1s0: xmit 2.83 Mb/s recv 2.84 Mb/s [11391307836 11395065487]
+[1149] 24.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 25.000  rss:5.9MB vcsw:5147 ivcsw:3 ddsperf:0%+1% dq.user:9%+10% recvUC:3%+5%
+[1149] 25.000  @fedora30-guest:1320 rss:6.0MB vcsw:4897 ivcsw:4 dq.user:9%+10% recvUC:1%+7%
+[1149] 25.000  enp1s0: xmit 3.00 Mb/s recv 2.99 Mb/s [11391682534 11395439709]
+[1149] 25.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 26.000  rss:5.9MB vcsw:5091 ivcsw:6 dq.user:9%+10% tev:0%+1% recvUC:4%+4%
+[1149] 26.000  @fedora30-guest:1320 rss:6.0MB vcsw:5128 ivcsw:6 dq.user:9%+10% recvUC:3%+5%
+[1149] 26.000  enp1s0: xmit 2.97 Mb/s recv 2.97 Mb/s [11392053216 11395810367]
+[1149] 26.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 27.000  rss:5.9MB vcsw:4897 ivcsw:6 dq.user:8%+10% recvUC:2%+4%
+[1149] 27.000  @fedora30-guest:1320 rss:6.0MB vcsw:5078 ivcsw:4 dq.user:8%+10% recvUC:2%+6%
+[1149] 27.000  enp1s0: xmit 2.85 Mb/s recv 2.86 Mb/s [11392409794 11396167435]
+[1149] 27.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 28.000  rss:5.9MB vcsw:4687 ivcsw:10 dq.user:9%+8% recvUC:3%+5%
+[1149] 28.000  @fedora30-guest:1320 rss:6.0MB vcsw:4907 ivcsw:10 ddsperf:1%+0% dq.user:10%+10% recvUC:2%+7%
+[1149] 28.000  enp1s0: xmit 2.74 Mb/s recv 2.73 Mb/s [11392751884 11396509237]
+[1149] 28.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 29.000  rss:5.9MB vcsw:4935 ivcsw:3 dq.user:10%+9% recvUC:3%+4%
+[1149] 29.000  @fedora30-guest:1320 rss:6.0MB vcsw:4667 ivcsw:14 dq.user:11%+8% recvUC:3%+8%
+[1149] 29.000  enp1s0: xmit 2.88 Mb/s recv 2.88 Mb/s [11393111454 11396868705]
+[1149] 29.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 30.000  rss:5.9MB vcsw:4971 ivcsw:14 dq.user:9%+10% recvUC:3%+4%
+[1149] 30.000  @fedora30-guest:1320 rss:6.0MB vcsw:4989 ivcsw:3 dq.user:10%+9% recvUC:1%+7%
+[1149] 30.000  enp1s0: xmit 2.88 Mb/s recv 2.89 Mb/s [11393471932 11397229767]
+[1149] 30.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1320: gone
+[1149] participant fedora30-guest:1331: new
+[1149] 31.000  rss:5.9MB vcsw:874 ivcsw:83 dq.user:1%+2% recvUC:1%+1%
+[1149] 31.000  @fedora30-guest:1320 rss:6.0MB vcsw:4933 ivcsw:6 dq.user:9%+9% recvUC:2%+8%
+[1149] 31.000  enp1s0: xmit 0.46 Mb/s recv 0.47 Mb/s [11393529894 11397288312]
+[1149] 31.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 32.000  rss:5.9MB vcsw:1993 ivcsw:16 ddsperf:1%+0% dq.user:5%+3% recvUC:2%+2%
+[1149] 32.000  enp1s0: xmit 1.23 Mb/s recv 1.23 Mb/s [11393684260 11397442360]
+[1149] 32.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 33.000  rss:5.9MB vcsw:4639 ivcsw:12 ddsperf:0%+1% dq.user:8%+9% recvUC:3%+4%
+[1149] 33.000  @fedora30-guest:1331 rss:5.1MB vcsw:4290 ivcsw:25 dq.user:7%+10% recvUC:2%+5%
+[1149] 33.000  enp1s0: xmit 2.84 Mb/s recv 2.84 Mb/s [11394039312 11397796920]
+[1149] 33.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 34.000  rss:5.9MB vcsw:4790 ivcsw:3 dq.user:9%+9% recvUC:2%+5%
+[1149] 34.000  @fedora30-guest:1331 rss:5.1MB vcsw:4818 ivcsw:13 ddsperf:1%+0% dq.user:10%+9% recvUC:4%+5%
+[1149] 34.000  enp1s0: xmit 2.95 Mb/s recv 2.94 Mb/s [11394407544 11398164754]
+[1149] 34.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 35.000  rss:5.9MB vcsw:4696 ivcsw:8 dq.user:8%+9% recvUC:4%+3%
+[1149] 35.000  @fedora30-guest:1331 rss:5.5MB vcsw:4748 ivcsw:16 dq.user:10%+11% recvUC:5%+4%
+[1149] 35.000  enp1s0: xmit 2.89 Mb/s recv 2.89 Mb/s [11394768240 11398525494]
+[1149] 35.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 36.000  rss:5.9MB vcsw:4956 ivcsw:6 dq.user:8%+10% recvUC:2%+5%
+[1149] 36.000  @fedora30-guest:1331 rss:6.0MB vcsw:4860 ivcsw:10 dq.user:9%+10% recvUC:5%+6%
+[1149] 36.000  enp1s0: xmit 3.04 Mb/s recv 3.04 Mb/s [11395148844 11398906090]
+[1149] 36.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 37.000  rss:5.9MB vcsw:4844 ivcsw:9 dq.user:8%+11% recvUC:2%+5%
+[1149] 37.000  @fedora30-guest:1331 rss:6.0MB vcsw:4868 ivcsw:13 dq.user:12%+8% recvUC:4%+5%
+[1149] 37.000  enp1s0: xmit 2.98 Mb/s recv 2.98 Mb/s [11395520824 11399278114]
+[1149] 37.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 38.000  rss:5.9MB vcsw:4862 ivcsw:4 dq.user:8%+10% recvUC:3%+4%
+[1149] 38.000  @fedora30-guest:1331 rss:6.0MB vcsw:4845 ivcsw:18 dq.user:10%+10% recvUC:4%+4%
+[1149] 38.000  enp1s0: xmit 2.99 Mb/s recv 2.99 Mb/s [11395894302 11399651584]
+[1149] 38.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 39.000  rss:5.9MB vcsw:4870 ivcsw:4 dq.user:8%+9% recvUC:2%+5%
+[1149] 39.000  @fedora30-guest:1331 rss:6.0MB vcsw:4865 ivcsw:20 ddsperf:0%+1% dq.user:9%+11% recvUC:4%+4%
+[1149] 39.000  enp1s0: xmit 2.99 Mb/s recv 2.99 Mb/s [11396268284 11400025630]
+[1149] 39.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 40.000  rss:5.9MB vcsw:4863 ivcsw:8 dq.user:9%+9% recvUC:3%+5%
+[1149] 40.000  @fedora30-guest:1331 rss:6.0MB vcsw:4872 ivcsw:11 dq.user:11%+10% recvUC:3%+5%
+[1149] 40.000  enp1s0: xmit 2.99 Mb/s recv 2.99 Mb/s [11396641872 11400399210]
+[1149] 40.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 41.000  rss:5.9MB vcsw:4896 ivcsw:5 ddsperf:0%+1% dq.user:8%+10% recvUC:3%+4%
+[1149] 41.000  @fedora30-guest:1331 rss:6.0MB vcsw:4895 ivcsw:23 dq.user:10%+11% recvUC:4%+4%
+[1149] 41.000  enp1s0: xmit 3.01 Mb/s recv 3.01 Mb/s [11397018074 11400775436]
+[1149] 41.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 42.000  rss:5.9MB vcsw:4838 ivcsw:5 dq.user:9%+9% recvUC:4%+3%
+[1149] 42.000  @fedora30-guest:1331 rss:6.0MB vcsw:4857 ivcsw:3 dq.user:8%+10% recvUC:4%+8%
+[1149] 42.000  enp1s0: xmit 2.97 Mb/s recv 2.97 Mb/s [11397389592 11401146946]
+[1149] 42.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 43.000  rss:5.9MB vcsw:4879 ivcsw:2 dq.user:9%+9% recvUC:3%+4%
+[1149] 43.000  @fedora30-guest:1331 rss:6.0MB vcsw:4874 ivcsw:19 ddsperf:1%+0% dq.user:10%+11% recvUC:3%+4%
+[1149] 43.000  enp1s0: xmit 3.00 Mb/s recv 3.00 Mb/s [11397764456 11401521874]
+[1149] 43.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 44.000  rss:5.9MB vcsw:4850 ivcsw:5 dq.user:9%+9% recvUC:4%+4%
+[1149] 44.000  @fedora30-guest:1331 rss:6.0MB vcsw:4867 ivcsw:6 dq.user:8%+10% recvUC:4%+8%
+[1149] 44.000  enp1s0: xmit 2.98 Mb/s recv 2.98 Mb/s [11398137052 11401894462]
+[1149] 44.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 45.000  rss:5.9MB vcsw:5050 ivcsw:6 dq.user:8%+11% recvUC:3%+4%
+[1149] 45.000  @fedora30-guest:1331 rss:6.0MB vcsw:4880 ivcsw:8 dq.user:9%+11% recvUC:4%+4%
+[1149] 45.000  enp1s0: xmit 3.11 Mb/s recv 3.11 Mb/s [11398525202 11402282656]
+[1149] 45.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 46.000  rss:5.9MB vcsw:5043 ivcsw:6 dq.user:9%+9% recvUC:3%+5%
+[1149] 46.000  @fedora30-guest:1331 rss:6.0MB vcsw:5123 ivcsw:9 dq.user:8%+11% recvUC:3%+4%
+[1149] 46.000  enp1s0: xmit 3.10 Mb/s recv 3.10 Mb/s [11398912540 11402669986]
+[1149] 46.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 47.000  rss:5.9MB vcsw:5098 ivcsw:5 dq.user:8%+11% tev:0%+1% recvUC:3%+4%
+[1149] 47.000  @fedora30-guest:1331 rss:6.0MB vcsw:5082 ivcsw:7 dq.user:10%+9% recvUC:4%+4%
+[1149] 47.000  enp1s0: xmit 3.13 Mb/s recv 3.13 Mb/s [11399304094 11403061568]
+[1149] 47.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 48.000  rss:5.9MB vcsw:4964 ivcsw:5 ddsperf:0%+1% dq.user:8%+11% recvUC:3%+4%
+[1149] 48.000  @fedora30-guest:1331 rss:6.0MB vcsw:5083 ivcsw:5 ddsperf:0%+1% dq.user:9%+10% recvUC:2%+6%
+[1149] 48.000  enp1s0: xmit 3.05 Mb/s recv 3.05 Mb/s [11399685402 11403442868]
+[1149] 48.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 49.000  rss:5.9MB vcsw:4875 ivcsw:8 dq.user:8%+9% recvUC:2%+5%
+[1149] 49.000  @fedora30-guest:1331 rss:6.0MB vcsw:4857 ivcsw:16 ddsperf:1%+0% dq.user:8%+12% recvUC:3%+5%
+[1149] 49.000  enp1s0: xmit 2.99 Mb/s recv 3.00 Mb/s [11400059736 11403817266]
+[1149] 49.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 50.000  rss:5.9MB vcsw:4983 ivcsw:7 dq.user:9%+10% recvUC:3%+4%
+[1149] 50.000  @fedora30-guest:1331 rss:6.0MB vcsw:4850 ivcsw:7 dq.user:11%+10% recvUC:3%+5%
+[1149] 50.000  enp1s0: xmit 3.06 Mb/s recv 3.06 Mb/s [11400442650 11404200172]
+[1149] 50.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 51.000  rss:5.9MB vcsw:5083 ivcsw:4 dq.user:7%+11% recvUC:4%+4%
+[1149] 51.000  @fedora30-guest:1331 rss:6.0MB vcsw:5125 ivcsw:8 dq.user:8%+11% recvUC:4%+4%
+[1149] 51.000  enp1s0: xmit 3.12 Mb/s recv 3.13 Mb/s [11400833264 11404590830]
+[1149] 51.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 52.000  rss:5.9MB vcsw:4984 ivcsw:7 dq.user:8%+11% recvUC:2%+5%
+[1149] 52.000  @fedora30-guest:1331 rss:6.0MB vcsw:5059 ivcsw:9 dq.user:9%+10% recvUC:3%+4%
+[1149] 52.000  enp1s0: xmit 3.06 Mb/s recv 3.06 Mb/s [11401216024 11404973582]
+[1149] 52.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 53.000  rss:5.9MB vcsw:4974 ivcsw:2 dq.user:9%+10% recvUC:3%+5%
+[1149] 53.000  @fedora30-guest:1331 rss:6.0MB vcsw:4936 ivcsw:11 dq.user:8%+12% recvUC:3%+6%
+[1149] 53.000  enp1s0: xmit 3.06 Mb/s recv 3.06 Mb/s [11401598322 11405355924]
+[1149] 53.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 54.000  rss:5.9MB vcsw:5003 ivcsw:5 ddsperf:1%+0% dq.user:8%+11% recvUC:3%+4%
+[1149] 54.000  @fedora30-guest:1331 rss:6.0MB vcsw:5023 ivcsw:5 dq.user:8%+10% recvUC:4%+6%
+[1149] 54.000  enp1s0: xmit 3.08 Mb/s recv 3.08 Mb/s [11401982796 11405740370]
+[1149] 54.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 55.000  rss:5.9MB vcsw:4977 ivcsw:5 dq.user:8%+10% recvUC:4%+4%
+[1149] 55.000  @fedora30-guest:1331 rss:6.0MB vcsw:4965 ivcsw:4 ddsperf:1%+0% dq.user:9%+9% recvUC:4%+6%
+[1149] 55.000  enp1s0: xmit 3.06 Mb/s recv 3.06 Mb/s [11402365248 11406122886]
+[1149] 55.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 56.000  rss:5.9MB vcsw:4840 ivcsw:14 dq.user:9%+10% recvUC:3%+4%
+[1149] 56.000  @fedora30-guest:1331 rss:6.0MB vcsw:4939 ivcsw:8 dq.user:8%+11% recvUC:4%+7%
+[1149] 56.000  enp1s0: xmit 2.98 Mb/s recv 2.98 Mb/s [11402737142 11406494772]
+[1149] 56.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 57.000  rss:5.9MB vcsw:4971 ivcsw:4 dq.user:8%+10% recvUC:4%+3%
+[1149] 57.000  @fedora30-guest:1331 rss:6.0MB vcsw:4897 ivcsw:11 ddsperf:0%+1% dq.user:9%+10% recvUC:3%+6%
+[1149] 57.000  enp1s0: xmit 3.05 Mb/s recv 3.05 Mb/s [11403118868 11406876562]
+[1149] 57.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 58.000  rss:5.9MB vcsw:4953 ivcsw:5 ddsperf:0%+1% dq.user:10%+9% recvUC:4%+4%
+[1149] 58.000  @fedora30-guest:1331 rss:6.0MB vcsw:4940 ivcsw:11 dq.user:11%+9% recvUC:4%+5%
+[1149] 58.000  enp1s0: xmit 3.05 Mb/s recv 3.05 Mb/s [11403499646 11407257312]
+[1149] 58.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 59.000  rss:5.9MB vcsw:4937 ivcsw:1 dq.user:9%+9% recvUC:2%+5%
+[1149] 59.000  @fedora30-guest:1331 rss:6.0MB vcsw:4953 ivcsw:11 dq.user:10%+10% recvUC:5%+4%
+[1149] 59.000  enp1s0: xmit 3.03 Mb/s recv 3.03 Mb/s [11403878976 11407636686]
+[1149] 59.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 60.000  rss:5.9MB vcsw:4915 ivcsw:7 dq.user:9%+9% tev:1%+0% recvUC:5%+3%
+[1149] 60.000  @fedora30-guest:1331 rss:6.0MB vcsw:4934 ivcsw:19 dq.user:9%+10% recvUC:3%+5%
+[1149] 60.000  enp1s0: xmit 3.02 Mb/s recv 3.02 Mb/s [11404256670 11408014356]
+[1149] 60.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1331: gone
+[1149] participant fedora30-guest:1341: new
+[1149] 61.000  rss:5.9MB vcsw:2648 ivcsw:12 dq.builtins:1%+0% dq.user:5%+5% recvUC:1%+2%
+[1149] 61.000  @fedora30-guest:1331 rss:6.0MB vcsw:4925 ivcsw:10 dq.user:9%+12% tev:1%+0% recvUC:3%+6%
+[1149] 61.000  enp1s0: xmit 1.60 Mb/s recv 1.61 Mb/s [11404456332 11408215071]
+[1149] 61.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 62.000  rss:6.2MB vcsw:592 ivcsw:3 dq.user:1%+1% recvUC:0%+1%
+[1149] 62.000  @fedora30-guest:1341 rss:4.4MB vcsw:9 ivcsw:0 ddsperf:0%+1%
+[1149] 62.000  enp1s0: xmit 0.44 Mb/s recv 0.44 Mb/s [11404511310 11408269665]
+[1149] 62.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 63.000  rss:6.9MB vcsw:4949 ivcsw:7 dq.user:10%+10% recvUC:3%+5%
+[1149] 63.000  @fedora30-guest:1341 rss:5.2MB vcsw:4982 ivcsw:7 ddsperf:1%+0% dq.user:8%+9% recvUC:2%+5%
+[1149] 63.000  enp1s0: xmit 3.68 Mb/s recv 3.67 Mb/s [11404971018 11408729027]
+[1149] 63.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 64.000  rss:6.9MB vcsw:4622 ivcsw:14 dq.user:8%+10% recvUC:3%+5%
+[1149] 64.000  @fedora30-guest:1341 rss:5.2MB vcsw:4612 ivcsw:9 dq.user:10%+10% recvUC:3%+8%
+[1149] 64.000  enp1s0: xmit 3.42 Mb/s recv 3.43 Mb/s [11405399084 11409157255]
+[1149] 64.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 65.000  rss:6.9MB vcsw:4890 ivcsw:9 ddsperf:0%+1% dq.user:9%+10% recvUC:3%+5%
+[1149] 65.000  @fedora30-guest:1341 rss:6.0MB vcsw:4889 ivcsw:11 dq.user:9%+10% recvUC:3%+6%
+[1149] 65.000  enp1s0: xmit 3.63 Mb/s recv 3.62 Mb/s [11405852372 11409610173]
+[1149] 65.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 66.000  rss:6.9MB vcsw:4873 ivcsw:10 dq.user:10%+10% recvUC:4%+4%
+[1149] 66.000  @fedora30-guest:1341 rss:6.0MB vcsw:4860 ivcsw:15 dq.user:8%+12% recvUC:3%+5%
+[1149] 66.000  enp1s0: xmit 3.61 Mb/s recv 3.61 Mb/s [11406303486 11410061279]
+[1149] 66.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 67.000  rss:6.9MB vcsw:4455 ivcsw:11 dq.user:8%+10% recvUC:3%+5%
+[1149] 67.000  @fedora30-guest:1341 rss:6.0MB vcsw:4542 ivcsw:7 dq.user:9%+8% recvUC:3%+9%
+[1149] 67.000  enp1s0: xmit 3.30 Mb/s recv 3.30 Mb/s [11406716184 11410474021]
+[1149] 67.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 68.000  rss:6.9MB vcsw:5031 ivcsw:14 ddsperf:1%+0% dq.user:10%+10% recvUC:4%+5%
+[1149] 68.000  @fedora30-guest:1341 rss:6.0MB vcsw:5034 ivcsw:5 ddsperf:1%+0% dq.user:9%+9% recvUC:5%+3%
+[1149] 68.000  enp1s0: xmit 3.73 Mb/s recv 3.73 Mb/s [11407182756 11410940585]
+[1149] 68.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 69.000  rss:6.9MB vcsw:4609 ivcsw:20 dq.user:11%+7% tev:0%+1% recvUC:3%+5%
+[1149] 69.000  @fedora30-guest:1341 rss:6.0MB vcsw:4570 ivcsw:25 dq.user:9%+9% recvUC:3%+4%
+[1149] 69.000  enp1s0: xmit 3.40 Mb/s recv 3.40 Mb/s [11407608218 11411366075]
+[1149] 69.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 70.000  rss:6.9MB vcsw:4887 ivcsw:11 dq.user:9%+11% recvUC:3%+6%
+[1149] 70.000  @fedora30-guest:1341 rss:6.0MB vcsw:4880 ivcsw:10 dq.user:7%+11% recvUC:3%+8%
+[1149] 70.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11408060534 11411818383]
+[1149] 70.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 71.000  rss:6.9MB vcsw:4898 ivcsw:14 dq.user:11%+9% recvUC:4%+5%
+[1149] 71.000  @fedora30-guest:1341 rss:6.0MB vcsw:4894 ivcsw:6 dq.user:9%+10% recvUC:3%+8%
+[1149] 71.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11408513508 11412271401]
+[1149] 71.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 72.000  rss:6.9MB vcsw:4895 ivcsw:11 dq.user:10%+10% recvUC:3%+5%
+[1149] 72.000  @fedora30-guest:1341 rss:6.0MB vcsw:4868 ivcsw:7 ddsperf:0%+1% dq.user:6%+11% recvUC:2%+8%
+[1149] 72.000  enp1s0: xmit 3.63 Mb/s recv 3.63 Mb/s [11408966646 11412724945]
+[1149] 72.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 73.000  rss:6.9MB vcsw:4976 ivcsw:7 dq.user:12%+8% recvUC:3%+6%
+[1149] 73.000  @fedora30-guest:1341 rss:6.0MB vcsw:4967 ivcsw:3 dq.user:9%+10% recvUC:4%+4%
+[1149] 73.000  enp1s0: xmit 3.69 Mb/s recv 3.68 Mb/s [11409427354 11413185303]
+[1149] 73.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 74.000  rss:6.9MB vcsw:4948 ivcsw:13 ddsperf:0%+1% dq.user:11%+9% recvUC:4%+5%
+[1149] 74.000  @fedora30-guest:1341 rss:6.0MB vcsw:4942 ivcsw:12 dq.user:8%+10% recvUC:3%+4%
+[1149] 74.000  enp1s0: xmit 3.66 Mb/s recv 3.66 Mb/s [11409885370 11413643291]
+[1149] 74.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 75.000  rss:6.9MB vcsw:4985 ivcsw:12 dq.user:11%+8% recvUC:3%+6%
+[1149] 75.000  @fedora30-guest:1341 rss:6.0MB vcsw:4968 ivcsw:8 ddsperf:1%+0% dq.user:8%+11% recvUC:2%+5%
+[1149] 75.000  enp1s0: xmit 3.69 Mb/s recv 3.69 Mb/s [11410346242 11414104227]
+[1149] 75.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 76.000  rss:6.9MB vcsw:4958 ivcsw:14 dq.user:12%+9% recvUC:2%+6%
+[1149] 76.000  @fedora30-guest:1341 rss:6.0MB vcsw:4955 ivcsw:10 dq.user:9%+10% recvUC:3%+5%
+[1149] 76.000  enp1s0: xmit 3.67 Mb/s recv 3.67 Mb/s [11410805210 11414563187]
+[1149] 76.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 77.000  rss:6.9MB vcsw:4948 ivcsw:14 dq.user:10%+10% recvUC:3%+6%
+[1149] 77.000  @fedora30-guest:1341 rss:6.0MB vcsw:4939 ivcsw:8 dq.user:8%+10% recvUC:5%+3%
+[1149] 77.000  enp1s0: xmit 3.66 Mb/s recv 3.66 Mb/s [11411263020 11415021041]
+[1149] 77.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 78.000  rss:6.9MB vcsw:4868 ivcsw:11 dq.user:10%+10% recvUC:3%+6%
+[1149] 78.000  @fedora30-guest:1341 rss:6.0MB vcsw:4874 ivcsw:4 dq.user:6%+12% recvUC:3%+8%
+[1149] 78.000  enp1s0: xmit 3.61 Mb/s recv 3.61 Mb/s [11411713848 11415471861]
+[1149] 78.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 79.000  rss:6.9MB vcsw:4883 ivcsw:17 dq.user:8%+11% recvUC:3%+6%
+[1149] 79.000  @fedora30-guest:1341 rss:6.0MB vcsw:4872 ivcsw:12 ddsperf:0%+1% dq.user:10%+8% recvUC:3%+5%
+[1149] 79.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11412166078 11415924155]
+[1149] 79.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 80.000  rss:6.9MB vcsw:4890 ivcsw:20 dq.user:10%+10% recvUC:3%+5%
+[1149] 80.000  @fedora30-guest:1341 rss:6.0MB vcsw:4877 ivcsw:5 dq.user:8%+10% recvUC:2%+8%
+[1149] 80.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11412618142 11416376419]
+[1149] 80.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 81.000  rss:6.9MB vcsw:4914 ivcsw:12 dq.user:8%+11% recvUC:4%+5%
+[1149] 81.000  @fedora30-guest:1341 rss:6.0MB vcsw:4907 ivcsw:4 dq.user:10%+8% recvUC:3%+7%
+[1149] 81.000  enp1s0: xmit 3.64 Mb/s recv 3.64 Mb/s [11413073270 11416831383]
+[1149] 81.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 82.000  rss:6.9MB vcsw:4864 ivcsw:17 ddsperf:0%+1% dq.user:10%+10% recvUC:4%+4%
+[1149] 82.000  @fedora30-guest:1341 rss:6.0MB vcsw:4892 ivcsw:5 dq.user:8%+10% recvUC:4%+7%
+[1149] 82.000  enp1s0: xmit 3.60 Mb/s recv 3.60 Mb/s [11413523660 11417281745]
+[1149] 82.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 83.000  rss:6.9MB vcsw:4887 ivcsw:9 ddsperf:1%+0% dq.user:10%+9% recvUC:3%+5%
+[1149] 83.000  @fedora30-guest:1341 rss:6.0MB vcsw:4839 ivcsw:9 dq.user:10%+9% recvUC:2%+6%
+[1149] 83.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11413976554 11417734663]
+[1149] 83.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 84.000  rss:6.9MB vcsw:4978 ivcsw:15 dq.user:11%+9% recvUC:4%+5%
+[1149] 84.000  @fedora30-guest:1341 rss:6.0MB vcsw:4969 ivcsw:11 dq.user:8%+10% recvUC:2%+6%
+[1149] 84.000  enp1s0: xmit 3.69 Mb/s recv 3.69 Mb/s [11414437526 11418195441]
+[1149] 84.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 85.000  rss:6.9MB vcsw:4984 ivcsw:15 dq.user:12%+9% recvUC:5%+5%
+[1149] 85.000  @fedora30-guest:1341 rss:6.0MB vcsw:4985 ivcsw:10 ddsperf:1%+1% dq.user:10%+9% recvUC:5%+3%
+[1149] 85.000  enp1s0: xmit 3.69 Mb/s recv 3.69 Mb/s [11414898684 11418656849]
+[1149] 85.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 86.000  rss:6.9MB vcsw:4872 ivcsw:13 dq.user:10%+9% recvUC:3%+5%
+[1149] 86.000  @fedora30-guest:1341 rss:6.0MB vcsw:4871 ivcsw:8 dq.user:8%+11% recvUC:3%+5%
+[1149] 86.000  enp1s0: xmit 3.61 Mb/s recv 3.61 Mb/s [11415349698 11419107855]
+[1149] 86.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 87.000  rss:6.9MB vcsw:4938 ivcsw:13 dq.user:10%+10% recvUC:3%+5%
+[1149] 87.000  @fedora30-guest:1341 rss:6.0MB vcsw:4927 ivcsw:1 dq.user:8%+10% recvUC:3%+7%
+[1149] 87.000  enp1s0: xmit 3.66 Mb/s recv 3.66 Mb/s [11415806578 11419564779]
+[1149] 87.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 88.000  rss:6.9MB vcsw:4880 ivcsw:9 dq.user:10%+9% recvUC:4%+5%
+[1149] 88.000  @fedora30-guest:1341 rss:6.0MB vcsw:4866 ivcsw:6 dq.user:8%+11% tev:0%+1% recvUC:4%+5%
+[1149] 88.000  enp1s0: xmit 3.62 Mb/s recv 3.62 Mb/s [11416259344 11420017761]
+[1149] 88.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 89.000  rss:6.9MB vcsw:5006 ivcsw:8 dq.user:11%+9% recvUC:4%+4%
+[1149] 89.000  @fedora30-guest:1341 rss:6.0MB vcsw:4999 ivcsw:10 dq.user:10%+9% recvUC:5%+2%
+[1149] 89.000  enp1s0: xmit 3.71 Mb/s recv 3.71 Mb/s [11416722842 11420481095]
+[1149] 89.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 90.000  rss:6.9MB vcsw:4989 ivcsw:20 ddsperf:0%+1% dq.user:14%+6% recvUC:3%+6%
+[1149] 90.000  @fedora30-guest:1341 rss:6.0MB vcsw:4989 ivcsw:10 dq.user:8%+10% recvUC:6%+2%
+[1149] 90.000  enp1s0: xmit 3.70 Mb/s recv 3.70 Mb/s [11417184950 11420943175]
+[1149] 90.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 91.000  rss:6.9MB vcsw:4428 ivcsw:25 dq.user:12%+6% recvUC:4%+3%
+[1149] 91.000  @fedora30-guest:1341 rss:6.0MB vcsw:4975 ivcsw:8 dq.user:8%+11% recvUC:3%+4%
+[1149] 91.000  enp1s0: xmit 3.26 Mb/s recv 3.27 Mb/s [11417592980 11421351821]
+[1149] 91.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1341: gone
+[1149] participant fedora30-guest:1364: new
+[1149] 92.000  rss:6.9MB vcsw:103 ivcsw:22 dq.builtins:0%+1% tev:0%+1% recvUC:0%+1%
+[1149] 92.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 93.000  rss:6.9MB vcsw:3634 ivcsw:6 dq.user:6%+8% recvUC:2%+3%
+[1149] 93.000  @fedora30-guest:1364 rss:4.4MB vcsw:11 ivcsw:4 ddsperf:0%+1%
+[1149] 93.000  enp1s0: xmit 3.39 Mb/s recv 3.39 Mb/s [11418023272 11421781730]
+[1149] 93.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 94.000  rss:6.9MB vcsw:4849 ivcsw:5 dq.user:10%+9% recvUC:3%+5%
+[1149] 94.000  @fedora30-guest:1364 rss:5.2MB vcsw:4835 ivcsw:18 dq.user:9%+10% recvUC:3%+5%
+[1149] 94.000  enp1s0: xmit 4.53 Mb/s recv 4.53 Mb/s [11418589596 11422347636]
+[1149] 94.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 95.000  rss:6.9MB vcsw:4855 ivcsw:8 dq.user:10%+11% recvUC:3%+5%
+[1149] 95.000  @fedora30-guest:1364 rss:5.2MB vcsw:4855 ivcsw:3 ddsperf:1%+0% dq.user:7%+10% recvUC:3%+8%
+[1149] 95.000  enp1s0: xmit 4.52 Mb/s recv 4.52 Mb/s [11419154472 11422912400]
+[1149] 95.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 96.000  rss:6.9MB vcsw:4828 ivcsw:4 dq.user:10%+10% recvUC:5%+5%
+[1149] 96.000  @fedora30-guest:1364 rss:6.1MB vcsw:4863 ivcsw:5 dq.user:8%+9% recvUC:4%+7%
+[1149] 96.000  enp1s0: xmit 4.51 Mb/s recv 4.51 Mb/s [11419717608 11423475922]
+[1149] 96.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 97.000  rss:6.9MB vcsw:4913 ivcsw:5 ddsperf:0%+1% dq.user:9%+10% recvUC:3%+4%
+[1149] 97.000  @fedora30-guest:1364 rss:6.1MB vcsw:4823 ivcsw:11 dq.user:10%+10% recvUC:4%+4%
+[1149] 97.000  enp1s0: xmit 4.59 Mb/s recv 4.59 Mb/s [11420291424 11424049134]
+[1149] 97.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 98.000  rss:6.9MB vcsw:5337 ivcsw:13 dq.user:9%+10% recvUC:3%+5%
+[1149] 98.000  @fedora30-guest:1364 rss:6.1MB vcsw:4927 ivcsw:5 dq.user:6%+12% recvUC:2%+8%
+[1149] 98.000  enp1s0: xmit 4.97 Mb/s recv 4.97 Mb/s [11420912752 11424670688]
+[1149] 98.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 99.000  rss:6.9MB vcsw:5118 ivcsw:10 dq.user:8%+12% recvUC:3%+6%
+[1149] 99.000  @fedora30-guest:1364 rss:6.1MB vcsw:5434 ivcsw:11 dq.user:8%+11% recvUC:5%+3%
+[1149] 99.000  enp1s0: xmit 4.77 Mb/s recv 4.77 Mb/s [11421509086 11425267066]
+[1149] 99.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 100.000  rss:6.9MB vcsw:5109 ivcsw:17 dq.user:8%+10% recvUC:4%+4%
+[1149] 100.000  @fedora30-guest:1364 rss:6.1MB vcsw:5044 ivcsw:2 ddsperf:0%+1% dq.user:6%+16% recvUC:5%+6%
+[1149] 100.000  enp1s0: xmit 4.76 Mb/s recv 4.76 Mb/s [11422103504 11425861496]
+[1149] 100.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 101.000  rss:6.9MB vcsw:5162 ivcsw:15 dq.user:10%+10% recvUC:3%+5%
+[1149] 101.000  @fedora30-guest:1364 rss:6.1MB vcsw:5115 ivcsw:9 dq.user:7%+16% recvUC:3%+6%
+[1149] 101.000  enp1s0: xmit 4.81 Mb/s recv 4.81 Mb/s [11422704984 11426462786]
+[1149] 101.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 102.000  rss:6.9MB vcsw:5111 ivcsw:6 dq.user:10%+9% recvUC:2%+6%
+[1149] 102.000  @fedora30-guest:1364 rss:6.1MB vcsw:5179 ivcsw:13 dq.user:6%+17% recvUC:3%+6%
+[1149] 102.000  enp1s0: xmit 4.77 Mb/s recv 4.77 Mb/s [11423300850 11427058878]
+[1149] 102.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 103.000  rss:6.9MB vcsw:5133 ivcsw:13 dq.user:7%+12% recvUC:4%+4%
+[1149] 103.000  @fedora30-guest:1364 rss:6.1MB vcsw:5095 ivcsw:5 ddsperf:1%+0% dq.user:7%+16% recvUC:4%+4%
+[1149] 103.000  enp1s0: xmit 4.78 Mb/s recv 4.78 Mb/s [11423898778 11427656636]
+[1149] 103.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 104.000  rss:6.9MB vcsw:5373 ivcsw:14 dq.user:9%+11% recvUC:4%+5%
+[1149] 104.000  @fedora30-guest:1364 rss:6.1MB vcsw:5192 ivcsw:6 dq.user:6%+15% recvUC:4%+7%
+[1149] 104.000  enp1s0: xmit 5.01 Mb/s recv 5.01 Mb/s [11424524940 11428283466]
+[1149] 104.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 105.000  rss:6.9MB vcsw:5246 ivcsw:7 ddsperf:1%+0% dq.user:8%+12% recvUC:3%+4%
+[1149] 105.000  @fedora30-guest:1364 rss:6.1MB vcsw:5395 ivcsw:13 dq.user:7%+14% recvUC:6%+5%
+[1149] 105.000  enp1s0: xmit 4.90 Mb/s recv 4.90 Mb/s [11425137270 11428895550]
+[1149] 105.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 106.000  rss:6.9MB vcsw:5345 ivcsw:10 ddsperf:0%+1% dq.user:10%+12% recvUC:3%+5%
+[1149] 106.000  @fedora30-guest:1364 rss:6.1MB vcsw:5215 ivcsw:7 dq.user:6%+15% recvUC:4%+7%
+[1149] 106.000  enp1s0: xmit 4.99 Mb/s recv 4.99 Mb/s [11425760974 11429518976]
+[1149] 106.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 107.000  rss:6.9MB vcsw:5097 ivcsw:14 dq.user:4%+19% recvUC:4%+5%
+[1149] 107.000  @fedora30-guest:1364 rss:6.1MB vcsw:5340 ivcsw:16 ddsperf:0%+1% dq.user:8%+12% recvUC:4%+5%
+[1149] 107.000  enp1s0: xmit 4.76 Mb/s recv 4.76 Mb/s [11426355478 11430113544]
+[1149] 107.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 108.000  rss:6.9MB vcsw:5175 ivcsw:18 dq.user:5%+19% recvUC:3%+6%
+[1149] 108.000  @fedora30-guest:1364 rss:6.1MB vcsw:5088 ivcsw:4 dq.user:8%+9% recvUC:4%+6%
+[1149] 108.000  enp1s0: xmit 4.82 Mb/s recv 4.82 Mb/s [11426958086 11430716144]
+[1149] 108.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 109.000  rss:6.9MB vcsw:5187 ivcsw:16 dq.user:5%+21% recvUC:4%+5%
+[1149] 109.000  @fedora30-guest:1364 rss:6.1MB vcsw:5184 ivcsw:8 ddsperf:1%+0% dq.user:7%+12% recvUC:2%+5%
+[1149] 109.000  enp1s0: xmit 4.84 Mb/s recv 4.83 Mb/s [11427562566 11431320454]
+[1149] 109.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 110.000  rss:6.9MB vcsw:4851 ivcsw:6 dq.user:10%+10% recvUC:3%+5%
+[1149] 110.000  @fedora30-guest:1364 rss:6.1MB vcsw:5202 ivcsw:5 dq.user:8%+9% recvUC:4%+6%
+[1149] 110.000  enp1s0: xmit 4.43 Mb/s recv 4.44 Mb/s [11428116780 11431875000]
+[1149] 110.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 111.000  rss:6.9MB vcsw:5154 ivcsw:15 dq.user:9%+10% tev:1%+0% recvUC:3%+5%
+[1149] 111.000  @fedora30-guest:1364 rss:6.1MB vcsw:4701 ivcsw:7 dq.user:9%+11% tev:0%+1% recvUC:4%+4%
+[1149] 111.000  enp1s0: xmit 4.81 Mb/s recv 4.80 Mb/s [11428717532 11432475456]
+[1149] 111.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 112.000  rss:6.9MB vcsw:4986 ivcsw:14 ddsperf:0%+1% dq.user:9%+10% recvUC:4%+4%
+[1149] 112.000  @fedora30-guest:1364 rss:6.1MB vcsw:5186 ivcsw:11 dq.user:7%+11% recvUC:4%+3%
+[1149] 112.000  enp1s0: xmit 4.65 Mb/s recv 4.65 Mb/s [11429298782 11433057124]
+[1149] 112.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 113.000  rss:6.9MB vcsw:4948 ivcsw:11 dq.user:8%+11% recvUC:3%+5%
+[1149] 113.000  @fedora30-guest:1364 rss:6.1MB vcsw:4947 ivcsw:17 dq.user:8%+11% recvUC:4%+5%
+[1149] 113.000  enp1s0: xmit 4.62 Mb/s recv 4.61 Mb/s [11429876012 11433633952]
+[1149] 113.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 114.000  rss:6.9MB vcsw:4984 ivcsw:13 dq.user:10%+9% recvUC:4%+4%
+[1149] 114.000  @fedora30-guest:1364 rss:6.1MB vcsw:4963 ivcsw:10 dq.user:8%+11% recvUC:4%+6%
+[1149] 114.000  enp1s0: xmit 4.65 Mb/s recv 4.65 Mb/s [11430457092 11434215024]
+[1149] 114.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 115.000  rss:6.9MB vcsw:4854 ivcsw:11 dq.user:10%+9% recvUC:4%+3%
+[1149] 115.000  @fedora30-guest:1364 rss:6.1MB vcsw:4982 ivcsw:9 ddsperf:1%+0% dq.user:9%+10% recvUC:5%+3%
+[1149] 115.000  enp1s0: xmit 4.53 Mb/s recv 4.53 Mb/s [11431023888 11434781884]
+[1149] 115.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 116.000  rss:6.9MB vcsw:4856 ivcsw:15 dq.user:8%+8% recvUC:3%+4%
+[1149] 116.000  @fedora30-guest:1364 rss:6.1MB vcsw:4873 ivcsw:12 dq.user:9%+11% recvUC:3%+5%
+[1149] 116.000  enp1s0: xmit 4.54 Mb/s recv 4.54 Mb/s [11431590928 11435349150]
+[1149] 116.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 117.000  rss:6.9MB vcsw:5390 ivcsw:6 dq.user:9%+10% recvUC:3%+4%
+[1149] 117.000  @fedora30-guest:1364 rss:6.1MB vcsw:4975 ivcsw:3 dq.user:9%+9% recvUC:4%+6%
+[1149] 117.000  enp1s0: xmit 5.03 Mb/s recv 5.03 Mb/s [11432219510 11435977542]
+[1149] 117.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 118.000  rss:6.9MB vcsw:5456 ivcsw:5 dq.user:10%+10% recvUC:3%+5%
+[1149] 118.000  @fedora30-guest:1364 rss:6.1MB vcsw:5397 ivcsw:7 dq.user:11%+8% recvUC:5%+6%
+[1149] 118.000  enp1s0: xmit 5.09 Mb/s recv 5.09 Mb/s [11432856326 11436614350]
+[1149] 118.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 119.000  rss:6.9MB vcsw:5525 ivcsw:8 dq.user:6%+12% recvUC:3%+4%
+[1149] 119.000  @fedora30-guest:1364 rss:6.1MB vcsw:5480 ivcsw:18 ddsperf:0%+1% dq.user:5%+18% recvUC:4%+4%
+[1149] 119.000  enp1s0: xmit 5.15 Mb/s recv 5.15 Mb/s [11433500586 11437258674]
+[1149] 119.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 120.000  rss:6.9MB vcsw:5498 ivcsw:4 ddsperf:1%+0% dq.user:7%+13% recvUC:4%+5%
+[1149] 120.000  @fedora30-guest:1364 rss:6.1MB vcsw:5512 ivcsw:17 dq.user:4%+18% recvUC:4%+4%
+[1149] 120.000  enp1s0: xmit 5.13 Mb/s recv 5.14 Mb/s [11434142058 11437900564]
+[1149] 120.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 121.000  rss:6.9MB vcsw:5508 ivcsw:6 dq.user:7%+11% recvUC:2%+4%
+[1149] 121.000  @fedora30-guest:1364 rss:6.1MB vcsw:5509 ivcsw:11 ddsperf:1%+0% dq.user:5%+17% recvUC:5%+4%
+[1149] 121.000  enp1s0: xmit 5.15 Mb/s recv 5.14 Mb/s [11434785366 11438543490]
+[1149] 121.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1364: gone
+[1149] participant fedora30-guest:1374: new
+[1149] 122.000  rss:6.9MB vcsw:1518 ivcsw:16 dq.builtins:1%+0% dq.user:2%+3% tev:0%+1% recvUC:1%+2%
+[1149] 122.000  @fedora30-guest:1364 rss:6.1MB vcsw:5487 ivcsw:9 dq.user:4%+18% recvUC:4%+3%
+[1149] 122.000  enp1s0: xmit 1.32 Mb/s recv 1.33 Mb/s [11434950874 11438709169]
+[1149] 122.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 123.000  rss:6.9MB vcsw:1946 ivcsw:6 ddsperf:0%+1% dq.user:3%+4% recvUC:1%+1%
+[1149] 123.000  @fedora30-guest:1374 rss:4.4MB vcsw:12 ivcsw:3 ddsperf:0%+1%
+[1149] 123.000  enp1s0: xmit 2.59 Mb/s recv 2.59 Mb/s [11435275058 11439033281]
+[1149] 123.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 124.000  rss:6.9MB vcsw:5124 ivcsw:7 dq.user:9%+10% recvUC:3%+5%
+[1149] 124.000  @fedora30-guest:1374 rss:5.1MB vcsw:5414 ivcsw:166 dq.user:9%+12% recvUC:4%+4%
+[1149] 124.000  enp1s0: xmit 6.82 Mb/s recv 6.81 Mb/s [11436127160 11439884631]
+[1149] 124.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 125.000  rss:6.9MB vcsw:4698 ivcsw:11 dq.user:11%+10% recvUC:3%+4%
+[1149] 125.000  @fedora30-guest:1374 rss:5.5MB vcsw:4707 ivcsw:8 ddsperf:1%+0% dq.user:9%+10% recvUC:4%+7%
+[1149] 125.000  enp1s0: xmit 6.24 Mb/s recv 6.24 Mb/s [11436907452 11440664911]
+[1149] 125.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 126.000  rss:6.9MB vcsw:4673 ivcsw:3 dq.user:9%+10% recvUC:3%+5%
+[1149] 126.000  @fedora30-guest:1374 rss:6.0MB vcsw:4650 ivcsw:11 dq.user:10%+9% recvUC:3%+7%
+[1149] 126.000  enp1s0: xmit 6.23 Mb/s recv 6.23 Mb/s [11437686718 11441443835]
+[1149] 126.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 127.000  rss:6.9MB vcsw:4793 ivcsw:5 dq.user:9%+10% recvUC:3%+4%
+[1149] 127.000  @fedora30-guest:1374 rss:6.0MB vcsw:4798 ivcsw:12 dq.user:9%+10% recvUC:3%+7%
+[1149] 127.000  enp1s0: xmit 6.37 Mb/s recv 6.38 Mb/s [11438483300 11442240795]
+[1149] 127.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 128.000  rss:6.9MB vcsw:4783 ivcsw:15 dq.user:10%+11% recvUC:4%+4%
+[1149] 128.000  @fedora30-guest:1374 rss:6.0MB vcsw:4789 ivcsw:9 dq.user:8%+11% recvUC:3%+6%
+[1149] 128.000  enp1s0: xmit 6.35 Mb/s recv 6.35 Mb/s [11439276992 11443034925]
+[1149] 128.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 129.000  rss:6.9MB vcsw:4745 ivcsw:11 ddsperf:0%+1% dq.user:9%+11% recvUC:3%+6%
+[1149] 129.000  @fedora30-guest:1374 rss:6.0MB vcsw:4756 ivcsw:11 dq.user:8%+10% recvUC:4%+4%
+[1149] 129.000  enp1s0: xmit 6.31 Mb/s recv 6.30 Mb/s [11440065472 11443822983]
+[1149] 129.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 130.000  rss:6.9MB vcsw:4757 ivcsw:12 dq.user:9%+11% recvUC:2%+5%
+[1149] 130.000  @fedora30-guest:1374 rss:6.0MB vcsw:4731 ivcsw:13 ddsperf:0%+1% dq.user:9%+12% recvUC:4%+5%
+[1149] 130.000  enp1s0: xmit 6.32 Mb/s recv 6.32 Mb/s [11440855040 11444612563]
+[1149] 130.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 131.000  rss:6.9MB vcsw:4709 ivcsw:8 dq.user:11%+9% recvUC:3%+5%
+[1149] 131.000  @fedora30-guest:1374 rss:6.0MB vcsw:4718 ivcsw:11 dq.user:10%+9% recvUC:4%+4%
+[1149] 131.000  enp1s0: xmit 6.26 Mb/s recv 6.26 Mb/s [11441636936 11445394503]
+[1149] 131.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 132.000  rss:6.9MB vcsw:4732 ivcsw:15 dq.user:9%+11% recvUC:3%+6%
+[1149] 132.000  @fedora30-guest:1374 rss:6.0MB vcsw:4712 ivcsw:3 ddsperf:1%+0% dq.user:8%+10% recvUC:3%+7%
+[1149] 132.000  enp1s0: xmit 6.28 Mb/s recv 6.28 Mb/s [11442421828 11446179407]
+[1149] 132.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 133.000  rss:6.9MB vcsw:4709 ivcsw:17 dq.user:10%+11% recvUC:4%+5%
+[1149] 133.000  @fedora30-guest:1374 rss:6.0MB vcsw:4697 ivcsw:10 dq.user:11%+9% recvUC:6%+3%
+[1149] 133.000  enp1s0: xmit 6.24 Mb/s recv 6.24 Mb/s [11443202378 11446960001]
+[1149] 133.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 134.000  rss:6.9MB vcsw:4707 ivcsw:12 dq.user:10%+10% recvUC:3%+5%
+[1149] 134.000  @fedora30-guest:1374 rss:6.0MB vcsw:4706 ivcsw:8 dq.user:9%+10% recvUC:3%+6%
+[1149] 134.000  enp1s0: xmit 6.25 Mb/s recv 6.25 Mb/s [11443983314 11447740929]
+[1149] 134.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 135.000  rss:6.9MB vcsw:4686 ivcsw:10 dq.user:10%+9% recvUC:3%+5%
+[1149] 135.000  @fedora30-guest:1374 rss:6.0MB vcsw:4715 ivcsw:14 dq.user:11%+8% recvUC:4%+5%
+[1149] 135.000  enp1s0: xmit 6.22 Mb/s recv 6.22 Mb/s [11444760524 11448518183]
+[1149] 135.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 136.000  rss:6.9MB vcsw:5215 ivcsw:15 dq.user:11%+9% recvUC:4%+4%
+[1149] 136.000  @fedora30-guest:1374 rss:6.0MB vcsw:4981 ivcsw:13 dq.user:8%+12% recvUC:3%+4%
+[1149] 136.000  enp1s0: xmit 6.92 Mb/s recv 6.93 Mb/s [11445626026 11449384123]
+[1149] 136.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 137.000  rss:6.9MB vcsw:5211 ivcsw:6 ddsperf:0%+1% dq.user:9%+12% recvUC:4%+5%
+[1149] 137.000  @fedora30-guest:1374 rss:6.0MB vcsw:5216 ivcsw:8 dq.user:8%+13% recvUC:3%+5%
+[1149] 137.000  enp1s0: xmit 6.93 Mb/s recv 6.93 Mb/s [11446492662 11450250337]
+[1149] 137.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 138.000  rss:6.9MB vcsw:5193 ivcsw:14 dq.user:10%+10% recvUC:4%+4%
+[1149] 138.000  @fedora30-guest:1374 rss:6.0MB vcsw:5182 ivcsw:9 ddsperf:1%+0% dq.user:8%+12% recvUC:4%+4%
+[1149] 138.000  enp1s0: xmit 6.90 Mb/s recv 6.90 Mb/s [11447354708 11451112395]
+[1149] 138.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 139.000  rss:6.9MB vcsw:5173 ivcsw:8 dq.user:9%+11% recvUC:3%+6%
+[1149] 139.000  @fedora30-guest:1374 rss:6.0MB vcsw:5175 ivcsw:8 dq.user:7%+13% recvUC:3%+5%
+[1149] 139.000  enp1s0: xmit 6.89 Mb/s recv 6.89 Mb/s [11448215428 11451973159]
+[1149] 139.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 140.000  rss:6.9MB vcsw:5204 ivcsw:12 dq.user:9%+11% recvUC:3%+5%
+[1149] 140.000  @fedora30-guest:1374 rss:6.0MB vcsw:5188 ivcsw:12 dq.user:8%+12% recvUC:2%+6%
+[1149] 140.000  enp1s0: xmit 6.91 Mb/s recv 6.91 Mb/s [11449079812 11452837535]
+[1149] 140.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 141.000  rss:6.9MB vcsw:5209 ivcsw:12 ddsperf:1%+0% dq.user:10%+10% recvUC:3%+5%
+[1149] 141.000  @fedora30-guest:1374 rss:6.0MB vcsw:5198 ivcsw:15 dq.user:8%+13% recvUC:3%+4%
+[1149] 141.000  enp1s0: xmit 6.93 Mb/s recv 6.93 Mb/s [11449945552 11453703299]
+[1149] 141.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 142.000  rss:6.9MB vcsw:5051 ivcsw:9 dq.user:12%+8% recvUC:4%+5%
+[1149] 142.000  @fedora30-guest:1374 rss:6.0MB vcsw:5147 ivcsw:16 dq.user:6%+14% recvUC:3%+5%
+[1149] 142.000  enp1s0: xmit 6.72 Mb/s recv 6.72 Mb/s [11450785898 11454543637]
+[1149] 142.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 143.000  rss:6.9MB vcsw:5018 ivcsw:12 dq.user:12%+9% recvUC:3%+5%
+[1149] 143.000  @fedora30-guest:1374 rss:6.0MB vcsw:4979 ivcsw:20 ddsperf:0%+1% dq.user:7%+16% recvUC:2%+7%
+[1149] 143.000  enp1s0: xmit 6.67 Mb/s recv 6.67 Mb/s [11451619888 11455377691]
+[1149] 143.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 144.000  rss:6.9MB vcsw:5046 ivcsw:12 dq.user:3%+21% recvUC:4%+4%
+[1149] 144.000  @fedora30-guest:1374 rss:6.0MB vcsw:5045 ivcsw:7 ddsperf:1%+0% dq.user:11%+9% recvUC:5%+5%
+[1149] 144.000  enp1s0: xmit 6.71 Mb/s recv 6.71 Mb/s [11452458336 11456216597]
+[1149] 144.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 145.000  rss:6.9MB vcsw:5092 ivcsw:10 ddsperf:0%+1% dq.user:5%+17% recvUC:4%+5%
+[1149] 145.000  @fedora30-guest:1374 rss:6.0MB vcsw:5072 ivcsw:5 dq.user:10%+9% recvUC:4%+6%
+[1149] 145.000  enp1s0: xmit 6.78 Mb/s recv 6.77 Mb/s [11453305266 11457063105]
+[1149] 145.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 146.000  rss:6.9MB vcsw:5021 ivcsw:15 dq.user:9%+15% recvUC:3%+5%
+[1149] 146.000  @fedora30-guest:1374 rss:6.0MB vcsw:5032 ivcsw:9 dq.user:9%+11% recvUC:4%+6%
+[1149] 146.000  enp1s0: xmit 6.67 Mb/s recv 6.67 Mb/s [11454139256 11457897087]
+[1149] 146.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 147.000  rss:6.9MB vcsw:5058 ivcsw:7 dq.user:5%+19% recvUC:3%+5%
+[1149] 147.000  @fedora30-guest:1374 rss:6.0MB vcsw:5059 ivcsw:4 dq.user:12%+8% recvUC:4%+6%
+[1149] 147.000  enp1s0: xmit 6.73 Mb/s recv 6.73 Mb/s [11454980604 11458738479]
+[1149] 147.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 148.000  rss:6.9MB vcsw:5015 ivcsw:15 dq.user:8%+15% recvUC:4%+5%
+[1149] 148.000  @fedora30-guest:1374 rss:6.0MB vcsw:5070 ivcsw:16 dq.user:6%+15% recvUC:4%+5%
+[1149] 148.000  enp1s0: xmit 6.66 Mb/s recv 6.66 Mb/s [11455813258 11459571125]
+[1149] 148.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 149.000  rss:6.9MB vcsw:4854 ivcsw:12 dq.user:4%+19% tev:1%+0% recvUC:3%+5%
+[1149] 149.000  @fedora30-guest:1374 rss:6.0MB vcsw:4837 ivcsw:15 dq.user:6%+15% recvUC:4%+6%
+[1149] 149.000  enp1s0: xmit 6.45 Mb/s recv 6.45 Mb/s [11456619542 11460377437]
+[1149] 149.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 150.000  rss:6.9MB vcsw:4957 ivcsw:6 dq.user:6%+17% recvUC:4%+4%
+[1149] 150.000  @fedora30-guest:1374 rss:6.0MB vcsw:4869 ivcsw:19 dq.user:5%+17% recvUC:3%+7%
+[1149] 150.000  enp1s0: xmit 6.59 Mb/s recv 6.59 Mb/s [11457443522 11461201409]
+[1149] 150.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 151.000  rss:6.9MB vcsw:5182 ivcsw:11 dq.user:5%+19% recvUC:4%+5%
+[1149] 151.000  @fedora30-guest:1374 rss:6.0MB vcsw:5158 ivcsw:12 ddsperf:0%+1% dq.user:3%+19% recvUC:4%+4%
+[1149] 151.000  enp1s0: xmit 6.89 Mb/s recv 6.89 Mb/s [11458304608 11462062559]
+[1149] 151.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1374: gone
+[1149] participant fedora30-guest:1384: new
+[1149] 152.000  rss:6.9MB vcsw:3369 ivcsw:49 dq.user:6%+9% tev:0%+1% recvUC:1%+4%
+[1149] 152.000  @fedora30-guest:1374 rss:6.0MB vcsw:5110 ivcsw:11 ddsperf:1%+0% dq.user:7%+13% recvUC:3%+5%
+[1149] 152.000  enp1s0: xmit 4.34 Mb/s recv 4.33 Mb/s [11458846932 11462604390]
+[1149] 152.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 154.000  rss:6.9MB vcsw:4719 ivcsw:8 ddsperf:0%+1% dq.user:10%+9% recvUC:3%+5%
+[1149] 154.000  enp1s0: xmit 5.95 Mb/s recv 5.95 Mb/s [11460335460 11464091856]
+[1149] 154.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 155.000  rss:6.9MB vcsw:5126 ivcsw:2 dq.user:11%+10% recvUC:3%+5%
+[1149] 155.000  @fedora30-guest:1384 rss:5.2MB vcsw:4717 ivcsw:14 dq.user:9%+10% recvUC:2%+6%
+[1149] 155.000  enp1s0: xmit 12.96 Mb/s recv 12.95 Mb/s [11461954934 11465710996]
+[1149] 155.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 156.000  rss:6.9MB vcsw:5327 ivcsw:7 dq.user:10%+11% recvUC:3%+5%
+[1149] 156.000  @fedora30-guest:1384 rss:6.1MB vcsw:5129 ivcsw:12 dq.user:10%+10% recvUC:3%+7%
+[1149] 156.000  enp1s0: xmit 13.46 Mb/s recv 13.46 Mb/s [11463637824 11467393826]
+[1149] 156.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 157.000  rss:6.9MB vcsw:5292 ivcsw:3 dq.user:11%+10% recvUC:4%+5%
+[1149] 157.000  @fedora30-guest:1384 rss:6.1MB vcsw:5330 ivcsw:5 ddsperf:1%+0% dq.user:8%+12% recvUC:5%+6%
+[1149] 157.000  enp1s0: xmit 13.36 Mb/s recv 13.36 Mb/s [11465307506 11469063572]
+[1149] 157.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 158.000  rss:6.9MB vcsw:5268 ivcsw:4 ddsperf:1%+0% dq.user:10%+10% recvUC:3%+5%
+[1149] 158.000  @fedora30-guest:1384 rss:6.1MB vcsw:5292 ivcsw:9 dq.user:10%+12% recvUC:5%+5%
+[1149] 158.000  enp1s0: xmit 13.32 Mb/s recv 13.32 Mb/s [11466972726 11470728784]
+[1149] 158.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 159.000  rss:6.9MB vcsw:5356 ivcsw:4 dq.user:11%+11% recvUC:4%+5%
+[1149] 159.000  @fedora30-guest:1384 rss:6.1MB vcsw:5273 ivcsw:5 dq.user:9%+13% recvUC:3%+6%
+[1149] 159.000  enp1s0: xmit 13.53 Mb/s recv 13.53 Mb/s [11468663984 11472420066]
+[1149] 159.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 160.000  rss:6.9MB vcsw:5292 ivcsw:6 dq.user:9%+12% recvUC:4%+4%
+[1149] 160.000  @fedora30-guest:1384 rss:6.1MB vcsw:5356 ivcsw:3 ddsperf:0%+1% dq.user:7%+12% recvUC:4%+6%
+[1149] 160.000  enp1s0: xmit 13.37 Mb/s recv 13.38 Mb/s [11470335650 11474092190]
+[1149] 160.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 161.000  rss:6.9MB vcsw:5329 ivcsw:3 ddsperf:0%+1% dq.user:10%+11% recvUC:3%+5%
+[1149] 161.000  @fedora30-guest:1384 rss:6.1MB vcsw:5305 ivcsw:8 dq.user:10%+12% recvUC:4%+5%
+[1149] 161.000  enp1s0: xmit 13.47 Mb/s recv 13.46 Mb/s [11472019174 11475775312]
+[1149] 161.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 162.000  rss:6.9MB vcsw:5276 ivcsw:5 dq.user:10%+11% recvUC:4%+5%
+[1149] 162.000  @fedora30-guest:1384 rss:6.1MB vcsw:5331 ivcsw:7 dq.user:9%+12% recvUC:4%+6%
+[1149] 162.000  enp1s0: xmit 13.32 Mb/s recv 13.32 Mb/s [11473683804 11477439914]
+[1149] 162.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 163.000  rss:6.9MB vcsw:5292 ivcsw:3 dq.user:10%+11% recvUC:2%+6%
+[1149] 163.000  @fedora30-guest:1384 rss:6.1MB vcsw:5288 ivcsw:9 dq.user:9%+12% recvUC:4%+5%
+[1149] 163.000  enp1s0: xmit 13.38 Mb/s recv 13.38 Mb/s [11475356104 11479112310]
+[1149] 163.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 164.000  rss:6.9MB vcsw:5251 ivcsw:3 dq.user:14%+9% recvUC:3%+6%
+[1149] 164.000  @fedora30-guest:1384 rss:6.1MB vcsw:5319 ivcsw:5 ddsperf:1%+0% dq.user:10%+11% recvUC:3%+7%
+[1149] 164.000  enp1s0: xmit 13.27 Mb/s recv 13.27 Mb/s [11477015132 11480771068]
+[1149] 164.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 165.000  rss:6.9MB vcsw:5494 ivcsw:5 dq.user:9%+12% recvUC:4%+5%
+[1149] 165.000  @fedora30-guest:1384 rss:6.1MB vcsw:5252 ivcsw:16 dq.user:6%+16% recvUC:3%+5%
+[1149] 165.000  enp1s0: xmit 13.87 Mb/s recv 13.88 Mb/s [11478748618 11482505462]
+[1149] 165.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 166.000  rss:6.9MB vcsw:5465 ivcsw:6 dq.user:10%+11% recvUC:3%+5%
+[1149] 166.000  @fedora30-guest:1384 rss:6.1MB vcsw:5492 ivcsw:9 dq.user:2%+20% recvUC:4%+4%
+[1149] 166.000  enp1s0: xmit 13.83 Mb/s recv 13.82 Mb/s [11480477238 11484233440]
+[1149] 166.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 167.000  rss:6.9MB vcsw:5472 ivcsw:3 dq.user:10%+12% recvUC:3%+5%
+[1149] 167.000  @fedora30-guest:1384 rss:6.1MB vcsw:5467 ivcsw:17 ddsperf:0%+1% dq.user:3%+20% recvUC:3%+5%
+[1149] 167.000  enp1s0: xmit 13.82 Mb/s recv 13.82 Mb/s [11482204614 11485960880]
+[1149] 167.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 168.000  rss:6.9MB vcsw:5497 ivcsw:6 dq.user:11%+12% recvUC:3%+5%
+[1149] 168.000  @fedora30-guest:1384 rss:6.1MB vcsw:5477 ivcsw:10 dq.user:3%+18% recvUC:4%+5%
+[1149] 168.000  enp1s0: xmit 13.89 Mb/s recv 13.90 Mb/s [11483940948 11487698286]
+[1149] 168.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 169.000  rss:6.9MB vcsw:5303 ivcsw:6 dq.user:11%+10% recvUC:3%+5%
+[1149] 169.000  @fedora30-guest:1384 rss:6.1MB vcsw:5498 ivcsw:9 dq.user:3%+20% recvUC:3%+5%
+[1149] 169.000  enp1s0: xmit 13.41 Mb/s recv 13.40 Mb/s [11485616864 11489373166]
+[1149] 169.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 170.000  rss:6.9MB vcsw:5522 ivcsw:8 ddsperf:0%+1% dq.user:10%+12% recvUC:4%+5%
+[1149] 170.000  @fedora30-guest:1384 rss:6.1MB vcsw:5316 ivcsw:10 dq.user:8%+13% recvUC:4%+5%
+[1149] 170.000  enp1s0: xmit 13.94 Mb/s recv 13.94 Mb/s [11487359456 11491115750]
+[1149] 170.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 171.000  rss:6.9MB vcsw:5410 ivcsw:4 dq.user:9%+12% recvUC:3%+5%
+[1149] 171.000  @fedora30-guest:1384 rss:6.1MB vcsw:5519 ivcsw:12 ddsperf:1%+0% dq.user:3%+20% recvUC:3%+6%
+[1149] 171.000  enp1s0: xmit 13.68 Mb/s recv 13.68 Mb/s [11489069224 11492825614]
+[1149] 171.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 172.000  rss:6.9MB vcsw:5524 ivcsw:7 dq.user:10%+12% recvUC:3%+5%
+[1149] 172.000  @fedora30-guest:1384 rss:6.1MB vcsw:5412 ivcsw:11 dq.user:5%+17% recvUC:3%+5%
+[1149] 172.000  enp1s0: xmit 13.95 Mb/s recv 13.96 Mb/s [11490813612 11494570576]
+[1149] 172.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 173.000  rss:6.9MB vcsw:5472 ivcsw:7 dq.user:8%+13% tev:0%+1% recvUC:4%+4%
+[1149] 173.000  @fedora30-guest:1384 rss:6.1MB vcsw:5524 ivcsw:25 dq.user:3%+19% recvUC:3%+5%
+[1149] 173.000  enp1s0: xmit 13.82 Mb/s recv 13.81 Mb/s [11492540988 11496297362]
+[1149] 173.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 174.000  rss:6.9MB vcsw:5428 ivcsw:3 dq.user:10%+12% recvUC:3%+6%
+[1149] 174.000  @fedora30-guest:1384 rss:6.1MB vcsw:5475 ivcsw:21 dq.user:5%+17% recvUC:4%+5%
+[1149] 174.000  enp1s0: xmit 13.73 Mb/s recv 13.73 Mb/s [11494256944 11498013294]
+[1149] 174.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 175.000  rss:6.9MB vcsw:5497 ivcsw:3 dq.user:11%+11% recvUC:3%+5%
+[1149] 175.000  @fedora30-guest:1384 rss:6.1MB vcsw:5439 ivcsw:15 dq.user:6%+17% tev:0%+1% recvUC:3%+6%
+[1149] 175.000  enp1s0: xmit 13.87 Mb/s recv 13.88 Mb/s [11495991294 11499748338]
+[1149] 175.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 176.000  rss:6.9MB vcsw:5497 ivcsw:3 ddsperf:1%+0% dq.user:11%+11% recvUC:3%+5%
+[1149] 176.000  @fedora30-guest:1384 rss:6.1MB vcsw:5492 ivcsw:11 dq.user:3%+19% recvUC:2%+6%
+[1149] 176.000  enp1s0: xmit 13.90 Mb/s recv 13.89 Mb/s [11497728304 11501485152]
+[1149] 176.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 177.000  rss:6.9MB vcsw:5802 ivcsw:2 dq.user:9%+13% recvUC:6%+4%
+[1149] 177.000  @fedora30-guest:1384 rss:6.1MB vcsw:5496 ivcsw:11 ddsperf:0%+1% dq.user:2%+20% recvUC:4%+4%
+[1149] 177.000  enp1s0: xmit 14.67 Mb/s recv 14.66 Mb/s [11499561472 11503317918]
+[1149] 177.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 178.000  rss:6.9MB vcsw:5508 ivcsw:3 dq.user:10%+12% recvUC:3%+5%
+[1149] 178.000  @fedora30-guest:1384 rss:6.1MB vcsw:5800 ivcsw:11 dq.user:5%+17% recvUC:3%+5%
+[1149] 178.000  enp1s0: xmit 13.91 Mb/s recv 13.91 Mb/s [11501299626 11505056064]
+[1149] 178.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 179.000  rss:6.9MB vcsw:5189 ivcsw:2 dq.user:10%+10% recvUC:4%+4%
+[1149] 179.000  @fedora30-guest:1384 rss:6.1MB vcsw:5504 ivcsw:5 ddsperf:1%+0% dq.user:3%+19% recvUC:3%+5%
+[1149] 179.000  enp1s0: xmit 13.11 Mb/s recv 13.12 Mb/s [11502938958 11506695512]
+[1149] 179.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 180.000  rss:6.9MB vcsw:5515 ivcsw:5 dq.user:9%+14% recvUC:4%+5%
+[1149] 180.000  @fedora30-guest:1384 rss:6.1MB vcsw:5197 ivcsw:9 dq.user:9%+13% recvUC:4%+7%
+[1149] 180.000  enp1s0: xmit 13.92 Mb/s recv 13.93 Mb/s [11504679542 11508436670]
+[1149] 180.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 181.000  rss:6.9MB vcsw:5533 ivcsw:3 ddsperf:0%+1% dq.user:9%+12% recvUC:3%+5%
+[1149] 181.000  @fedora30-guest:1384 rss:6.1MB vcsw:5512 ivcsw:16 dq.user:3%+20% recvUC:3%+4%
+[1149] 181.000  enp1s0: xmit 13.98 Mb/s recv 13.97 Mb/s [11506426572 11510183110]
+[1149] 181.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 182.000  rss:6.9MB vcsw:5480 ivcsw:6 dq.user:11%+12% recvUC:3%+6%
+[1149] 182.000  @fedora30-guest:1384 rss:6.1MB vcsw:5530 ivcsw:10 dq.user:2%+20% recvUC:3%+5%
+[1149] 182.000  enp1s0: xmit 13.86 Mb/s recv 13.87 Mb/s [11508159336 11511916250]
+[1149] 182.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1384: gone
+[1149] participant fedora30-guest:1394: new
+[1149] 183.000  rss:6.9MB vcsw:194 ivcsw:86 dq.builtins:0%+1%
+[1149] 183.000  @fedora30-guest:1384 rss:6.1MB vcsw:5477 ivcsw:12 dq.user:3%+20% recvUC:4%+4%
+[1149] 183.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 184.000  rss:6.9MB vcsw:3041 ivcsw:15 dq.user:4%+10% recvUC:2%+3%
+[1149] 184.000  @fedora30-guest:1394 rss:4.3MB vcsw:13 ivcsw:2 ddsperf:0%+1%
+[1149] 184.000  enp1s0: xmit 13.67 Mb/s recv 13.68 Mb/s [11509879074 11513635679]
+[1149] 184.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 185.000  rss:6.9MB vcsw:4918 ivcsw:20 dq.user:12%+13% recvUC:3%+5%
+[1149] 185.000  @fedora30-guest:1394 rss:5.9MB vcsw:4838 ivcsw:12 ddsperf:1%+0% dq.user:9%+9% recvUC:4%+7%
+[1149] 185.000  enp1s0: xmit 22.19 Mb/s recv 22.19 Mb/s [11512653002 11516408815]
+[1149] 185.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 186.000  rss:6.9MB vcsw:5024 ivcsw:11 dq.user:10%+14% recvUC:4%+4%
+[1149] 186.000  @fedora30-guest:1394 rss:5.9MB vcsw:4963 ivcsw:9 dq.user:10%+12% recvUC:3%+5%
+[1149] 186.000  enp1s0: xmit 22.65 Mb/s recv 22.65 Mb/s [11515484870 11519240265]
+[1149] 186.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 187.000  rss:6.9MB vcsw:5106 ivcsw:5 dq.user:11%+11% recvUC:4%+5%
+[1149] 187.000  @fedora30-guest:1394 rss:5.9MB vcsw:5104 ivcsw:6 dq.user:5%+14% recvUC:4%+4%
+[1149] 187.000  enp1s0: xmit 23.07 Mb/s recv 23.07 Mb/s [11518368928 11522123515]
+[1149] 187.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 188.000  rss:6.9MB vcsw:5038 ivcsw:17 dq.user:11%+11% recvUC:4%+4%
+[1149] 188.000  @fedora30-guest:1394 rss:5.9MB vcsw:5049 ivcsw:11 dq.user:9%+9% recvUC:4%+6%
+[1149] 188.000  enp1s0: xmit 22.74 Mb/s recv 22.75 Mb/s [11521211620 11524967281]
+[1149] 188.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 189.000  rss:6.9MB vcsw:5125 ivcsw:17 ddsperf:1%+0% dq.user:11%+11% recvUC:3%+6%
+[1149] 189.000  @fedora30-guest:1394 rss:5.9MB vcsw:4960 ivcsw:14 dq.user:11%+8% recvUC:4%+6%
+[1149] 189.000  enp1s0: xmit 23.14 Mb/s recv 23.13 Mb/s [11524104314 11527858885]
+[1149] 189.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 190.000  rss:6.9MB vcsw:5286 ivcsw:16 ddsperf:0%+1% dq.user:11%+12% recvUC:4%+4%
+[1149] 190.000  @fedora30-guest:1394 rss:5.9MB vcsw:5284 ivcsw:4 dq.user:6%+13% recvUC:3%+5%
+[1149] 190.000  enp1s0: xmit 23.91 Mb/s recv 23.91 Mb/s [11527092760 11530847303]
+[1149] 190.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 191.000  rss:6.9MB vcsw:5184 ivcsw:12 dq.user:13%+9% recvUC:4%+5%
+[1149] 191.000  @fedora30-guest:1394 rss:5.9MB vcsw:5296 ivcsw:4 ddsperf:1%+0% dq.user:7%+12% recvUC:3%+4%
+[1149] 191.000  enp1s0: xmit 23.41 Mb/s recv 23.41 Mb/s [11530018360 11533774081]
+[1149] 191.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 192.000  rss:6.9MB vcsw:5206 ivcsw:16 dq.user:13%+9% recvUC:4%+4%
+[1149] 192.000  @fedora30-guest:1394 rss:5.9MB vcsw:5079 ivcsw:10 dq.user:8%+12% recvUC:3%+5%
+[1149] 192.000  enp1s0: xmit 23.52 Mb/s recv 23.51 Mb/s [11532958130 11536713155]
+[1149] 192.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 193.000  rss:6.9MB vcsw:5083 ivcsw:10 dq.user:11%+11% recvUC:4%+5%
+[1149] 193.000  @fedora30-guest:1394 rss:5.9MB vcsw:5319 ivcsw:5 dq.user:8%+11% recvUC:3%+5%
+[1149] 193.000  enp1s0: xmit 22.96 Mb/s recv 22.97 Mb/s [11535828038 11539583795]
+[1149] 193.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 194.000  rss:6.9MB vcsw:5115 ivcsw:9 dq.user:13%+9% tev:0%+1% recvUC:3%+5%
+[1149] 194.000  @fedora30-guest:1394 rss:5.9MB vcsw:5050 ivcsw:8 dq.user:8%+10% recvUC:4%+5%
+[1149] 194.000  enp1s0: xmit 23.10 Mb/s recv 23.10 Mb/s [11538715062 11542470811]
+[1149] 194.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 195.000  rss:6.9MB vcsw:4871 ivcsw:10 dq.user:15%+6% recvUC:5%+4%
+[1149] 195.000  @fedora30-guest:1394 rss:5.9MB vcsw:5071 ivcsw:11 ddsperf:0%+1% dq.user:9%+11% recvUC:4%+5%
+[1149] 195.000  enp1s0: xmit 22.02 Mb/s recv 22.01 Mb/s [11541467738 11545222453]
+[1149] 195.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 196.000  rss:6.9MB vcsw:4897 ivcsw:8 ddsperf:0%+1% dq.user:15%+6% recvUC:2%+5%
+[1149] 196.000  @fedora30-guest:1394 rss:5.9MB vcsw:4969 ivcsw:12 dq.user:10%+9% recvUC:3%+6%
+[1149] 196.000  enp1s0: xmit 22.15 Mb/s recv 22.16 Mb/s [11544236970 11547992509]
+[1149] 196.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 197.000  rss:6.9MB vcsw:4878 ivcsw:14 dq.user:11%+8% recvUC:3%+5%
+[1149] 197.000  @fedora30-guest:1394 rss:5.9MB vcsw:4917 ivcsw:16 dq.user:5%+19% recvUC:4%+5%
+[1149] 197.000  enp1s0: xmit 21.94 Mb/s recv 21.94 Mb/s [11546979976 11550735559]
+[1149] 197.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 198.000  rss:6.9MB vcsw:4787 ivcsw:8 dq.user:9%+11% recvUC:2%+5%
+[1149] 198.000  @fedora30-guest:1394 rss:5.9MB vcsw:4796 ivcsw:16 dq.user:2%+20% recvUC:4%+6%
+[1149] 198.000  enp1s0: xmit 21.64 Mb/s recv 21.64 Mb/s [11549684902 11553440477]
+[1149] 198.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 199.000  rss:6.9MB vcsw:4680 ivcsw:15 dq.user:10%+10% tev:1%+0% recvUC:3%+4%
+[1149] 199.000  @fedora30-guest:1394 rss:5.9MB vcsw:4682 ivcsw:18 ddsperf:1%+0% dq.user:5%+16% recvUC:4%+7%
+[1149] 199.000  enp1s0: xmit 21.07 Mb/s recv 21.07 Mb/s [11552319060 11556074683]
+[1149] 199.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 200.000  rss:6.9MB vcsw:4832 ivcsw:16 dq.user:10%+9% recvUC:3%+5%
+[1149] 200.000  @fedora30-guest:1394 rss:5.9MB vcsw:4795 ivcsw:14 dq.user:10%+12% recvUC:2%+6%
+[1149] 200.000  enp1s0: xmit 21.80 Mb/s recv 21.81 Mb/s [11555044504 11558800565]
+[1149] 200.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 201.000  rss:6.9MB vcsw:4337 ivcsw:6 dq.user:9%+8% recvUC:4%+9%
+[1149] 201.000  @fedora30-guest:1394 rss:5.9MB vcsw:4834 ivcsw:17 dq.user:9%+14% recvUC:4%+5%
+[1149] 201.000  enp1s0: xmit 18.60 Mb/s recv 18.59 Mb/s [11557369000 11561124659]
+[1149] 201.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 202.000  rss:6.9MB vcsw:4634 ivcsw:11 dq.user:5%+16% recvUC:5%+6%
+[1149] 202.000  @fedora30-guest:1394 rss:5.9MB vcsw:3892 ivcsw:5 ddsperf:0%+1% dq.user:4%+14% recvUC:4%+6%
+[1149] 202.000  enp1s0: xmit 20.87 Mb/s recv 20.87 Mb/s [11559978194 11563733865]
+[1149] 202.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 203.000  rss:6.9MB vcsw:4699 ivcsw:6 ddsperf:0%+1% dq.user:6%+16% recvUC:5%+7%
+[1149] 203.000  @fedora30-guest:1394 rss:5.9MB vcsw:4869 ivcsw:13 dq.user:2%+18% recvUC:2%+5%
+[1149] 203.000  enp1s0: xmit 20.81 Mb/s recv 20.81 Mb/s [11562578918 11566334665]
+[1149] 203.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 204.000  rss:6.9MB vcsw:4770 ivcsw:10 dq.user:6%+17% recvUC:5%+6%
+[1149] 204.000  @fedora30-guest:1394 rss:5.9MB vcsw:4549 ivcsw:14 dq.user:9%+11% tev:0%+1% recvUC:4%+5%
+[1149] 204.000  enp1s0: xmit 21.52 Mb/s recv 21.52 Mb/s [11565268520 11569024293]
+[1149] 204.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 205.000  rss:6.9MB vcsw:5069 ivcsw:9 dq.user:7%+16% recvUC:4%+5%
+[1149] 205.000  @fedora30-guest:1394 rss:5.9MB vcsw:4922 ivcsw:16 ddsperf:1%+0% dq.user:2%+19% recvUC:3%+4%
+[1149] 205.000  enp1s0: xmit 22.88 Mb/s recv 22.88 Mb/s [11568128328 11571884165]
+[1149] 205.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 206.000  rss:6.9MB vcsw:4959 ivcsw:16 dq.user:12%+9% recvUC:2%+5%
+[1149] 206.000  @fedora30-guest:1394 rss:5.9MB vcsw:4987 ivcsw:19 dq.user:8%+13% recvUC:4%+4%
+[1149] 206.000  enp1s0: xmit 22.42 Mb/s recv 22.42 Mb/s [11570930778 11574686607]
+[1149] 206.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 207.000  rss:6.9MB vcsw:4978 ivcsw:13 dq.user:12%+11% recvUC:3%+6%
+[1149] 207.000  @fedora30-guest:1394 rss:5.9MB vcsw:5023 ivcsw:17 dq.user:5%+16% recvUC:3%+5%
+[1149] 207.000  enp1s0: xmit 22.44 Mb/s recv 22.44 Mb/s [11573736196 11577492069]
+[1149] 207.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 208.000  rss:6.9MB vcsw:5019 ivcsw:14 dq.builtins:1%+0% dq.user:12%+10% recvUC:3%+6%
+[1149] 208.000  @fedora30-guest:1394 rss:5.9MB vcsw:5080 ivcsw:15 dq.user:10%+11% recvUC:3%+5%
+[1149] 208.000  enp1s0: xmit 22.65 Mb/s recv 22.65 Mb/s [11576567126 11580323413]
+[1149] 208.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 209.000  rss:6.9MB vcsw:5084 ivcsw:15 dq.user:12%+10% recvUC:4%+4%
+[1149] 209.000  @fedora30-guest:1394 rss:5.9MB vcsw:5112 ivcsw:9 dq.user:8%+12% recvUC:2%+6%
+[1149] 209.000  enp1s0: xmit 22.95 Mb/s recv 22.95 Mb/s [11579435900 11583191785]
+[1149] 209.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 210.000  rss:6.9MB vcsw:4983 ivcsw:12 dq.user:12%+10% recv:0%+1% recvUC:3%+5%
+[1149] 210.000  @fedora30-guest:1394 rss:5.9MB vcsw:5004 ivcsw:9 dq.user:6%+16% recvUC:5%+4%
+[1149] 210.000  enp1s0: xmit 22.44 Mb/s recv 22.44 Mb/s [11582241296 11585997153]
+[1149] 210.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 211.000  rss:6.9MB vcsw:4999 ivcsw:17 ddsperf:0%+1% dq.user:15%+8% recvUC:4%+5%
+[1149] 211.000  @fedora30-guest:1394 rss:5.9MB vcsw:4957 ivcsw:12 dq.user:7%+11% recvUC:4%+7%
+[1149] 211.000  enp1s0: xmit 22.56 Mb/s recv 22.56 Mb/s [11585060882 11588816815]
+[1149] 211.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 212.000  rss:6.9MB vcsw:4945 ivcsw:13 dq.user:13%+9% recvUC:4%+5%
+[1149] 212.000  @fedora30-guest:1394 rss:5.9MB vcsw:4967 ivcsw:15 ddsperf:0%+1% dq.user:6%+13% recvUC:3%+4%
+[1149] 212.000  enp1s0: xmit 22.32 Mb/s recv 22.32 Mb/s [11587851410 11591607303]
+[1149] 212.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1394: gone
+[1149] participant fedora30-guest:1404: new
+[1149] 213.000  rss:6.9MB vcsw:1948 ivcsw:38 dq.user:4%+4% recvUC:1%+2%
+[1149] 213.000  @fedora30-guest:1394 rss:5.9MB vcsw:4942 ivcsw:12 ddsperf:1%+0% dq.user:7%+13% recvUC:4%+4%
+[1149] 213.000  enp1s0: xmit 8.32 Mb/s recv 8.31 Mb/s [11588890944 11592646102]
+[1149] 213.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 214.000  rss:6.9MB vcsw:1058 ivcsw:19 dq.user:5%+1% recvUC:0%+1%
+[1149] 214.000  enp1s0: xmit 8.94 Mb/s recv 8.95 Mb/s [11590008316 11593765184]
+[1149] 214.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 215.000  rss:6.9MB vcsw:4106 ivcsw:44 dq.user:20%+3% recvUC:1%+4%
+[1149] 215.000  @fedora30-guest:1404 rss:5.9MB vcsw:4017 ivcsw:23 dq.user:11%+7% recvUC:1%+3%
+[1149] 215.000  enp1s0: xmit 35.06 Mb/s recv 35.06 Mb/s [11594391248 11598147750]
+[1149] 215.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 216.000  rss:6.9MB vcsw:4216 ivcsw:38 ddsperf:1%+0% dq.user:13%+10% recvUC:3%+2%
+[1149] 216.000  @fedora30-guest:1404 rss:5.9MB vcsw:4241 ivcsw:6 dq.user:3%+14% recvUC:1%+2%
+[1149] 216.000  enp1s0: xmit 36.10 Mb/s recv 36.10 Mb/s [11598903728 11602660238]
+[1149] 216.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 217.000  rss:6.9MB vcsw:4028 ivcsw:34 dq.user:22%+0% recvUC:2%+3%
+[1149] 217.000  @fedora30-guest:1404 rss:5.9MB vcsw:4005 ivcsw:15 dq.user:7%+10% recvUC:3%+5%
+[1149] 217.000  enp1s0: xmit 34.57 Mb/s recv 34.57 Mb/s [11603225440 11606981548]
+[1149] 217.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 218.000  rss:6.9MB vcsw:3769 ivcsw:38 dq.user:21%+0% recvUC:2%+3%
+[1149] 218.000  @fedora30-guest:1404 rss:5.9MB vcsw:3844 ivcsw:24 ddsperf:1%+0% dq.user:4%+13% recvUC:3%+5%
+[1149] 218.000  enp1s0: xmit 32.28 Mb/s recv 32.28 Mb/s [11607261082 11611017202]
+[1149] 218.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 219.000  rss:6.9MB vcsw:3698 ivcsw:22 ddsperf:0%+1% dq.user:10%+10% recvUC:1%+3%
+[1149] 219.000  @fedora30-guest:1404 rss:5.9MB vcsw:3678 ivcsw:10 ddsperf:0%+1% dq.user:8%+10% recvUC:3%+6%
+[1149] 219.000  enp1s0: xmit 31.80 Mb/s recv 31.80 Mb/s [11611235488 11614991704]
+[1149] 219.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 220.000  rss:6.9MB vcsw:3750 ivcsw:20 dq.user:11%+10% recvUC:1%+3%
+[1149] 220.000  @fedora30-guest:1404 rss:5.9MB vcsw:3737 ivcsw:8 dq.user:10%+10% recvUC:2%+5%
+[1149] 220.000  enp1s0: xmit 32.25 Mb/s recv 32.25 Mb/s [11615266688 11619022844]
+[1149] 220.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 221.000  rss:6.9MB vcsw:3702 ivcsw:25 dq.user:9%+10% recvUC:2%+2%
+[1149] 221.000  @fedora30-guest:1404 rss:5.9MB vcsw:3689 ivcsw:23 dq.user:7%+11% recvUC:3%+6%
+[1149] 221.000  enp1s0: xmit 31.78 Mb/s recv 31.78 Mb/s [11619239458 11622995658]
+[1149] 221.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 222.000  rss:6.9MB vcsw:3825 ivcsw:42 dq.user:9%+11% tev:0%+1% recvUC:1%+2%
+[1149] 222.000  @fedora30-guest:1404 rss:5.9MB vcsw:3784 ivcsw:5 dq.user:8%+11% recvUC:2%+8%
+[1149] 222.000  enp1s0: xmit 33.06 Mb/s recv 33.04 Mb/s [11623372018 11627126026]
+[1149] 222.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 223.000  rss:6.9MB vcsw:3881 ivcsw:45 dq.user:9%+12% recvUC:2%+2%
+[1149] 223.000  @fedora30-guest:1404 rss:5.9MB vcsw:3885 ivcsw:11 dq.user:12%+9% recvUC:2%+1%
+[1149] 223.000  enp1s0: xmit 33.40 Mb/s recv 33.40 Mb/s [11627546412 11631300464]
+[1149] 223.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 224.000  rss:6.9MB vcsw:3898 ivcsw:8 dq.user:13%+8% recvUC:1%+2%
+[1149] 224.000  @fedora30-guest:1404 rss:5.9MB vcsw:3866 ivcsw:10 dq.user:11%+10% recvUC:4%+1%
+[1149] 224.000  enp1s0: xmit 33.63 Mb/s recv 33.65 Mb/s [11631750606 11635507264]
+[1149] 224.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 225.000  rss:6.9MB vcsw:4000 ivcsw:10 ddsperf:0%+1% dq.user:22%+0% recvUC:4%+1%
+[1149] 225.000  @fedora30-guest:1404 rss:5.9MB vcsw:4004 ivcsw:2 ddsperf:1%+0% dq.user:9%+11% recvUC:1%+1%
+[1149] 225.000  enp1s0: xmit 34.50 Mb/s recv 34.50 Mb/s [11636063666 11639819922]
+[1149] 225.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 226.000  rss:6.9MB vcsw:3919 ivcsw:13 dq.user:20%+0% recvUC:1%+2%
+[1149] 226.000  @fedora30-guest:1404 rss:5.9MB vcsw:4004 ivcsw:3 dq.user:9%+11% recvUC:1%+2%
+[1149] 226.000  enp1s0: xmit 33.71 Mb/s recv 33.69 Mb/s [11640277084 11644031164]
+[1149] 226.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 227.000  rss:6.9MB vcsw:3493 ivcsw:5 dq.user:17%+0% recvUC:2%+0%
+[1149] 227.000  @fedora30-guest:1404 rss:5.9MB vcsw:3453 ivcsw:4 dq.user:8%+8% recvUC:2%+1%
+[1149] 227.000  enp1s0: xmit 30.13 Mb/s recv 30.13 Mb/s [11644043342 11647797518]
+[1149] 227.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 228.000  rss:6.9MB vcsw:3753 ivcsw:8 dq.user:11%+7% recvUC:2%+1%
+[1149] 228.000  @fedora30-guest:1404 rss:5.9MB vcsw:3721 ivcsw:1 dq.user:8%+10% recvUC:2%+0%
+[1149] 228.000  enp1s0: xmit 32.37 Mb/s recv 32.37 Mb/s [11648089718 11651843834]
+[1149] 228.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 229.000  rss:6.9MB vcsw:3964 ivcsw:6 dq.user:9%+11% recvUC:2%+2%
+[1149] 229.000  @fedora30-guest:1404 rss:5.9MB vcsw:3960 ivcsw:8 ddsperf:0%+1% dq.user:10%+11% recvUC:2%+2%
+[1149] 229.000  enp1s0: xmit 34.16 Mb/s recv 34.16 Mb/s [11652359504 11656113684]
+[1149] 229.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 230.000  rss:6.9MB vcsw:3966 ivcsw:9 dq.user:10%+11% recvUC:1%+2%
+[1149] 230.000  @fedora30-guest:1404 rss:5.9MB vcsw:3978 ivcsw:9 dq.user:10%+12% recvUC:2%+3%
+[1149] 230.000  enp1s0: xmit 34.27 Mb/s recv 34.27 Mb/s [11656643808 11660397980]
+[1149] 230.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 231.000  rss:6.9MB vcsw:3992 ivcsw:12 dq.user:10%+10% recvUC:2%+2%
+[1149] 231.000  @fedora30-guest:1404 rss:5.9MB vcsw:3985 ivcsw:11 dq.user:9%+12% recvUC:2%+3%
+[1149] 231.000  enp1s0: xmit 34.40 Mb/s recv 34.40 Mb/s [11660943946 11664698162]
+[1149] 231.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 232.000  rss:6.9MB vcsw:4007 ivcsw:52 ddsperf:0%+1% dq.user:10%+11% recvUC:1%+2%
+[1149] 232.000  @fedora30-guest:1404 rss:5.9MB vcsw:3983 ivcsw:4 dq.user:9%+11% recvUC:1%+2%
+[1149] 232.000  enp1s0: xmit 34.59 Mb/s recv 34.59 Mb/s [11665267400 11669022034]
+[1149] 232.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 233.000  rss:6.9MB vcsw:4048 ivcsw:19 dq.user:14%+7% recvUC:2%+2%
+[1149] 233.000  @fedora30-guest:1404 rss:5.9MB vcsw:4067 ivcsw:10 dq.user:13%+8% recvUC:4%+0%
+[1149] 233.000  enp1s0: xmit 34.92 Mb/s recv 34.92 Mb/s [11669632472 11673386704]
+[1149] 233.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 234.000  rss:6.9MB vcsw:4026 ivcsw:22 dq.user:17%+4% recvUC:3%+0%
+[1149] 234.000  @fedora30-guest:1404 rss:5.9MB vcsw:4027 ivcsw:7 ddsperf:1%+0% dq.user:11%+8% recvUC:2%+1%
+[1149] 234.000  enp1s0: xmit 34.73 Mb/s recv 34.73 Mb/s [11673973802 11677728046]
+[1149] 234.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 235.000  rss:6.9MB vcsw:4050 ivcsw:25 dq.user:14%+7% recvUC:1%+2%
+[1149] 235.000  @fedora30-guest:1404 rss:5.9MB vcsw:4037 ivcsw:9 dq.user:13%+8% recvUC:1%+2%
+[1149] 235.000  enp1s0: xmit 34.95 Mb/s recv 34.95 Mb/s [11678342764 11682097104]
+[1149] 235.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 236.000  rss:6.9MB vcsw:3947 ivcsw:11 dq.user:10%+10% recvUC:1%+2%
+[1149] 236.000  @fedora30-guest:1404 rss:5.9MB vcsw:3992 ivcsw:7 dq.user:11%+9% recvUC:1%+2%
+[1149] 236.000  enp1s0: xmit 34.05 Mb/s recv 34.05 Mb/s [11682599436 11686353716]
+[1149] 236.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 237.000  rss:6.9MB vcsw:3930 ivcsw:7 dq.user:10%+11% recvUC:2%+2%
+[1149] 237.000  @fedora30-guest:1404 rss:5.9MB vcsw:3908 ivcsw:4 dq.user:10%+10% recvUC:4%+6%
+[1149] 237.000  enp1s0: xmit 33.85 Mb/s recv 33.85 Mb/s [11686830198 11690584522]
+[1149] 237.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 238.000  rss:6.9MB vcsw:3948 ivcsw:3 dq.user:9%+11% recvUC:1%+2%
+[1149] 238.000  @fedora30-guest:1404 rss:5.9MB vcsw:3956 ivcsw:11 dq.user:10%+11% tev:0%+1% recvUC:2%+2%
+[1149] 238.000  enp1s0: xmit 34.10 Mb/s recv 34.10 Mb/s [11691092822 11694847154]
+[1149] 238.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 239.000  rss:6.9MB vcsw:3969 ivcsw:8 ddsperf:0%+1% dq.user:10%+11% recvUC:2%+2%
+[1149] 239.000  @fedora30-guest:1404 rss:5.9MB vcsw:3973 ivcsw:12 dq.user:10%+11% recvUC:1%+3%
+[1149] 239.000  enp1s0: xmit 34.19 Mb/s recv 34.19 Mb/s [11695366964 11699121320]
+[1149] 239.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 240.000  rss:6.9MB vcsw:3941 ivcsw:13 ddsperf:1%+0% dq.user:13%+7% recvUC:2%+2%
+[1149] 240.000  @fedora30-guest:1404 rss:5.9MB vcsw:3928 ivcsw:8 ddsperf:0%+1% dq.user:13%+8% recvUC:2%+2%
+[1149] 240.000  enp1s0: xmit 34.00 Mb/s recv 34.00 Mb/s [11699616706 11703371500]
+[1149] 240.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 241.000  rss:6.9MB vcsw:4033 ivcsw:24 dq.user:10%+13% recvUC:1%+1%
+[1149] 241.000  @fedora30-guest:1404 rss:5.9MB vcsw:4022 ivcsw:12 ddsperf:1%+0% dq.user:11%+9% recvUC:3%+0%
+[1149] 241.000  enp1s0: xmit 34.87 Mb/s recv 34.88 Mb/s [11703975274 11707731960]
+[1149] 241.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 242.000  rss:6.9MB vcsw:4101 ivcsw:25 dq.user:0%+27% recvUC:2%+2%
+[1149] 242.000  @fedora30-guest:1404 rss:5.9MB vcsw:4092 ivcsw:7 dq.user:5%+13% recvUC:1%+2%
+[1149] 242.000  enp1s0: xmit 35.39 Mb/s recv 35.37 Mb/s [11708398988 11712153392]
+[1149] 242.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1404: gone
+[1149] participant fedora30-guest:1414: new
+[1149] 243.000  rss:6.9MB vcsw:3078 ivcsw:25 gc:1%+0% dq.user:13%+2% recvUC:2%+1%
+[1149] 243.000  @fedora30-guest:1404 rss:5.9MB vcsw:4021 ivcsw:10 dq.user:7%+12% recvUC:1%+2%
+[1149] 243.000  enp1s0: xmit 25.55 Mb/s recv 25.55 Mb/s [11711592684 11715346693]
+[1149] 243.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 244.000  rss:6.9MB vcsw:21 ivcsw:4 tev:1%+0%
+[1149] 244.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 245.000  rss:6.9MB vcsw:2775 ivcsw:21 dq.user:8%+9% recvUC:1%+1%
+[1149] 245.000  @fedora30-guest:1414 rss:4.3MB vcsw:16 ivcsw:8 ddsperf:0%+1%
+[1149] 245.000  enp1s0: xmit 57.57 Mb/s recv 57.56 Mb/s [11718789710 11722542825]
+[1149] 245.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 246.000  rss:6.9MB vcsw:3273 ivcsw:11 dq.user:11%+9% recvUC:1%+1%
+[1149] 246.000  @fedora30-guest:1414 rss:5.9MB vcsw:3160 ivcsw:51 ddsperf:1%+0% dq.user:10%+9% recvUC:3%+6%
+[1149] 246.000  enp1s0: xmit 68.20 Mb/s recv 68.24 Mb/s [11727314664 11731072617]
+[1149] 246.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 247.000  rss:6.9MB vcsw:3293 ivcsw:56 dq.user:9%+12% recvUC:2%+0%
+[1149] 247.000  @fedora30-guest:1414 rss:5.9MB vcsw:3302 ivcsw:11 dq.user:9%+10% recvUC:2%+4%
+[1149] 247.000  enp1s0: xmit 68.49 Mb/s recv 68.45 Mb/s [11735876518 11739629279]
+[1149] 247.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 248.000  rss:6.9MB vcsw:3184 ivcsw:22 ddsperf:1%+0% dq.user:10%+10% recvUC:2%+1%
+[1149] 248.000  @fedora30-guest:1414 rss:5.9MB vcsw:3282 ivcsw:33 dq.user:10%+10% recvUC:2%+4%
+[1149] 248.000  enp1s0: xmit 66.10 Mb/s recv 66.15 Mb/s [11744139388 11747897803]
+[1149] 248.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 249.000  rss:6.9MB vcsw:2829 ivcsw:31 dq.user:6%+11% tev:0%+1% recvUC:1%+3%
+[1149] 249.000  @fedora30-guest:1414 rss:5.9MB vcsw:3184 ivcsw:47 dq.user:12%+7% recvUC:3%+6%
+[1149] 249.000  enp1s0: xmit 58.49 Mb/s recv 58.48 Mb/s [11751449948 11755207851]
+[1149] 249.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 250.000  rss:6.9MB vcsw:3375 ivcsw:21 ddsperf:0%+1% dq.user:12%+8% recvUC:1%+3%
+[1149] 250.000  @fedora30-guest:1414 rss:5.9MB vcsw:2825 ivcsw:21 dq.user:9%+8% recvUC:3%+3%
+[1149] 250.000  enp1s0: xmit 69.67 Mb/s recv 69.67 Mb/s [11760158430 11763916305]
+[1149] 250.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 251.000  rss:6.9MB vcsw:3246 ivcsw:29 dq.user:9%+11% recvUC:1%+2%
+[1149] 251.000  @fedora30-guest:1414 rss:5.9MB vcsw:3367 ivcsw:39 dq.user:8%+13% recvUC:1%+2%
+[1149] 251.000  enp1s0: xmit 67.19 Mb/s recv 67.19 Mb/s [11768557416 11772315387]
+[1149] 251.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 252.000  rss:6.9MB vcsw:3376 ivcsw:17 dq.user:12%+10% recvUC:1%+3%
+[1149] 252.000  @fedora30-guest:1414 rss:5.9MB vcsw:3229 ivcsw:34 dq.user:9%+9% recvUC:2%+4%
+[1149] 252.000  enp1s0: xmit 69.92 Mb/s recv 69.92 Mb/s [11777297188 11781055099]
+[1149] 252.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 253.000  rss:6.9MB vcsw:3379 ivcsw:28 dq.user:12%+9% recvUC:1%+2%
+[1149] 253.000  @fedora30-guest:1414 rss:5.9MB vcsw:3361 ivcsw:57 ddsperf:1%+0% dq.user:9%+12% recvUC:1%+1%
+[1149] 253.000  enp1s0: xmit 69.96 Mb/s recv 69.96 Mb/s [11786042302 11789800277]
+[1149] 253.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 254.000  rss:6.9MB vcsw:3236 ivcsw:71 dq.user:8%+12% recvUC:1%+2%
+[1149] 254.000  @fedora30-guest:1414 rss:5.9MB vcsw:3378 ivcsw:67 dq.user:7%+12% recvUC:0%+2%
+[1149] 254.000  enp1s0: xmit 67.53 Mb/s recv 67.53 Mb/s [11794483070 11798241037]
+[1149] 254.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 255.000  rss:6.9MB vcsw:3054 ivcsw:4 dq.user:9%+10% recvUC:1%+1%
+[1149] 255.000  @fedora30-guest:1414 rss:5.9MB vcsw:3213 ivcsw:31 dq.user:11%+10% recvUC:3%+6%
+[1149] 255.000  enp1s0: xmit 63.34 Mb/s recv 63.30 Mb/s [11802400896 11806153671]
+[1149] 255.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 256.000  rss:6.9MB vcsw:3382 ivcsw:7 dq.user:11%+9% recvUC:1%+2%
+[1149] 256.000  @fedora30-guest:1414 rss:5.9MB vcsw:3169 ivcsw:30 dq.user:11%+7% recvUC:2%+5%
+[1149] 256.000  enp1s0: xmit 70.42 Mb/s recv 70.42 Mb/s [11811203054 11814956267]
+[1149] 256.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 257.000  rss:6.9MB vcsw:3273 ivcsw:10 ddsperf:0%+1% dq.user:11%+9% recvUC:1%+2%
+[1149] 257.000  @fedora30-guest:1414 rss:5.9MB vcsw:3364 ivcsw:17 ddsperf:0%+1% dq.user:12%+8% recvUC:1%+3%
+[1149] 257.000  enp1s0: xmit 68.03 Mb/s recv 68.03 Mb/s [11819707226 11823460037]
+[1149] 257.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 258.000  rss:6.9MB vcsw:3266 ivcsw:5 dq.user:9%+10% recvUC:2%+1%
+[1149] 258.000  @fedora30-guest:1414 rss:5.9MB vcsw:3289 ivcsw:24 dq.user:9%+11% recvUC:3%+4%
+[1149] 258.000  enp1s0: xmit 67.87 Mb/s recv 67.87 Mb/s [11828190540 11831943343]
+[1149] 258.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 259.000  rss:6.9MB vcsw:3226 ivcsw:5 dq.user:9%+11% recvUC:0%+2%
+[1149] 259.000  @fedora30-guest:1414 rss:5.9MB vcsw:3258 ivcsw:47 dq.user:11%+9% recvUC:4%+6%
+[1149] 259.000  enp1s0: xmit 67.15 Mb/s recv 67.15 Mb/s [11836584290 11840337189]
+[1149] 259.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 260.000  rss:6.9MB vcsw:3363 ivcsw:14 dq.user:11%+9% recvUC:2%+1%
+[1149] 260.000  @fedora30-guest:1414 rss:5.9MB vcsw:3243 ivcsw:33 dq.user:10%+9% recvUC:4%+5%
+[1149] 260.000  enp1s0: xmit 69.88 Mb/s recv 69.88 Mb/s [11845318826 11849071665]
+[1149] 260.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 261.000  rss:6.9MB vcsw:3404 ivcsw:3 dq.user:12%+8% recvUC:2%+1%
+[1149] 261.000  @fedora30-guest:1414 rss:5.9MB vcsw:3366 ivcsw:16 dq.user:14%+7% recvUC:3%+3%
+[1149] 261.000  enp1s0: xmit 70.75 Mb/s recv 70.75 Mb/s [11854163424 11857916307]
+[1149] 261.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 262.000  rss:6.9MB vcsw:3174 ivcsw:6 dq.user:10%+9% recvUC:2%+1%
+[1149] 262.000  @fedora30-guest:1414 rss:5.9MB vcsw:3406 ivcsw:11 ddsperf:1%+0% dq.user:13%+7% recvUC:1%+3%
+[1149] 262.000  enp1s0: xmit 66.73 Mb/s recv 66.73 Mb/s [11862504708 11866257709]
+[1149] 262.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 263.000  rss:6.9MB vcsw:3196 ivcsw:34 dq.user:11%+9% recvUC:1%+1%
+[1149] 263.000  @fedora30-guest:1414 rss:5.9MB vcsw:3135 ivcsw:14 dq.user:11%+7% recvUC:3%+4%
+[1149] 263.000  enp1s0: xmit 65.94 Mb/s recv 65.94 Mb/s [11870747166 11874500105]
+[1149] 263.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 264.000  rss:6.9MB vcsw:3187 ivcsw:35 dq.builtins:1%+0% dq.user:9%+11% recvUC:3%+2%
+[1149] 264.000  @fedora30-guest:1414 rss:5.9MB vcsw:3238 ivcsw:17 dq.user:9%+11% recvUC:2%+4%
+[1149] 264.000  enp1s0: xmit 66.10 Mb/s recv 66.15 Mb/s [11879010040 11882768629]
+[1149] 264.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 265.000  rss:6.9MB vcsw:3147 ivcsw:22 dq.user:9%+10% recvUC:1%+3%
+[1149] 265.000  @fedora30-guest:1414 rss:5.9MB vcsw:3169 ivcsw:38 ddsperf:0%+1% dq.user:9%+10% tev:0%+1% recvUC:4%+5%
+[1149] 265.000  enp1s0: xmit 65.14 Mb/s recv 65.14 Mb/s [11887152908 11890911131]
+[1149] 265.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 266.000  rss:6.9MB vcsw:2942 ivcsw:43 dq.user:9%+8% recvUC:1%+2%
+[1149] 266.000  @fedora30-guest:1414 rss:5.9MB vcsw:3136 ivcsw:50 dq.user:10%+9% recvUC:4%+4%
+[1149] 266.000  enp1s0: xmit 60.83 Mb/s recv 60.79 Mb/s [11894756574 11898509553]
+[1149] 266.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 267.000  rss:6.9MB vcsw:3376 ivcsw:5 ddsperf:1%+0% dq.user:11%+9% recvUC:1%+2%
+[1149] 267.000  @fedora30-guest:1414 rss:5.9MB vcsw:3065 ivcsw:19 dq.user:9%+9% recvUC:2%+5%
+[1149] 267.000  enp1s0: xmit 70.33 Mb/s recv 70.33 Mb/s [11903548280 11907301335]
+[1149] 267.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 268.000  rss:6.9MB vcsw:3242 ivcsw:27 dq.user:9%+12% recvUC:1%+3%
+[1149] 268.000  @fedora30-guest:1414 rss:5.9MB vcsw:3383 ivcsw:13 dq.user:13%+8% recvUC:1%+3%
+[1149] 268.000  enp1s0: xmit 67.32 Mb/s recv 67.32 Mb/s [11911963420 11915716415]
+[1149] 268.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 269.000  rss:6.9MB vcsw:3385 ivcsw:6 dq.user:12%+9% recvUC:0%+2%
+[1149] 269.000  @fedora30-guest:1414 rss:5.9MB vcsw:3242 ivcsw:23 ddsperf:1%+0% dq.user:12%+8% recvUC:1%+2%
+[1149] 269.000  enp1s0: xmit 70.30 Mb/s recv 70.30 Mb/s [11920750422 11924503481]
+[1149] 269.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 270.000  rss:6.9MB vcsw:3307 ivcsw:13 ddsperf:0%+1% dq.user:10%+10% recvUC:2%+2%
+[1149] 270.000  @fedora30-guest:1414 rss:5.9MB vcsw:3366 ivcsw:23 dq.user:12%+9% recvUC:1%+3%
+[1149] 270.000  enp1s0: xmit 68.95 Mb/s recv 68.95 Mb/s [11929369234 11933122265]
+[1149] 270.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 271.000  rss:6.9MB vcsw:3374 ivcsw:12 dq.user:11%+9% recvUC:2%+1%
+[1149] 271.000  @fedora30-guest:1414 rss:5.9MB vcsw:3344 ivcsw:9 dq.user:11%+8% recvUC:3%+5%
+[1149] 271.000  enp1s0: xmit 70.09 Mb/s recv 70.09 Mb/s [11938130056 11941883131]
+[1149] 271.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 272.000  rss:6.9MB vcsw:3367 ivcsw:8 dq.user:10%+10% recvUC:2%+1%
+[1149] 272.000  @fedora30-guest:1414 rss:5.9MB vcsw:3377 ivcsw:20 dq.user:13%+9% recvUC:1%+2%
+[1149] 272.000  enp1s0: xmit 70.12 Mb/s recv 70.13 Mb/s [11946895562 11950649075]
+[1149] 272.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 273.000  rss:6.9MB vcsw:3377 ivcsw:16 dq.user:12%+8% recvUC:1%+1%
+[1149] 273.000  @fedora30-guest:1414 rss:5.9MB vcsw:3379 ivcsw:23 ddsperf:0%+1% dq.user:11%+9% recvUC:2%+3%
+[1149] 273.000  enp1s0: xmit 70.21 Mb/s recv 70.21 Mb/s [11955671986 11959425117]
+[1149] 273.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1414: gone
+[1149] participant fedora30-guest:1425: new
+[1149] 274.000  rss:6.9MB vcsw:517 ivcsw:10 dq.user:2%+1% recvUC:1%+0%
+[1149] 274.000  @fedora30-guest:1414 rss:5.9MB vcsw:3373 ivcsw:19 dq.user:12%+9% recvUC:1%+2%
+[1149] 274.000  enp1s0: xmit 8.35 Mb/s recv 8.34 Mb/s [11956715688 11960467998]
+[1149] 274.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 275.000  rss:6.9MB vcsw:1158 ivcsw:11 dq.user:4%+4% recvUC:0%+1%
+[1149] 275.000  @fedora30-guest:1425 rss:4.3MB vcsw:16 ivcsw:7 ddsperf:1%+0%
+[1149] 275.000  enp1s0: xmit 46.82 Mb/s recv 46.82 Mb/s [11962567954 11966320378]
+[1149] 275.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 276.000  rss:6.9MB vcsw:2666 ivcsw:9 dq.user:10%+7% tev:0%+1% recvUC:0%+1%
+[1149] 276.000  @fedora30-guest:1425 rss:5.9MB vcsw:2276 ivcsw:81 ddsperf:0%+1% dq.user:7%+21% recvUC:3%+5%
+[1149] 276.000  enp1s0: xmit 109.34 Mb/s recv 109.34 Mb/s [11976236104 11979987668]
+[1149] 276.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 277.000  rss:6.9MB vcsw:3043 ivcsw:5 ddsperf:1%+0% dq.user:10%+9% recvUC:0%+2%
+[1149] 277.000  @fedora30-guest:1425 rss:5.9MB vcsw:3006 ivcsw:18 dq.user:9%+15% recvUC:3%+6%
+[1149] 277.000  enp1s0: xmit 124.65 Mb/s recv 124.64 Mb/s [11991816894 11995568072]
+[1149] 277.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 278.000  rss:6.9MB vcsw:3073 ivcsw:13 dq.user:10%+10% recvUC:1%+1%
+[1149] 278.000  @fedora30-guest:1425 rss:5.9MB vcsw:3080 ivcsw:18 dq.user:9%+16% recvUC:0%+3%
+[1149] 278.000  enp1s0: xmit 126.46 Mb/s recv 126.46 Mb/s [12007624032 12011375202]
+[1149] 278.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 279.000  rss:6.9MB vcsw:2705 ivcsw:9 dq.user:10%+7% recvUC:0%+2%
+[1149] 279.000  @fedora30-guest:1425 rss:5.9MB vcsw:3076 ivcsw:20 dq.user:9%+16% recvUC:1%+3%
+[1149] 279.000  enp1s0: xmit 110.67 Mb/s recv 110.67 Mb/s [12021457270 12025208484]
+[1149] 279.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 280.000  rss:6.9MB vcsw:2306 ivcsw:7 ddsperf:0%+1% dq.user:8%+8% recvUC:0%+1%
+[1149] 280.000  @fedora30-guest:1425 rss:5.9MB vcsw:2340 ivcsw:93 dq.user:7%+22% recvUC:4%+2%
+[1149] 280.000  enp1s0: xmit 94.53 Mb/s recv 94.54 Mb/s [12033274066 12037025698]
+[1149] 280.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 281.000  rss:6.9MB vcsw:2317 ivcsw:5 dq.user:9%+6% recvUC:1%+0%
+[1149] 281.000  @fedora30-guest:1425 rss:5.9MB vcsw:2332 ivcsw:63 dq.user:7%+23% recvUC:4%+4%
+[1149] 281.000  enp1s0: xmit 94.87 Mb/s recv 94.95 Mb/s [12045132682 12048894250]
+[1149] 281.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 282.000  rss:6.9MB vcsw:2351 ivcsw:28 dq.user:9%+7% recvUC:1%+1%
+[1149] 282.000  @fedora30-guest:1425 rss:5.9MB vcsw:2314 ivcsw:70 dq.user:8%+22% recvUC:3%+4%
+[1149] 282.000  enp1s0: xmit 95.62 Mb/s recv 95.53 Mb/s [12057084404 12060835626]
+[1149] 282.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 283.000  rss:6.9MB vcsw:2373 ivcsw:9 dq.user:7%+8% recvUC:0%+1%
+[1149] 283.000  @fedora30-guest:1425 rss:5.9MB vcsw:2365 ivcsw:28 ddsperf:0%+1% dq.user:7%+22% recvUC:2%+1%
+[1149] 283.000  enp1s0: xmit 97.26 Mb/s recv 97.27 Mb/s [12069242334 12072994066]
+[1149] 283.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 284.000  rss:6.9MB vcsw:2311 ivcsw:11 dq.user:9%+6% recvUC:1%+1%
+[1149] 284.000  @fedora30-guest:1425 rss:5.9MB vcsw:2366 ivcsw:36 dq.user:8%+23% recvUC:2%+2%
+[1149] 284.000  enp1s0: xmit 94.62 Mb/s recv 94.70 Mb/s [12081069894 12084831510]
+[1149] 284.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 285.000  rss:6.9MB vcsw:2348 ivcsw:12 dq.user:8%+8% recvUC:0%+1%
+[1149] 285.000  @fedora30-guest:1425 rss:5.9MB vcsw:2301 ivcsw:66 dq.user:8%+22% recvUC:4%+5%
+[1149] 285.000  enp1s0: xmit 95.86 Mb/s recv 95.86 Mb/s [12093052630 12096814290]
+[1149] 285.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 286.000  rss:6.9MB vcsw:2339 ivcsw:7 dq.user:8%+7% recvUC:1%+1%
+[1149] 286.000  @fedora30-guest:1425 rss:5.9MB vcsw:2389 ivcsw:18 dq.user:8%+23% recvUC:1%+1%
+[1149] 286.000  enp1s0: xmit 95.93 Mb/s recv 95.85 Mb/s [12105044816 12108796360]
+[1149] 286.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 287.000  rss:6.9MB vcsw:2290 ivcsw:11 ddsperf:0%+1% dq.user:9%+8% recvUC:1%+0%
+[1149] 287.000  @fedora30-guest:1425 rss:5.9MB vcsw:2315 ivcsw:65 dq.user:6%+23% recvUC:2%+4%
+[1149] 287.000  enp1s0: xmit 93.63 Mb/s recv 93.63 Mb/s [12116748426 12120500014]
+[1149] 287.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 288.000  rss:6.9MB vcsw:1847 ivcsw:18 dq.user:1%+20% recvUC:2%+2%
+[1149] 288.000  @fedora30-guest:1425 rss:5.9MB vcsw:2072 ivcsw:52 ddsperf:1%+0% dq.user:5%+20% recvUC:2%+2%
+[1149] 288.000  enp1s0: xmit 75.60 Mb/s recv 75.69 Mb/s [12126198050 12129960184]
+[1149] 288.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 289.000  rss:6.9MB vcsw:2043 ivcsw:19 dq.user:5%+17% recvUC:1%+1%
+[1149] 289.000  @fedora30-guest:1425 rss:5.9MB vcsw:2000 ivcsw:44 ddsperf:0%+1% dq.user:5%+19% recvUC:3%+2%
+[1149] 289.000  enp1s0: xmit 83.70 Mb/s recv 83.62 Mb/s [12136661036 12140412556]
+[1149] 289.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 290.000  rss:6.9MB vcsw:2333 ivcsw:24 dq.user:3%+27% recvUC:1%+0%
+[1149] 290.000  @fedora30-guest:1425 rss:5.9MB vcsw:2157 ivcsw:13 dq.user:7%+12% recvUC:2%+2%
+[1149] 290.000  enp1s0: xmit 95.37 Mb/s recv 95.37 Mb/s [12148581744 12152333150]
+[1149] 290.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 291.000  rss:6.9MB vcsw:2323 ivcsw:22 dq.user:2%+26% recvUC:0%+1%
+[1149] 291.000  @fedora30-guest:1425 rss:5.9MB vcsw:2338 ivcsw:19 dq.user:9%+8% recvUC:0%+2%
+[1149] 291.000  enp1s0: xmit 95.20 Mb/s recv 95.20 Mb/s [12160481224 12164233120]
+[1149] 291.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 292.000  rss:6.9MB vcsw:2138 ivcsw:17 ddsperf:0%+1% dq.user:5%+21% recvUC:1%+1%
+[1149] 292.000  @fedora30-guest:1425 rss:5.9MB vcsw:2351 ivcsw:23 dq.user:9%+8% recvUC:0%+2%
+[1149] 292.000  enp1s0: xmit 87.33 Mb/s recv 87.41 Mb/s [12171399060 12175160820]
+[1149] 292.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 293.000  rss:6.9MB vcsw:2134 ivcsw:11 dq.user:4%+22% recvUC:0%+1%
+[1149] 293.000  @fedora30-guest:1425 rss:5.9MB vcsw:1942 ivcsw:7 dq.user:4%+21% recvUC:1%+1%
+[1149] 293.000  enp1s0: xmit 87.19 Mb/s recv 87.19 Mb/s [12182296306 12186058110]
+[1149] 293.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 294.000  rss:6.9MB vcsw:2320 ivcsw:17 dq.user:3%+26% recvUC:1%+1%
+[1149] 294.000  @fedora30-guest:1425 rss:5.9MB vcsw:2329 ivcsw:21 dq.user:9%+7% recvUC:1%+2%
+[1149] 294.000  enp1s0: xmit 95.27 Mb/s recv 95.19 Mb/s [12194206018 12197957476]
+[1149] 294.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 295.000  rss:6.9MB vcsw:2322 ivcsw:8 dq.user:3%+26% recvUC:0%+1%
+[1149] 295.000  @fedora30-guest:1425 rss:5.9MB vcsw:2339 ivcsw:19 dq.user:10%+7% recvUC:0%+3%
+[1149] 295.000  enp1s0: xmit 94.88 Mb/s recv 94.96 Mb/s [12206064698 12209826538]
+[1149] 295.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 296.000  rss:6.9MB vcsw:2327 ivcsw:21 dq.user:2%+26% recvUC:1%+1%
+[1149] 296.000  @fedora30-guest:1425 rss:5.9MB vcsw:2324 ivcsw:13 ddsperf:0%+1% dq.user:10%+7% recvUC:1%+2%
+[1149] 296.000  enp1s0: xmit 95.44 Mb/s recv 95.36 Mb/s [12217995192 12221747152]
+[1149] 296.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 297.000  rss:6.9MB vcsw:2283 ivcsw:21 dq.user:4%+24%
+[1149] 297.000  @fedora30-guest:1425 rss:5.9MB vcsw:2351 ivcsw:16 dq.user:10%+7% recvUC:1%+2%
+[1149] 297.000  enp1s0: xmit 93.54 Mb/s recv 93.54 Mb/s [12229688338 12233440022]
+[1149] 297.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 298.000  rss:6.9MB vcsw:2128 ivcsw:23 ddsperf:0%+1% dq.user:4%+22% tev:0%+1% recvUC:1%+1%
+[1149] 298.000  @fedora30-guest:1425 rss:5.9MB vcsw:2292 ivcsw:15 dq.user:9%+9% recvUC:0%+3%
+[1149] 298.000  enp1s0: xmit 86.85 Mb/s recv 86.93 Mb/s [12240544268 12244306140]
+[1149] 298.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 299.000  rss:6.9MB vcsw:2097 ivcsw:25 dq.user:8%+13% recvUC:0%+2%
+[1149] 299.000  @fedora30-guest:1425 rss:5.9MB vcsw:1941 ivcsw:19 dq.user:3%+21% tev:0%+1%
+[1149] 299.000  enp1s0: xmit 85.69 Mb/s recv 85.69 Mb/s [12251254878 12255017236]
+[1149] 299.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 300.000  rss:6.9MB vcsw:2271 ivcsw:3 dq.user:2%+26% recvUC:0%+1%
+[1149] 300.000  @fedora30-guest:1425 rss:5.9MB vcsw:2250 ivcsw:11 dq.user:7%+16% recvUC:1%+2%
+[1149] 300.000  enp1s0: xmit 93.13 Mb/s recv 93.04 Mb/s [12262896354 12266647920]
+[1149] 300.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 301.000  rss:6.9MB vcsw:2269 ivcsw:7 dq.user:3%+25% recvUC:1%+0%
+[1149] 301.000  @fedora30-guest:1425 rss:5.9MB vcsw:2312 ivcsw:20 dq.user:10%+7% recvUC:1%+2%
+[1149] 301.000  enp1s0: xmit 92.64 Mb/s recv 92.72 Mb/s [12274475908 12278237856]
+[1149] 301.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 302.000  rss:6.9MB vcsw:2301 ivcsw:8 dq.user:2%+26% recvUC:1%+1%
+[1149] 302.000  @fedora30-guest:1425 rss:5.9MB vcsw:2267 ivcsw:15 ddsperf:1%+0% dq.user:8%+9% recvUC:2%+4%
+[1149] 302.000  enp1s0: xmit 94.53 Mb/s recv 94.45 Mb/s [12286292578 12290044200]
+[1149] 302.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 303.000  rss:6.9MB vcsw:2317 ivcsw:6 dq.builtins:0%+1% dq.user:3%+26% recvUC:0%+1%
+[1149] 303.000  @fedora30-guest:1425 rss:5.9MB vcsw:2331 ivcsw:16 ddsperf:0%+1% dq.user:9%+8% recvUC:0%+2%
+[1149] 303.000  enp1s0: xmit 94.68 Mb/s recv 94.71 Mb/s [12298127838 12301882268]
+[1149] 303.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1425: gone
+[1149] participant fedora30-guest:1435: new
+[1149] 304.000  rss:7.2MB vcsw:1254 ivcsw:17 dq.user:1%+13% recvUC:1%+0%
+[1149] 304.000  @fedora30-guest:1425 rss:5.9MB vcsw:2316 ivcsw:8 dq.user:9%+8% recvUC:2%+3%
+[1149] 304.000  enp1s0: xmit 46.23 Mb/s recv 46.20 Mb/s [12303906478 12307657633]
+[1149] 304.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 305.000  rss:7.2MB vcsw:300 ivcsw:7 ddsperf:0%+1% dq.user:1%+1%
+[1149] 305.000  enp1s0: xmit 15.75 Mb/s recv 15.75 Mb/s [12305875712 12309626069]
+[1149] 305.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 306.000  rss:7.2MB vcsw:1705 ivcsw:30 dq.user:3%+23% recvUC:1%+1%
+[1149] 306.000  @fedora30-guest:1435 rss:6.0MB vcsw:1664 ivcsw:51 dq.user:5%+21% recvUC:1%+3%
+[1149] 306.000  enp1s0: xmit 92.64 Mb/s recv 92.64 Mb/s [12317456242 12321206181]
+[1149] 306.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 307.000  rss:7.2MB vcsw:1681 ivcsw:15 dq.user:4%+23% recvUC:0%+1%
+[1149] 307.000  @fedora30-guest:1435 rss:6.0MB vcsw:1711 ivcsw:7 dq.user:5%+21% recvUC:1%+0%
+[1149] 307.000  enp1s0: xmit 96.87 Mb/s recv 96.95 Mb/s [12329564668 12333324909]
+[1149] 307.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 308.000  rss:7.2MB vcsw:1713 ivcsw:15 dq.builtins:1%+0% dq.user:4%+23% recvUC:1%+1%
+[1149] 308.000  @fedora30-guest:1435 rss:6.0MB vcsw:1789 ivcsw:33 dq.user:5%+19% recvUC:0%+1%
+[1149] 308.000  enp1s0: xmit 94.38 Mb/s recv 94.29 Mb/s [12341361962 12345111503]
+[1149] 308.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 309.000  rss:7.2MB vcsw:1683 ivcsw:19 ddsperf:1%+0% dq.user:5%+23%
+[1149] 309.000  @fedora30-guest:1435 rss:6.0MB vcsw:1716 ivcsw:9 dq.user:6%+21% recvUC:1%+0%
+[1149] 309.000  enp1s0: xmit 96.95 Mb/s recv 96.95 Mb/s [12353480646 12357230231]
+[1149] 309.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 310.000  rss:7.2MB vcsw:1453 ivcsw:23 dq.user:5%+27% recvUC:1%+1%
+[1149] 310.000  @fedora30-guest:1435 rss:6.0MB vcsw:2165 ivcsw:39 ddsperf:0%+1% dq.user:7%+9% recvUC:3%+5%
+[1149] 310.000  enp1s0: xmit 118.48 Mb/s recv 118.48 Mb/s [12368291492 12372041089]
+[1149] 310.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 311.000  rss:7.2MB vcsw:1461 ivcsw:17 ddsperf:0%+1% dq.user:5%+29% tev:0%+1% recvUC:0%+1%
+[1149] 311.000  @fedora30-guest:1435 rss:6.0MB vcsw:2173 ivcsw:24 ddsperf:1%+0% dq.user:9%+9% recvUC:1%+2%
+[1149] 311.000  enp1s0: xmit 118.84 Mb/s recv 118.84 Mb/s [12383144460 12386894085]
+[1149] 311.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 312.000  rss:7.2MB vcsw:1470 ivcsw:23 dq.user:4%+29% recvUC:2%+1%
+[1149] 312.000  @fedora30-guest:1435 rss:6.0MB vcsw:2174 ivcsw:18 dq.user:9%+7% recvUC:2%+2%
+[1149] 312.000  enp1s0: xmit 117.16 Mb/s recv 117.28 Mb/s [12397789700 12401553647]
+[1149] 312.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 313.000  rss:7.2MB vcsw:1657 ivcsw:16 dq.user:5%+22% recvUC:0%+1%
+[1149] 313.000  @fedora30-guest:1435 rss:6.0MB vcsw:1725 ivcsw:45 dq.user:6%+20% recvUC:2%+4%
+[1149] 313.000  enp1s0: xmit 95.62 Mb/s recv 95.51 Mb/s [12409742566 12413492227]
+[1149] 313.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 314.000  rss:7.2MB vcsw:1460 ivcsw:39 dq.user:4%+29%
+[1149] 314.000  @fedora30-guest:1435 rss:6.0MB vcsw:2160 ivcsw:5 dq.user:9%+7% recvUC:3%+5%
+[1149] 314.000  enp1s0: xmit 118.33 Mb/s recv 118.33 Mb/s [12424533336 12428283009]
+[1149] 314.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 315.000  rss:7.2MB vcsw:1459 ivcsw:17 dq.user:5%+29% recvUC:1%+1%
+[1149] 315.000  @fedora30-guest:1435 rss:6.0MB vcsw:2167 ivcsw:18 dq.user:9%+8% recvUC:2%+1%
+[1149] 315.000  enp1s0: xmit 118.66 Mb/s recv 118.83 Mb/s [12439365002 12443135879]
+[1149] 315.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 316.000  rss:7.2MB vcsw:1457 ivcsw:18 dq.user:5%+29% recvUC:1%+1%
+[1149] 316.000  @fedora30-guest:1435 rss:6.0MB vcsw:2174 ivcsw:6 dq.user:9%+7% recvUC:2%+4%
+[1149] 316.000  enp1s0: xmit 118.64 Mb/s recv 118.64 Mb/s [12454197114 12457967537]
+[1149] 316.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 317.000  rss:7.2MB vcsw:1463 ivcsw:22 dq.user:5%+29% tev:1%+0% recvUC:1%+1%
+[1149] 317.000  @fedora30-guest:1435 rss:6.0MB vcsw:2183 ivcsw:24 dq.user:9%+8% recvUC:2%+1%
+[1149] 317.000  enp1s0: xmit 118.99 Mb/s recv 118.83 Mb/s [12469070776 12472820513]
+[1149] 317.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 318.000  rss:7.2MB vcsw:1437 ivcsw:73 dq.user:3%+29% recvUC:3%+3%
+[1149] 318.000  @fedora30-guest:1435 rss:6.0MB vcsw:2137 ivcsw:21 dq.user:10%+7% recvUC:1%+1%
+[1149] 318.000  enp1s0: xmit 116.84 Mb/s recv 116.84 Mb/s [12483674524 12487424253]
+[1149] 318.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 319.000  rss:7.2MB vcsw:1735 ivcsw:18 ddsperf:0%+1% dq.user:7%+21% recvUC:1%+1%
+[1149] 319.000  @fedora30-guest:1435 rss:6.0MB vcsw:2132 ivcsw:16 dq.user:9%+10% recvUC:2%+0%
+[1149] 319.000  enp1s0: xmit 133.41 Mb/s recv 133.57 Mb/s [12500350308 12504120775]
+[1149] 319.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 320.000  rss:7.2MB vcsw:1988 ivcsw:25 dq.user:7%+13% recvUC:1%+1%
+[1149] 320.000  @fedora30-guest:1435 rss:6.0MB vcsw:1499 ivcsw:49 ddsperf:1%+0% dq.user:5%+26% recvUC:3%+4%
+[1149] 320.000  enp1s0: xmit 108.54 Mb/s recv 108.55 Mb/s [12513918420 12517689345]
+[1149] 320.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 321.000  rss:7.2MB vcsw:1692 ivcsw:14 dq.user:3%+23% recvUC:1%+0%
+[1149] 321.000  @fedora30-guest:1435 rss:6.0MB vcsw:1696 ivcsw:26 dq.user:4%+22% recvUC:2%+3%
+[1149] 321.000  enp1s0: xmit 92.14 Mb/s recv 92.14 Mb/s [12525436292 12529206815]
+[1149] 321.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 322.000  rss:7.2MB vcsw:1755 ivcsw:15 dq.user:5%+20% recvUC:0%+1%
+[1149] 322.000  @fedora30-guest:1435 rss:6.0MB vcsw:1699 ivcsw:39 ddsperf:0%+1% dq.user:5%+21% recvUC:2%+4%
+[1149] 322.000  enp1s0: xmit 95.46 Mb/s recv 95.29 Mb/s [12537368550 12541118371]
+[1149] 322.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 323.000  rss:7.2MB vcsw:1705 ivcsw:14 dq.user:4%+22% recvUC:1%+0%
+[1149] 323.000  @fedora30-guest:1435 rss:6.0MB vcsw:1658 ivcsw:18 dq.user:4%+23% recvUC:2%+2%
+[1149] 323.000  enp1s0: xmit 92.91 Mb/s recv 92.97 Mb/s [12548982458 12552739857]
+[1149] 323.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 324.000  rss:7.2MB vcsw:1714 ivcsw:15 dq.user:5%+21% recvUC:0%+1%
+[1149] 324.000  @fedora30-guest:1435 rss:6.0MB vcsw:1718 ivcsw:8 dq.user:5%+21% recvUC:2%+0%
+[1149] 324.000  enp1s0: xmit 93.52 Mb/s recv 93.46 Mb/s [12560673130 12564422987]
+[1149] 324.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 325.000  rss:7.2MB vcsw:1721 ivcsw:18 ddsperf:0%+1% dq.user:5%+22% recvUC:1%+0%
+[1149] 325.000  @fedora30-guest:1435 rss:6.0MB vcsw:1716 ivcsw:6 dq.user:5%+21%
+[1149] 325.000  enp1s0: xmit 93.64 Mb/s recv 93.65 Mb/s [12572377554 12576127521]
+[1149] 325.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 326.000  rss:7.2MB vcsw:1630 ivcsw:18 dq.user:1%+25% recvUC:1%+1%
+[1149] 326.000  @fedora30-guest:1435 rss:6.0MB vcsw:1633 ivcsw:6 dq.user:5%+21% recvUC:1%+0%
+[1149] 326.000  enp1s0: xmit 93.96 Mb/s recv 94.13 Mb/s [12584122728 12587893295]
+[1149] 326.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 327.000  rss:7.2MB vcsw:2084 ivcsw:18 dq.user:8%+15% recvUC:0%+2%
+[1149] 327.000  @fedora30-guest:1435 rss:6.0MB vcsw:2065 ivcsw:25 ddsperf:1%+0% dq.user:10%+13% tev:1%+0% recvUC:2%+2%
+[1149] 327.000  enp1s0: xmit 161.57 Mb/s recv 161.57 Mb/s [12604319642 12608090519]
+[1149] 327.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 328.000  rss:7.2MB vcsw:2139 ivcsw:18 dq.user:9%+12% recvUC:1%+1%
+[1149] 328.000  @fedora30-guest:1435 rss:6.0MB vcsw:1736 ivcsw:33 dq.user:7%+22% recvUC:2%+3%
+[1149] 328.000  enp1s0: xmit 141.03 Mb/s recv 140.97 Mb/s [12621947698 12625712183]
+[1149] 328.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 329.000  rss:7.2MB vcsw:2177 ivcsw:10 dq.user:8%+8% recvUC:1%+0%
+[1149] 329.000  @fedora30-guest:1435 rss:6.0MB vcsw:1459 ivcsw:66 dq.user:6%+28% recvUC:3%+3%
+[1149] 329.000  enp1s0: xmit 118.99 Mb/s recv 119.04 Mb/s [12636821238 12640592151]
+[1149] 329.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 330.000  rss:7.2MB vcsw:2172 ivcsw:23 dq.user:9%+10% recvUC:1%+1%
+[1149] 330.000  @fedora30-guest:1435 rss:6.0MB vcsw:1686 ivcsw:11 dq.user:6%+25% recvUC:0%+2%
+[1149] 330.000  enp1s0: xmit 136.89 Mb/s recv 136.72 Mb/s [12653931996 12657682187]
+[1149] 330.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 331.000  rss:7.2MB vcsw:2175 ivcsw:5 ddsperf:0%+1% dq.user:9%+8% recvUC:1%+1%
+[1149] 331.000  @fedora30-guest:1435 rss:6.0MB vcsw:1461 ivcsw:45 dq.user:5%+29% recvUC:3%+3%
+[1149] 331.000  enp1s0: xmit 119.15 Mb/s recv 119.32 Mb/s [12668825804 12672597199]
+[1149] 331.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 332.000  rss:7.2MB vcsw:2182 ivcsw:9 dq.user:8%+8% recvUC:0%+1%
+[1149] 332.000  @fedora30-guest:1435 rss:6.0MB vcsw:1475 ivcsw:62 dq.user:6%+28% recvUC:2%+3%
+[1149] 332.000  enp1s0: xmit 119.47 Mb/s recv 119.30 Mb/s [12683761506 12687511713]
+[1149] 332.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 333.000  rss:7.2MB vcsw:1885 ivcsw:19 ddsperf:1%+0% dq.user:9%+10% tev:0%+1% recvUC:2%+0%
+[1149] 333.000  @fedora30-guest:1435 rss:6.0MB vcsw:1567 ivcsw:63 dq.user:6%+20% recvUC:4%+6%
+[1149] 333.000  enp1s0: xmit 131.44 Mb/s recv 131.43 Mb/s [12700188968 12703938953]
+[1149] 333.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1435: gone
+[1149] 334.000  rss:7.2MB vcsw:1686 ivcsw:17 dq.user:10%+9% recvUC:1%+1%
+[1149] 334.000  @fedora30-guest:1435 rss:6.0MB vcsw:1923 ivcsw:35 ddsperf:1%+0% dq.user:10%+13% recvUC:2%+3%
+[1149] 334.000  enp1s0: xmit 133.90 Mb/s recv 133.91 Mb/s [12716926346 12720677738]
+[1149] 334.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1445: new
+[1149] 335.000  rss:7.4MB vcsw:66 ivcsw:4 recvUC:0%+1%
+[1149] 335.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 336.000  rss:7.4MB vcsw:1220 ivcsw:10 dq.user:12%+10% recvUC:1%+2%
+[1149] 336.000  enp1s0: xmit 193.79 Mb/s recv 193.79 Mb/s [12741156418 12744905936]
+[1149] 336.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 337.000  rss:7.7MB vcsw:1769 ivcsw:12 dq.user:14%+14% recvUC:1%+3%
+[1149] 337.000  @fedora30-guest:1445 rss:6.2MB vcsw:1290 ivcsw:65 dq.user:12%+18% recvUC:3%+4%
+[1149] 337.000  enp1s0: xmit 252.45 Mb/s recv 252.45 Mb/s [12772713422 12776462128]
+[1149] 337.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 338.000  rss:7.7MB vcsw:1557 ivcsw:12 dq.user:14%+13% recvUC:2%+3%
+[1149] 338.000  @fedora30-guest:1445 rss:6.2MB vcsw:1247 ivcsw:8 dq.user:9%+24% recvUC:3%+6%
+[1149] 338.000  enp1s0: xmit 256.59 Mb/s recv 256.58 Mb/s [12804786992 12808535280]
+[1149] 338.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 339.000  rss:7.7MB vcsw:1163 ivcsw:44 dq.user:11%+24% recvUC:3%+4%
+[1149] 339.000  @fedora30-guest:1445 rss:6.2MB vcsw:1317 ivcsw:67 ddsperf:0%+1% dq.user:13%+16% recvUC:4%+5%
+[1149] 339.000  enp1s0: xmit 225.18 Mb/s recv 225.60 Mb/s [12832934504 12836734948]
+[1149] 339.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 340.000  rss:7.7MB vcsw:904 ivcsw:67 dq.user:9%+28% recvUC:1%+3%
+[1149] 340.000  @fedora30-guest:1445 rss:6.2MB vcsw:2225 ivcsw:18 dq.user:12%+10% recvUC:1%+2%
+[1149] 340.000  enp1s0: xmit 181.78 Mb/s recv 181.37 Mb/s [12855659632 12859408082]
+[1149] 340.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 341.000  rss:7.7MB vcsw:1146 ivcsw:34 ddsperf:0%+1% dq.user:11%+25% recvUC:3%+5%
+[1149] 341.000  @fedora30-guest:1445 rss:6.2MB vcsw:2088 ivcsw:9 dq.user:12%+7% recvUC:1%+1%
+[1149] 341.000  enp1s0: xmit 207.34 Mb/s recv 207.42 Mb/s [12881576920 12885335306]
+[1149] 341.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 342.000  rss:7.7MB vcsw:2226 ivcsw:44 dq.user:12%+16% recvUC:0%+3%
+[1149] 342.000  @fedora30-guest:1445 rss:6.2MB vcsw:1859 ivcsw:15 dq.user:12%+10% recvUC:2%+3%
+[1149] 342.000  enp1s0: xmit 245.12 Mb/s recv 245.45 Mb/s [12912213352 12916013358]
+[1149] 342.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 343.000  rss:7.7MB vcsw:1998 ivcsw:16 dq.user:10%+8% recvUC:1%+1%
+[1149] 343.000  @fedora30-guest:1445 rss:6.2MB vcsw:1391 ivcsw:11 dq.user:11%+23% recvUC:3%+6%
+[1149] 343.000  enp1s0: xmit 177.26 Mb/s recv 177.26 Mb/s [12934370480 12938170530]
+[1149] 343.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 344.000  rss:7.7MB vcsw:2234 ivcsw:40 dq.user:12%+11% recvUC:1%+2%
+[1149] 344.000  @fedora30-guest:1445 rss:6.2MB vcsw:797 ivcsw:61 dq.user:7%+32% recvUC:3%+3%
+[1149] 344.000  enp1s0: xmit 221.88 Mb/s recv 221.88 Mb/s [12962104824 12965905312]
+[1149] 344.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 345.000  rss:7.7MB vcsw:991 ivcsw:62 dq.user:11%+25% recvUC:2%+3%
+[1149] 345.000  @fedora30-guest:1445 rss:6.2MB vcsw:1289 ivcsw:44 ddsperf:0%+1% dq.user:11%+22% recvUC:4%+5%
+[1149] 345.000  enp1s0: xmit 197.91 Mb/s recv 197.91 Mb/s [12986844146 12990644252]
+[1149] 345.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 346.000  rss:7.7MB vcsw:1499 ivcsw:70 ddsperf:1%+0% dq.user:13%+13% recvUC:5%+6%
+[1149] 346.000  @fedora30-guest:1445 rss:6.2MB vcsw:1806 ivcsw:44 dq.user:12%+10% recvUC:3%+4%
+[1149] 346.000  enp1s0: xmit 245.01 Mb/s recv 245.01 Mb/s [13017471238 13021271316]
+[1149] 346.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 347.000  rss:7.7MB vcsw:1654 ivcsw:80 dq.user:15%+12% recvUC:2%+3%
+[1149] 347.000  @fedora30-guest:1445 rss:6.2MB vcsw:1202 ivcsw:42 dq.user:11%+18% recvUC:4%+6%
+[1149] 347.000  enp1s0: xmit 249.97 Mb/s recv 249.98 Mb/s [13048717280 13052518078]
+[1149] 347.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 348.000  rss:7.7MB vcsw:1189 ivcsw:54 dq.user:12%+19% recvUC:4%+5%
+[1149] 348.000  @fedora30-guest:1445 rss:6.2MB vcsw:1361 ivcsw:61 dq.user:11%+18% recvUC:3%+5%
+[1149] 348.000  enp1s0: xmit 224.77 Mb/s recv 224.35 Mb/s [13076813822 13080562290]
+[1149] 348.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 349.000  rss:7.7MB vcsw:886 ivcsw:60 dq.user:11%+24% recvUC:3%+4%
+[1149] 349.000  @fedora30-guest:1445 rss:6.2MB vcsw:1408 ivcsw:51 dq.user:12%+15% recvUC:4%+6%
+[1149] 349.000  enp1s0: xmit 175.27 Mb/s recv 175.57 Mb/s [13098726604 13102512878]
+[1149] 349.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 350.012  rss:7.7MB vcsw:968 ivcsw:68 ddsperf:0%+1% dq.user:10%+20% recvUC:3%+5%
+[1149] 350.012  @fedora30-guest:1445 rss:6.2MB vcsw:1884 ivcsw:18 dq.user:9%+7% recvUC:2%+4%
+[1149] 350.012  enp1s0: xmit 190.35 Mb/s recv 190.27 Mb/s [13122804700 13126580400]
+[1149] 350.012  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 351.000  rss:7.7MB vcsw:1039 ivcsw:68 dq.user:8%+24% recvUC:3%+3%
+[1149] 351.000  @fedora30-guest:1445 rss:6.2MB vcsw:1402 ivcsw:23 ddsperf:0%+1% dq.user:9%+11% recvUC:3%+2%
+[1149] 351.000  enp1s0: xmit 186.26 Mb/s recv 186.13 Mb/s [13145805204 13149563770]
+[1149] 351.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 352.000  rss:7.7MB vcsw:1224 ivcsw:5 dq.user:15%+11% tev:1%+0% recvUC:2%+3%
+[1149] 352.000  @fedora30-guest:1445 rss:6.2MB vcsw:1435 ivcsw:9 dq.user:10%+15% recvUC:1%+1%
+[1149] 352.000  enp1s0: xmit 235.18 Mb/s recv 235.52 Mb/s [13175202254 13179002870]
+[1149] 352.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 353.000  rss:7.7MB vcsw:1392 ivcsw:58 dq.user:14%+16% recvUC:1%+2%
+[1149] 353.000  @fedora30-guest:1445 rss:6.2MB vcsw:1183 ivcsw:12 ddsperf:1%+0% dq.user:14%+11% recvUC:3%+4%
+[1149] 353.000  enp1s0: xmit 230.97 Mb/s recv 230.55 Mb/s [13204073256 13207821844]
+[1149] 353.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 354.000  rss:7.7MB vcsw:1335 ivcsw:58 dq.user:12%+12% recvUC:3%+6%
+[1149] 354.000  @fedora30-guest:1445 rss:6.2MB vcsw:1330 ivcsw:62 dq.user:9%+17% recvUC:3%+5%
+[1149] 354.000  enp1s0: xmit 206.18 Mb/s recv 206.40 Mb/s [13229845604 13233621940]
+[1149] 354.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 355.000  rss:7.7MB vcsw:1229 ivcsw:13 dq.user:14%+13% recvUC:5%+5%
+[1149] 355.000  @fedora30-guest:1445 rss:6.2MB vcsw:1139 ivcsw:116 dq.user:12%+14% recvUC:4%+7%
+[1149] 355.000  enp1s0: xmit 245.76 Mb/s recv 245.55 Mb/s [13260575458 13264324528]
+[1149] 355.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 356.000  rss:7.7MB vcsw:1556 ivcsw:31 dq.user:12%+12% recvUC:3%+5%
+[1149] 356.000  @fedora30-guest:1445 rss:6.2MB vcsw:1237 ivcsw:86 dq.user:12%+15% recvUC:4%+5%
+[1149] 356.000  enp1s0: xmit 230.22 Mb/s recv 230.63 Mb/s [13289343168 13293143430]
+[1149] 356.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 357.000  rss:7.7MB vcsw:1723 ivcsw:59 dq.user:12%+9% recvUC:4%+5%
+[1149] 357.000  @fedora30-guest:1445 rss:6.2MB vcsw:1039 ivcsw:85 dq.user:9%+24% recvUC:2%+4%
+[1149] 357.000  enp1s0: xmit 194.19 Mb/s recv 194.19 Mb/s [13313617782 13317418088]
+[1149] 357.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 358.000  rss:7.7MB vcsw:1274 ivcsw:76 ddsperf:1%+0% dq.user:14%+14% recvUC:3%+5%
+[1149] 358.000  @fedora30-guest:1445 rss:6.2MB vcsw:1192 ivcsw:60 dq.user:10%+21% recvUC:3%+6%
+[1149] 358.000  enp1s0: xmit 249.25 Mb/s recv 249.14 Mb/s [13344774560 13348560954]
+[1149] 358.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 359.000  rss:7.7MB vcsw:1175 ivcsw:40 dq.user:15%+12% recvUC:3%+5%
+[1149] 359.000  @fedora30-guest:1445 rss:6.2MB vcsw:1263 ivcsw:100 ddsperf:0%+1% dq.user:13%+15% recvUC:3%+4%
+[1149] 359.000  enp1s0: xmit 235.92 Mb/s recv 235.92 Mb/s [13374265420 13378051878]
+[1149] 359.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 360.000  rss:7.7MB vcsw:1077 ivcsw:81 ddsperf:0%+1% dq.user:12%+15% recvUC:4%+4%
+[1149] 360.000  @fedora30-guest:1445 rss:6.2MB vcsw:1434 ivcsw:75 dq.user:13%+12% recvUC:2%+7%
+[1149] 360.000  enp1s0: xmit 213.92 Mb/s recv 214.04 Mb/s [13401004626 13404805386]
+[1149] 360.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 361.000  rss:7.7MB vcsw:1206 ivcsw:48 dq.user:14%+14% recvUC:3%+4%
+[1149] 361.000  @fedora30-guest:1445 rss:6.2MB vcsw:1485 ivcsw:72 dq.user:12%+11% tev:1%+0% recv:0%+1% recvUC:4%+7%
+[1149] 361.000  enp1s0: xmit 242.95 Mb/s recv 242.95 Mb/s [13431373362 13435173756]
+[1149] 361.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 362.000  rss:7.7MB vcsw:1401 ivcsw:25 dq.user:16%+12% recvUC:3%+4%
+[1149] 362.000  @fedora30-guest:1445 rss:6.2MB vcsw:1304 ivcsw:96 dq.user:15%+13% recvUC:3%+4%
+[1149] 362.000  enp1s0: xmit 259.48 Mb/s recv 259.48 Mb/s [13463808044 13467608430]
+[1149] 362.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 363.000  rss:7.7MB vcsw:882 ivcsw:19 dq.user:8%+28% recvUC:0%+1%
+[1149] 363.000  @fedora30-guest:1445 rss:6.2MB vcsw:1314 ivcsw:69 dq.user:15%+15% recvUC:4%+5%
+[1149] 363.000  enp1s0: xmit 177.60 Mb/s recv 177.60 Mb/s [13486016266 13489817142]
+[1149] 363.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 364.000  rss:7.7MB vcsw:967 ivcsw:29 dq.user:10%+27% tev:0%+1% recvUC:3%+4%
+[1149] 364.000  @fedora30-guest:1445 rss:6.2MB vcsw:1994 ivcsw:19 ddsperf:1%+0% dq.user:10%+8% tev:0%+1% recvUC:2%+2%
+[1149] 364.000  enp1s0: xmit 192.20 Mb/s recv 192.19 Mb/s [13510032560 13513833002]
+[1149] 364.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1445: gone
+[1149] participant fedora30-guest:1455: new
+[1149] 365.000  rss:7.7MB vcsw:438 ivcsw:64 gc:0%+1% dq.builtins:1%+0% dq.user:3%+3% recvUC:1%+2%
+[1149] 365.000  @fedora30-guest:1445 rss:6.2MB vcsw:1747 ivcsw:25 dq.user:10%+10% recvUC:3%+4%
+[1149] 365.000  enp1s0: xmit 59.14 Mb/s recv 58.72 Mb/s [13517425618 13521173563]
+[1149] 365.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 366.000  rss:7.7MB vcsw:689 ivcsw:41 dq.user:4%+6% recvUC:1%+1%
+[1149] 366.000  enp1s0: xmit 99.16 Mb/s recv 99.16 Mb/s [13529823190 13533570731]
+[1149] 366.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 367.000  rss:7.7MB vcsw:710 ivcsw:81 ddsperf:1%+0% dq.user:10%+22% recvUC:3%+4%
+[1149] 367.000  @fedora30-guest:1455 rss:6.4MB vcsw:1127 ivcsw:35 dq.user:11%+12% recvUC:0%+4%
+[1149] 367.000  enp1s0: xmit 243.86 Mb/s recv 244.68 Mb/s [13560299884 13564150345]
+[1149] 367.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 368.000  rss:7.7MB vcsw:1472 ivcsw:59 dq.user:12%+7% tev:1%+0% recvUC:3%+7%
+[1149] 368.000  @fedora30-guest:1455 rss:6.4MB vcsw:580 ivcsw:18 dq.user:10%+25% recvUC:3%+5%
+[1149] 368.000  enp1s0: xmit 199.18 Mb/s recv 199.18 Mb/s [13585197498 13589047971]
+[1149] 368.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 369.000  rss:7.7MB vcsw:1127 ivcsw:55 dq.user:15%+9% recvUC:2%+3%
+[1149] 369.000  @fedora30-guest:1455 rss:6.4MB vcsw:638 ivcsw:101 ddsperf:1%+0% dq.user:11%+19% recvUC:3%+5%
+[1149] 369.000  enp1s0: xmit 248.74 Mb/s recv 247.91 Mb/s [13616293492 13620040277]
+[1149] 369.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 370.000  rss:7.7MB vcsw:1236 ivcsw:84 dq.user:13%+14% recvUC:4%+6%
+[1149] 370.000  @fedora30-guest:1455 rss:6.4MB vcsw:751 ivcsw:145 dq.user:11%+16% recvUC:6%+7%
+[1149] 370.000  enp1s0: xmit 276.87 Mb/s recv 276.87 Mb/s [13650901996 13654648773]
+[1149] 370.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 371.000  rss:7.7MB vcsw:1880 ivcsw:9 ddsperf:0%+1% dq.user:10%+10% recvUC:0%+1%
+[1149] 371.000  @fedora30-guest:1455 rss:6.4MB vcsw:715 ivcsw:36 dq.user:13%+21% recvUC:2%+5%
+[1149] 371.000  enp1s0: xmit 217.38 Mb/s recv 218.05 Mb/s [13678071936 13681902427]
+[1149] 371.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 372.000  rss:7.7MB vcsw:2167 ivcsw:40 dq.user:12%+14% recvUC:1%+2%
+[1149] 372.000  @fedora30-guest:1455 rss:6.4MB vcsw:549 ivcsw:31 dq.user:9%+22% recvUC:3%+6%
+[1149] 372.000  enp1s0: xmit 254.96 Mb/s recv 254.67 Mb/s [13709946572 13713741171]
+[1149] 372.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 373.000  rss:7.7MB vcsw:1526 ivcsw:79 dq.user:10%+22% recvUC:1%+2%
+[1149] 373.000  @fedora30-guest:1455 rss:6.4MB vcsw:735 ivcsw:94 dq.user:10%+25% recvUC:5%+4%
+[1149] 373.000  enp1s0: xmit 238.42 Mb/s recv 238.87 Mb/s [13739747500 13743597643]
+[1149] 373.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 374.000  rss:7.7MB vcsw:616 ivcsw:82 dq.user:9%+23% recvUC:4%+5%
+[1149] 374.000  @fedora30-guest:1455 rss:6.4MB vcsw:1262 ivcsw:64 ddsperf:0%+1% dq.user:10%+12% recvUC:3%+6%
+[1149] 374.000  enp1s0: xmit 231.91 Mb/s recv 231.36 Mb/s [13768742978 13772524025]
+[1149] 374.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 375.000  rss:7.7MB vcsw:789 ivcsw:96 dq.user:15%+19% recvUC:3%+6%
+[1149] 375.000  @fedora30-guest:1455 rss:6.4MB vcsw:1204 ivcsw:24 dq.user:13%+12% recvUC:3%+4%
+[1149] 375.000  enp1s0: xmit 307.78 Mb/s recv 307.50 Mb/s [13807207738 13810954631]
+[1149] 375.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 376.000  rss:7.7MB vcsw:740 ivcsw:10 dq.user:11%+19% recvUC:1%+5%
+[1149] 376.000  @fedora30-guest:1455 rss:6.4MB vcsw:857 ivcsw:3 dq.user:16%+17% recvUC:3%+6%
+[1149] 376.000  enp1s0: xmit 278.50 Mb/s recv 279.33 Mb/s [13842022392 13845873135]
+[1149] 376.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 377.000  rss:7.7MB vcsw:968 ivcsw:83 ddsperf:0%+1% dq.user:8%+21% recvUC:3%+5%
+[1149] 377.000  @fedora30-guest:1455 rss:6.4MB vcsw:1463 ivcsw:169 dq.user:9%+13% recvUC:0%+2%
+[1149] 377.000  enp1s0: xmit 255.42 Mb/s recv 254.58 Mb/s [13873944854 13877691763]
+[1149] 377.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 378.000  rss:7.7MB vcsw:800 ivcsw:58 dq.user:8%+26% recvUC:2%+2%
+[1149] 378.000  @fedora30-guest:1455 rss:6.4MB vcsw:1409 ivcsw:67 dq.user:13%+14% recvUC:4%+6%
+[1149] 378.000  enp1s0: xmit 222.32 Mb/s recv 222.32 Mb/s [13901735162 13905482063]
+[1149] 378.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 379.000  rss:7.7MB vcsw:486 ivcsw:63 dq.user:5%+30% recvUC:2%+3%
+[1149] 379.000  @fedora30-guest:1455 rss:6.4MB vcsw:1625 ivcsw:37 dq.user:9%+7% recvUC:4%+8%
+[1149] 379.000  enp1s0: xmit 180.97 Mb/s recv 181.80 Mb/s [13924359834 13928210531]
+[1149] 379.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 380.000  rss:7.7MB vcsw:920 ivcsw:66 dq.user:11%+18% recvUC:3%+5%
+[1149] 380.000  @fedora30-guest:1455 rss:6.4MB vcsw:1186 ivcsw:148 ddsperf:0%+1% dq.user:10%+12% recvUC:2%+5%
+[1149] 380.000  enp1s0: xmit 283.53 Mb/s recv 283.53 Mb/s [13959794450 13963644943]
+[1149] 380.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 381.001  rss:7.7MB vcsw:1739 ivcsw:63 dq.user:10%+11% recvUC:3%+5%
+[1149] 381.001  @fedora30-guest:1455 rss:6.4MB vcsw:1380 ivcsw:145 dq.user:13%+22% tev:0%+1% recvUC:4%+6%
+[1149] 381.001  enp1s0: xmit 213.93 Mb/s recv 213.44 Mb/s [13986551928 13990340573]
+[1149] 381.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 382.000  rss:7.7MB vcsw:799 ivcsw:56 ddsperf:1%+0% dq.user:10%+26% recvUC:5%+5%
+[1149] 382.000  @fedora30-guest:1455 rss:6.4MB vcsw:1580 ivcsw:52 dq.user:9%+21% recvUC:3%+4%
+[1149] 382.000  enp1s0: xmit 245.59 Mb/s recv 246.08 Mb/s [14017233916 14021084461]
+[1149] 382.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 383.000  rss:7.7MB vcsw:749 ivcsw:84 dq.user:8%+19% recvUC:4%+7%
+[1149] 383.000  @fedora30-guest:1455 rss:6.4MB vcsw:1214 ivcsw:51 dq.user:11%+11% recvUC:2%+4%
+[1149] 383.000  enp1s0: xmit 200.03 Mb/s recv 199.20 Mb/s [14042234982 14045982245]
+[1149] 383.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 384.000  rss:7.7MB vcsw:824 ivcsw:53 dq.user:9%+23% recv:0%+1% recvUC:2%+3%
+[1149] 384.000  @fedora30-guest:1455 rss:6.4MB vcsw:1082 ivcsw:52 ddsperf:0%+1% dq.user:11%+15% recvUC:3%+3%
+[1149] 384.000  enp1s0: xmit 245.46 Mb/s recv 245.46 Mb/s [14072917556 14076665027]
+[1149] 384.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 385.000  rss:7.7MB vcsw:686 ivcsw:87 dq.user:10%+24% recvUC:3%+5%
+[1149] 385.000  @fedora30-guest:1455 rss:6.4MB vcsw:1311 ivcsw:71 dq.user:11%+13% recvUC:3%+5%
+[1149] 385.000  enp1s0: xmit 270.25 Mb/s recv 270.24 Mb/s [14106699506 14110446575]
+[1149] 385.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 386.000  rss:7.7MB vcsw:825 ivcsw:80 dq.user:16%+14% recvUC:4%+6%
+[1149] 386.000  @fedora30-guest:1455 rss:6.4MB vcsw:1029 ivcsw:90 dq.user:18%+14% recvUC:3%+5%
+[1149] 386.000  enp1s0: xmit 321.51 Mb/s recv 322.33 Mb/s [14146886534 14150736901]
+[1149] 386.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 387.000  rss:7.7MB vcsw:833 ivcsw:92 ddsperf:0%+1% dq.user:15%+17% recvUC:4%+6%
+[1149] 387.000  @fedora30-guest:1455 rss:6.4MB vcsw:824 ivcsw:7 dq.user:18%+14% recvUC:1%+6%
+[1149] 387.000  enp1s0: xmit 323.97 Mb/s recv 323.81 Mb/s [14187382948 14191213723]
+[1149] 387.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 388.000  rss:7.7MB vcsw:1858 ivcsw:54 dq.user:10%+10% recvUC:3%+4%
+[1149] 388.000  @fedora30-guest:1455 rss:6.4MB vcsw:629 ivcsw:70 ddsperf:1%+0% dq.user:9%+26% recvUC:1%+4%
+[1149] 388.000  enp1s0: xmit 204.14 Mb/s recv 203.47 Mb/s [14212900418 14216647515]
+[1149] 388.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 389.000  rss:7.7MB vcsw:690 ivcsw:33 dq.user:13%+11% recvUC:3%+4%
+[1149] 389.000  @fedora30-guest:1455 rss:6.4MB vcsw:611 ivcsw:75 dq.user:11%+19% recvUC:3%+5%
+[1149] 389.000  enp1s0: xmit 257.84 Mb/s recv 258.67 Mb/s [14245132884 14248983331]
+[1149] 389.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 390.001  rss:7.7MB vcsw:929 ivcsw:62 dq.user:11%+18% tev:0%+1% recvUC:2%+7%
+[1149] 390.001  @fedora30-guest:1455 rss:6.4MB vcsw:836 ivcsw:45 dq.user:14%+15% recv:1%+0% recvUC:3%+5%
+[1149] 390.001  enp1s0: xmit 277.59 Mb/s recv 277.60 Mb/s [14279843806 14283694495]
+[1149] 390.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 391.000  rss:7.7MB vcsw:978 ivcsw:44 dq.user:13%+19% recvUC:4%+5%
+[1149] 391.000  @fedora30-guest:1455 rss:6.4MB vcsw:1102 ivcsw:138 ddsperf:0%+1% dq.user:13%+11% recvUC:0%+5%
+[1149] 391.000  enp1s0: xmit 278.64 Mb/s recv 277.82 Mb/s [14314658938 14318406369]
+[1149] 391.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 392.000  rss:7.7MB vcsw:1306 ivcsw:81 dq.user:15%+17% tev:1%+0% recvUC:4%+7%
+[1149] 392.000  @fedora30-guest:1455 rss:6.4MB vcsw:1151 ivcsw:42 dq.user:16%+14% recvUC:4%+5%
+[1149] 392.000  enp1s0: xmit 333.86 Mb/s recv 334.69 Mb/s [14356395046 14360246221]
+[1149] 392.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 393.000  rss:7.9MB vcsw:1255 ivcsw:71 ddsperf:1%+0% dq.user:15%+18% recvUC:3%+7%
+[1149] 393.000  @fedora30-guest:1455 rss:6.4MB vcsw:1649 ivcsw:128 dq.user:19%+14% recvUC:4%+7%
+[1149] 393.000  enp1s0: xmit 338.88 Mb/s recv 338.05 Mb/s [14398751410 14402498861]
+[1149] 393.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 394.001  rss:7.9MB vcsw:1470 ivcsw:71 dq.user:12%+16% recvUC:4%+6%
+[1149] 394.001  @fedora30-guest:1455 rss:6.4MB vcsw:1319 ivcsw:132 dq.user:12%+23% recvUC:4%+5%
+[1149] 394.001  enp1s0: xmit 280.87 Mb/s recv 280.87 Mb/s [14433876464 14437623887]
+[1149] 394.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1455: gone
+[1149] participant fedora30-guest:1465: new
+[1149] 395.000  rss:7.9MB vcsw:1016 ivcsw:150 dq.user:8%+9% recvUC:2%+4%
+[1149] 395.000  @fedora30-guest:1455 rss:6.4MB vcsw:1682 ivcsw:132 dq.user:14%+20% recvUC:4%+6%
+[1149] 395.000  enp1s0: xmit 165.44 Mb/s recv 165.42 Mb/s [14454547054 14458292252]
+[1149] 395.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 396.000  rss:8.2MB vcsw:21 ivcsw:3 ddsperf:0%+1%
+[1149] 396.000  enp1s0: xmit 1.66 Mb/s recv 3.31 Mb/s [14454754904 14458705738]
+[1149] 396.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 397.000  rss:8.2MB vcsw:704 ivcsw:17 dq.user:15%+22% recvUC:2%+3%
+[1149] 397.000  @fedora30-guest:1465 rss:7.0MB vcsw:2381 ivcsw:36 dq.user:13%+17% recvUC:0%+2%
+[1149] 397.000  enp1s0: xmit 303.93 Mb/s recv 303.93 Mb/s [14492746052 14496696520]
+[1149] 397.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 398.000  rss:8.5MB vcsw:1522 ivcsw:2 dq.user:20%+12% recvUC:4%+6%
+[1149] 398.000  @fedora30-guest:1465 rss:7.0MB vcsw:1183 ivcsw:24 dq.user:15%+23% recvUC:3%+6%
+[1149] 398.000  enp1s0: xmit 346.29 Mb/s recv 345.18 Mb/s [14536036800 14539848400]
+[1149] 398.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 399.000  rss:8.5MB vcsw:1283 ivcsw:65 dq.user:13%+22% recvUC:3%+6%
+[1149] 399.000  @fedora30-guest:1465 rss:7.0MB vcsw:877 ivcsw:55 ddsperf:1%+0% dq.user:14%+16% recvUC:3%+5%
+[1149] 399.000  enp1s0: xmit 312.75 Mb/s recv 312.21 Mb/s [14575127726 14578871374]
+[1149] 399.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 400.000  rss:8.5MB vcsw:2623 ivcsw:77 dq.user:12%+17% recvUC:4%+7%
+[1149] 400.000  @fedora30-guest:1465 rss:7.0MB vcsw:440 ivcsw:13 dq.user:14%+25% recvUC:3%+5%
+[1149] 400.000  enp1s0: xmit 328.70 Mb/s recv 330.35 Mb/s [14616214902 14620165454]
+[1149] 400.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 401.000  rss:8.5MB vcsw:2225 ivcsw:64 dq.user:14%+18% recvUC:4%+6%
+[1149] 401.000  @fedora30-guest:1465 rss:7.0MB vcsw:481 ivcsw:35 dq.user:17%+21% recvUC:3%+4%
+[1149] 401.000  enp1s0: xmit 345.19 Mb/s recv 343.53 Mb/s [14659367184 14663110868]
+[1149] 401.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 402.000  rss:8.5MB vcsw:289 ivcsw:61 dq.user:7%+33% recvUC:1%+3%
+[1149] 402.000  @fedora30-guest:1465 rss:7.0MB vcsw:1632 ivcsw:63 ddsperf:0%+1% dq.user:10%+8% recvUC:2%+5%
+[1149] 402.000  enp1s0: xmit 206.49 Mb/s recv 206.49 Mb/s [14685176428 14688920124]
+[1149] 402.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 403.000  rss:8.5MB vcsw:772 ivcsw:90 dq.user:12%+20% recvUC:4%+6%
+[1149] 403.000  @fedora30-guest:1465 rss:7.0MB vcsw:1301 ivcsw:46 dq.user:16%+17% recvUC:2%+4%
+[1149] 403.000  enp1s0: xmit 333.65 Mb/s recv 333.66 Mb/s [14726882772 14730627188]
+[1149] 403.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 404.000  rss:8.5MB vcsw:1032 ivcsw:49 dq.user:11%+25% recvUC:3%+5%
+[1149] 404.000  @fedora30-guest:1465 rss:7.0MB vcsw:964 ivcsw:57 dq.user:12%+15% recvUC:3%+4%
+[1149] 404.000  enp1s0: xmit 295.66 Mb/s recv 295.66 Mb/s [14763841304 14767585036]
+[1149] 404.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 405.000  rss:8.5MB vcsw:728 ivcsw:51 dq.user:8%+26% recvUC:3%+4%
+[1149] 405.000  @fedora30-guest:1465 rss:7.0MB vcsw:1603 ivcsw:29 dq.user:8%+18% recvUC:3%+5%
+[1149] 405.000  enp1s0: xmit 210.93 Mb/s recv 211.40 Mb/s [14790211296 14794013722]
+[1149] 405.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 406.000  rss:8.5MB vcsw:542 ivcsw:44 ddsperf:1%+1% dq.user:7%+25% recvUC:2%+4%
+[1149] 406.000  @fedora30-guest:1465 rss:7.0MB vcsw:1164 ivcsw:40 dq.user:10%+13% recvUC:3%+5%
+[1149] 406.000  enp1s0: xmit 215.23 Mb/s recv 214.76 Mb/s [14817110988 14820854788]
+[1149] 406.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 407.000  rss:8.5MB vcsw:1543 ivcsw:34 dq.user:12%+20% recvUC:4%+6%
+[1149] 407.000  @fedora30-guest:1465 rss:7.0MB vcsw:1148 ivcsw:37 dq.user:16%+15% recvUC:2%+5%
+[1149] 407.000  enp1s0: xmit 310.54 Mb/s recv 312.19 Mb/s [14855927484 14859877742]
+[1149] 407.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 408.000  rss:8.5MB vcsw:1487 ivcsw:17 dq.user:25%+13% recvUC:4%+7%
+[1149] 408.000  @fedora30-guest:1465 rss:7.0MB vcsw:1509 ivcsw:7 dq.user:20%+17% recvUC:4%+7%
+[1149] 408.000  enp1s0: xmit 412.88 Mb/s recv 411.23 Mb/s [14907544426 14911288656]
+[1149] 408.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 409.000  rss:8.5MB vcsw:1316 ivcsw:8 dq.user:22%+11% recvUC:4%+7%
+[1149] 409.000  @fedora30-guest:1465 rss:7.0MB vcsw:629 ivcsw:91 dq.user:21%+12% recvUC:1%+10%
+[1149] 409.000  enp1s0: xmit 370.00 Mb/s recv 369.99 Mb/s [14953793698 14957537526]
+[1149] 409.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 410.000  rss:8.5MB vcsw:728 ivcsw:70 dq.user:15%+16% recvUC:3%+5%
+[1149] 410.000  @fedora30-guest:1465 rss:7.0MB vcsw:475 ivcsw:64 ddsperf:1%+0% dq.user:14%+20% recvUC:4%+5%
+[1149] 410.000  enp1s0: xmit 334.33 Mb/s recv 335.26 Mb/s [14995589894 14999451130]
+[1149] 410.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 411.000  rss:8.5MB vcsw:600 ivcsw:72 dq.user:14%+23% tev:0%+1% recvUC:4%+4%
+[1149] 411.000  @fedora30-guest:1465 rss:7.0MB vcsw:2349 ivcsw:21 dq.user:14%+15% recvUC:4%+6%
+[1149] 411.000  enp1s0: xmit 320.91 Mb/s recv 320.52 Mb/s [15035694172 15039506466]
+[1149] 411.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 412.002  rss:8.5MB vcsw:750 ivcsw:67 dq.user:14%+18% recvUC:3%+6%
+[1149] 412.002  @fedora30-guest:1465 rss:7.0MB vcsw:871 ivcsw:52 dq.user:13%+18% recvUC:2%+6%
+[1149] 412.002  enp1s0: xmit 338.65 Mb/s recv 338.10 Mb/s [15078088570 15081832430]
+[1149] 412.002  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 413.000  rss:8.5MB vcsw:1596 ivcsw:137 ddsperf:0%+1% dq.user:12%+19% recvUC:5%+7%
+[1149] 413.000  @fedora30-guest:1465 rss:7.0MB vcsw:820 ivcsw:67 ddsperf:0%+1% dq.user:15%+17% recvUC:4%+5%
+[1149] 413.000  enp1s0: xmit 328.84 Mb/s recv 329.16 Mb/s [15119136328 15122920222]
+[1149] 413.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 414.000  rss:8.5MB vcsw:257 ivcsw:30 dq.user:8%+35% tev:1%+0% recvUC:1%+3%
+[1149] 414.000  @fedora30-guest:1465 rss:7.0MB vcsw:1783 ivcsw:9 dq.user:6%+10% tev:1%+0%
+[1149] 414.000  enp1s0: xmit 182.64 Mb/s recv 183.30 Mb/s [15141971280 15145838430]
+[1149] 414.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 415.000  rss:8.5MB vcsw:871 ivcsw:22 dq.user:4%+37% recvUC:2%+3%
+[1149] 415.000  @fedora30-guest:1465 rss:7.0MB vcsw:1825 ivcsw:8 dq.user:10%+8%
+[1149] 415.000  enp1s0: xmit 186.66 Mb/s recv 186.66 Mb/s [15165302826 15169169948]
+[1149] 415.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 416.000  rss:8.5MB vcsw:946 ivcsw:32 dq.user:5%+33% recvUC:3%+3%
+[1149] 416.000  @fedora30-guest:1465 rss:7.0MB vcsw:1775 ivcsw:20 dq.user:10%+9% recvUC:1%+1%
+[1149] 416.000  enp1s0: xmit 212.43 Mb/s recv 213.10 Mb/s [15191854138 15195804942]
+[1149] 416.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 417.003  rss:8.5MB vcsw:1023 ivcsw:186 dq.user:14%+19% recvUC:3%+6%
+[1149] 417.003  @fedora30-guest:1465 rss:7.0MB vcsw:1338 ivcsw:112 dq.user:12%+15% recvUC:4%+9%
+[1149] 417.003  enp1s0: xmit 319.60 Mb/s recv 318.05 Mb/s [15231896938 15235653366]
+[1149] 417.003  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 418.000  rss:8.5MB vcsw:549 ivcsw:61 dq.user:9%+27% recvUC:2%+3%
+[1149] 418.000  @fedora30-guest:1465 rss:7.0MB vcsw:1762 ivcsw:25 dq.user:10%+14% recvUC:2%+5%
+[1149] 418.000  enp1s0: xmit 231.94 Mb/s recv 233.50 Mb/s [15260815434 15264766058]
+[1149] 418.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 419.000  rss:8.5MB vcsw:1349 ivcsw:41 dq.user:9%+9% recvUC:2%+4%
+[1149] 419.000  @fedora30-guest:1465 rss:7.0MB vcsw:303 ivcsw:254 ddsperf:0%+1% dq.user:7%+30% recvUC:2%+4%
+[1149] 419.000  enp1s0: xmit 198.21 Mb/s recv 198.22 Mb/s [15285592026 15289542930]
+[1149] 419.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 420.000  rss:8.5MB vcsw:1397 ivcsw:39 dq.user:8%+8% recvUC:2%+4%
+[1149] 420.000  @fedora30-guest:1465 rss:7.0MB vcsw:305 ivcsw:67 dq.user:6%+30% recvUC:2%+6%
+[1149] 420.000  enp1s0: xmit 176.74 Mb/s recv 175.30 Mb/s [15307684776 15311456516]
+[1149] 420.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 421.000  rss:8.5MB vcsw:1302 ivcsw:48 dq.user:12%+14% recvUC:1%+3%
+[1149] 421.000  @fedora30-guest:1465 rss:7.0MB vcsw:521 ivcsw:92 dq.user:11%+18% recvUC:2%+6%
+[1149] 421.000  enp1s0: xmit 280.80 Mb/s recv 282.23 Mb/s [15342784990 15346735484]
+[1149] 421.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 422.000  rss:8.5MB vcsw:1262 ivcsw:143 ddsperf:1%+1% dq.user:21%+15% recvUC:4%+7%
+[1149] 422.000  @fedora30-guest:1465 rss:7.0MB vcsw:1409 ivcsw:4 dq.user:17%+21% recvUC:4%+7%
+[1149] 422.000  enp1s0: xmit 403.03 Mb/s recv 403.03 Mb/s [15393163156 15397113674]
+[1149] 422.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 423.000  rss:8.5MB vcsw:1073 ivcsw:88 dq.user:22%+16% recvUC:5%+7%
+[1149] 423.000  @fedora30-guest:1465 rss:7.0MB vcsw:1508 ivcsw:5 dq.user:17%+19% recvUC:4%+7%
+[1149] 423.000  enp1s0: xmit 412.94 Mb/s recv 412.94 Mb/s [15444780544 15448731054]
+[1149] 423.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 424.000  rss:8.5MB vcsw:1076 ivcsw:124 dq.user:24%+15% recvUC:3%+7%
+[1149] 424.000  @fedora30-guest:1465 rss:7.0MB vcsw:1539 ivcsw:4 ddsperf:1%+0% dq.user:17%+20% recvUC:4%+6%
+[1149] 424.000  enp1s0: xmit 412.49 Mb/s recv 411.27 Mb/s [15496343666 15500142030]
+[1149] 424.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 425.000  rss:8.5MB vcsw:1115 ivcsw:190 dq.user:21%+17% recvUC:3%+8%
+[1149] 425.000  @fedora30-guest:1465 rss:7.0MB vcsw:1561 ivcsw:8 dq.user:18%+19% recvUC:5%+7%
+[1149] 425.000  enp1s0: xmit 410.08 Mb/s recv 409.66 Mb/s [15547601754 15551346498]
+[1149] 425.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1465: gone
+[1149] participant fedora30-guest:1475: new
+[1149] 426.000  rss:8.5MB vcsw:135 ivcsw:27 dq.builtins:0%+1% recv:1%+0% recvUC:1%+0%
+[1149] 426.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 427.000  rss:9.0MB vcsw:105 ivcsw:21 dq.user:1%+3% tev:0%+1%
+[1149] 427.000  @fedora30-guest:1475 rss:4.3MB vcsw:16 ivcsw:7 ddsperf:0%+1%
+[1149] 427.000  enp1s0: xmit 12.40 Mb/s recv 22.21 Mb/s [15549160472 15554128363]
+[1149] 427.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 428.000  rss:10.0MB vcsw:386 ivcsw:17 dq.user:2%+5% tev:1%+2% recvUC:0%+1%
+[1149] 428.000  @fedora30-guest:1475 rss:7.1MB vcsw:224 ivcsw:12 ddsperf:0%+1% dq.user:1%+1% tev:0%+2%
+[1149] 428.000  enp1s0: xmit 61.66 Mb/s recv 51.70 Mb/s [15556868430 15560590429]
+[1149] 428.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 429.000  rss:10.0MB vcsw:431 ivcsw:19 dq.user:6%+18% recvUC:1%+2%
+[1149] 429.000  @fedora30-guest:1475 rss:8.4MB vcsw:851 ivcsw:19 dq.user:4%+5% recvUC:1%+3%
+[1149] 429.000  enp1s0: xmit 126.17 Mb/s recv 120.91 Mb/s [15572638706 15575703561]
+[1149] 429.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 430.000  rss:10.0MB vcsw:601 ivcsw:7 dq.user:2%+3% tev:1%+1% recvUC:1%+0%
+[1149] 430.000  @fedora30-guest:1475 rss:8.4MB vcsw:328 ivcsw:12 ddsperf:1%+0% dq.user:4%+16% recvUC:2%+3%
+[1149] 430.000  enp1s0: xmit 62.88 Mb/s recv 56.72 Mb/s [15580498478 15582793751]
+[1149] 430.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 431.001  rss:10.0MB vcsw:451 ivcsw:5 dq.user:4%+9% tev:0%+2% recvUC:1%+2%
+[1149] 431.001  @fedora30-guest:1475 rss:8.4MB vcsw:351 ivcsw:12 dq.user:3%+5% recvUC:1%+1%
+[1149] 431.001  enp1s0: xmit 90.05 Mb/s recv 87.22 Mb/s [15591767810 15593709571]
+[1149] 431.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 432.000  rss:10.0MB vcsw:616 ivcsw:16 ddsperf:1%+0% dq.user:2%+2% tev:0%+2% recvUC:1%+3%
+[1149] 432.000  @fedora30-guest:1475 rss:8.4MB vcsw:617 ivcsw:163 dq.user:4%+10% tev:0%+2% recvUC:1%+2%
+[1149] 432.000  enp1s0: xmit 68.27 Mb/s recv 69.96 Mb/s [15600290960 15602444013]
+[1149] 432.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 433.000  rss:10.0MB vcsw:506 ivcsw:10 dq.user:6%+5% tev:1%+2% recvUC:1%+2%
+[1149] 433.000  @fedora30-guest:1475 rss:8.4MB vcsw:519 ivcsw:8 dq.user:6%+5% tev:1%+1% recvUC:0%+3%
+[1149] 433.000  enp1s0: xmit 129.57 Mb/s recv 121.30 Mb/s [15616487260 15617607007]
+[1149] 433.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 434.000  rss:10.0MB vcsw:557 ivcsw:15 ddsperf:0%+1% dq.user:3%+4% tev:0%+4% recvUC:1%+2%
+[1149] 434.000  @fedora30-guest:1475 rss:8.4MB vcsw:687 ivcsw:5 ddsperf:0%+1% dq.user:1%+1% tev:0%+1% recvUC:1%+1%
+[1149] 434.000  enp1s0: xmit 88.70 Mb/s recv 76.25 Mb/s [15627574662 15627137867]
+[1149] 434.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 435.000  rss:10.0MB vcsw:453 ivcsw:6 dq.user:3%+2% tev:0%+2% recvUC:1%+1%
+[1149] 435.000  @fedora30-guest:1475 rss:8.4MB vcsw:226 ivcsw:85 dq.user:4%+9% recvUC:1%+2%
+[1149] 435.000  enp1s0: xmit 72.81 Mb/s recv 60.08 Mb/s [15636675594 15634647847]
+[1149] 435.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 436.000  rss:10.0MB vcsw:271 ivcsw:19 dq.user:6%+12% tev:1%+4% recvUC:2%+2%
+[1149] 436.000  @fedora30-guest:1475 rss:8.4MB vcsw:491 ivcsw:26 dq.user:2%+5% recvUC:1%+1%
+[1149] 436.000  enp1s0: xmit 134.47 Mb/s recv 123.92 Mb/s [15653484176 15650137647]
+[1149] 436.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 437.000  rss:10.0MB vcsw:236 ivcsw:9 dq.user:1%+2% tev:0%+1% recvUC:0%+1%
+[1149] 437.000  @fedora30-guest:1475 rss:8.4MB vcsw:1120 ivcsw:47 dq.user:6%+6% tev:0%+1% recvUC:1%+3%
+[1149] 437.000  enp1s0: xmit 31.75 Mb/s recv 40.62 Mb/s [15657452626 15655215179]
+[1149] 437.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 438.000  rss:10.0MB vcsw:404 ivcsw:16 dq.user:5%+19% tev:0%+1% recvUC:3%+4%
+[1149] 438.000  @fedora30-guest:1475 rss:8.4MB vcsw:551 ivcsw:146 dq.user:2%+3% tev:1%+1% recvUC:1%+1%
+[1149] 438.000  enp1s0: xmit 130.85 Mb/s recv 130.17 Mb/s [15673808424 15671486497]
+[1149] 438.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 439.000  rss:10.0MB vcsw:110 ivcsw:19 dq.user:5%+28% tev:0%+1% recvUC:1%+4%
+[1149] 439.000  @fedora30-guest:1475 rss:8.4MB vcsw:1266 ivcsw:56 dq.user:6%+6% tev:0%+1% recvUC:0%+1%
+[1149] 439.000  enp1s0: xmit 136.28 Mb/s recv 137.70 Mb/s [15690843264 15688699291]
+[1149] 439.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 440.000  rss:10.0MB vcsw:1100 ivcsw:19 dq.user:5%+22% tev:1%+0% recvUC:1%+0%
+[1149] 440.000  @fedora30-guest:1475 rss:8.4MB vcsw:1265 ivcsw:43 dq.user:5%+11%
+[1149] 440.000  enp1s0: xmit 114.05 Mb/s recv 113.39 Mb/s [15705099838 15702873157]
+[1149] 440.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 441.000  rss:10.0MB vcsw:794 ivcsw:192 ddsperf:0%+1% dq.user:6%+19% recvUC:0%+2%
+[1149] 441.000  @fedora30-guest:1475 rss:8.4MB vcsw:1123 ivcsw:5 dq.user:5%+22%
+[1149] 441.000  enp1s0: xmit 118.01 Mb/s recv 116.22 Mb/s [15719850682 15717400271]
+[1149] 441.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 442.001  rss:10.0MB vcsw:916 ivcsw:12 dq.user:13%+13% recvUC:3%+4%
+[1149] 442.001  @fedora30-guest:1475 rss:8.4MB vcsw:902 ivcsw:26 ddsperf:1%+0% dq.user:10%+11% tev:0%+1% recvUC:2%+4%
+[1149] 442.001  enp1s0: xmit 286.66 Mb/s recv 285.61 Mb/s [15755716288 15753134917]
+[1149] 442.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 443.000  rss:10.0MB vcsw:1072 ivcsw:7 dq.user:10%+9% tev:0%+1% recvUC:2%+3%
+[1149] 443.000  @fedora30-guest:1475 rss:8.4MB vcsw:703 ivcsw:16 dq.user:11%+11% recvUC:2%+4%
+[1149] 443.000  enp1s0: xmit 211.15 Mb/s recv 214.59 Mb/s [15782085466 15779933723]
+[1149] 443.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 444.000  rss:10.0MB vcsw:1307 ivcsw:7 dq.user:6%+5% recvUC:1%+2%
+[1149] 444.000  @fedora30-guest:1475 rss:8.4MB vcsw:839 ivcsw:45 ddsperf:0%+1% dq.user:6%+24% tev:1%+1% recvUC:1%+3%
+[1149] 444.000  enp1s0: xmit 130.27 Mb/s recv 132.69 Mb/s [15798368692 15796519439]
+[1149] 444.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 445.000  rss:10.0MB vcsw:1115 ivcsw:58 dq.user:10%+8% tev:1%+3% recvUC:2%+4%
+[1149] 445.000  @fedora30-guest:1475 rss:8.4MB vcsw:380 ivcsw:124 dq.user:3%+11% tev:0%+1% recvUC:1%+2%
+[1149] 445.000  enp1s0: xmit 212.55 Mb/s recv 202.86 Mb/s [15824937608 15821876173]
+[1149] 445.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 446.000  rss:10.0MB vcsw:656 ivcsw:81 dq.user:11%+11% recvUC:3%+5%
+[1149] 446.000  @fedora30-guest:1475 rss:8.4MB vcsw:1317 ivcsw:382 dq.user:15%+22% tev:0%+1% recvUC:5%+5%
+[1149] 446.000  enp1s0: xmit 239.51 Mb/s recv 248.23 Mb/s [15854877096 15852905875]
+[1149] 446.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 447.000  rss:10.0MB vcsw:862 ivcsw:132 dq.user:3%+4% recvUC:1%+2%
+[1149] 447.000  @fedora30-guest:1475 rss:8.4MB vcsw:453 ivcsw:10 dq.user:5%+9% tev:1%+2% recvUC:1%+2%
+[1149] 447.000  enp1s0: xmit 70.72 Mb/s recv 78.25 Mb/s [15863716642 15862686825]
+[1149] 447.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 448.000  rss:10.0MB vcsw:242 ivcsw:4 dq.user:3%+4% recvUC:1%+1%
+[1149] 448.000  @fedora30-guest:1475 rss:8.4MB vcsw:224 ivcsw:18 ddsperf:0%+1% dq.user:2%+2% tev:0%+3% recvUC:0%+1%
+[1149] 448.000  enp1s0: xmit 66.10 Mb/s recv 78.53 Mb/s [15871978328 15872502737]
+[1149] 448.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 449.000  rss:10.0MB vcsw:437 ivcsw:3 ddsperf:1%+1% dq.user:3%+3% tev:0%+3% recvUC:1%+1%
+[1149] 449.000  @fedora30-guest:1475 rss:8.4MB vcsw:598 ivcsw:56 dq.user:3%+9% tev:1%+2% recvUC:2%+3%
+[1149] 449.000  enp1s0: xmit 81.90 Mb/s recv 74.34 Mb/s [15882217096 15881796001]
+[1149] 449.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 450.000  rss:10.0MB vcsw:221 ivcsw:5 dq.builtins:1%+0% dq.user:3%+1% tev:1%+3% recvUC:1%+1%
+[1149] 450.000  @fedora30-guest:1475 rss:8.4MB vcsw:204 ivcsw:53 dq.user:2%+2% recvUC:2%+5%
+[1149] 450.000  enp1s0: xmit 57.39 Mb/s recv 50.24 Mb/s [15889391112 15888076347]
+[1149] 450.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 451.001  rss:10.0MB vcsw:1467 ivcsw:3 dq.user:16%+15% recvUC:4%+6%
+[1149] 451.001  @fedora30-guest:1475 rss:8.4MB vcsw:466 ivcsw:65 dq.user:4%+14% recvUC:2%+3%
+[1149] 451.001  enp1s0: xmit 359.04 Mb/s recv 358.38 Mb/s [15934297822 15932900303]
+[1149] 451.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 452.000  rss:10.0MB vcsw:579 ivcsw:4 dq.user:9%+10% tev:0%+2% recvUC:1%+3%
+[1149] 452.000  @fedora30-guest:1475 rss:8.4MB vcsw:1403 ivcsw:147 dq.user:22%+18% recvUC:5%+7%
+[1149] 452.000  enp1s0: xmit 212.30 Mb/s recv 206.62 Mb/s [15960816660 15958709847]
+[1149] 452.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 453.000  rss:10.0MB vcsw:121 ivcsw:6 dq.user:6%+24% recvUC:1%+3%
+[1149] 453.000  @fedora30-guest:1475 rss:8.4MB vcsw:731 ivcsw:37 dq.user:4%+4% tev:0%+1% recvUC:1%+2%
+[1149] 453.000  enp1s0: xmit 132.15 Mb/s recv 138.17 Mb/s [15977335170 15975980891]
+[1149] 453.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 454.000  rss:10.0MB vcsw:789 ivcsw:15 dq.user:6%+7% recvUC:2%+3%
+[1149] 454.000  @fedora30-guest:1475 rss:8.4MB vcsw:903 ivcsw:38 dq.user:7%+5% tev:0%+2% recvUC:1%+3%
+[1149] 454.000  enp1s0: xmit 146.44 Mb/s recv 151.32 Mb/s [15995639650 15994895347]
+[1149] 454.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 455.000  rss:10.0MB vcsw:1115 ivcsw:2 dq.user:6%+5% recvUC:2%+2%
+[1149] 455.000  @fedora30-guest:1475 rss:8.4MB vcsw:197 ivcsw:79 dq.user:6%+25% recvUC:2%+2%
+[1149] 455.000  enp1s0: xmit 119.75 Mb/s recv 123.67 Mb/s [16010609562 16010354145]
+[1149] 455.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1475: gone
+[1149] participant fedora30-guest:1486: new
+[1149] 456.000  rss:10.0MB vcsw:296 ivcsw:23 dq.user:1%+0% tev:0%+1%
+[1149] 456.000  @fedora30-guest:1475 rss:8.4MB vcsw:96 ivcsw:7 ddsperf:1%+0% dq.user:3%+11% tev:1%+1% recvUC:0%+2%
+[1149] 456.000  enp1s0: xmit 16.59 Mb/s recv 18.93 Mb/s [16012683326 16012720186]
+[1149] 456.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 457.000  rss:11.3MB vcsw:122 ivcsw:11 ddsperf:0%+1% dq.user:1%+1% tev:2%+1% recvUC:1%+1%
+[1149] 457.000  enp1s0: xmit 34.98 Mb/s recv 25.37 Mb/s [16017056458 16015891824]
+[1149] 457.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 458.000  rss:13.1MB vcsw:287 ivcsw:10 dq.user:3%+6% tev:1%+2% recvUC:1%+3%
+[1149] 458.000  @fedora30-guest:1486 rss:10.6MB vcsw:654 ivcsw:174 ddsperf:0%+1% dq.user:1%+1% tev:0%+3% recvUC:1%+3%
+[1149] 458.000  enp1s0: xmit 70.59 Mb/s recv 78.09 Mb/s [16025879084 16025651160]
+[1149] 458.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 459.000  rss:13.1MB vcsw:478 ivcsw:59 dq.user:5%+17% tev:1%+2% recvUC:3%+4%
+[1149] 459.000  @fedora30-guest:1486 rss:11.2MB vcsw:1080 ivcsw:32 dq.user:5%+6% tev:1%+4% recvUC:1%+2%
+[1149] 459.000  enp1s0: xmit 103.84 Mb/s recv 117.44 Mb/s [16038859612 16040330526]
+[1149] 459.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 460.000  rss:13.1MB vcsw:306 ivcsw:8 dq.user:5%+22% recvUC:3%+4%
+[1149] 460.000  @fedora30-guest:1486 rss:12.2MB vcsw:1118 ivcsw:25 dq.user:5%+6% tev:1%+5% recvUC:1%+1%
+[1149] 460.000  enp1s0: xmit 126.18 Mb/s recv 155.41 Mb/s [16054631870 16059756982]
+[1149] 460.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 461.001  rss:13.1MB vcsw:2023 ivcsw:33 dq.user:9%+9% tev:0%+1% recvUC:1%+2%
+[1149] 461.001  @fedora30-guest:1486 rss:12.2MB vcsw:988 ivcsw:46 ddsperf:1%+0% dq.user:8%+26% tev:1%+2% recvUC:1%+3%
+[1149] 461.001  enp1s0: xmit 206.27 Mb/s recv 203.58 Mb/s [16080439132 16085227018]
+[1149] 461.001  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 462.000  rss:13.1MB vcsw:1680 ivcsw:23 dq.user:8%+8% tev:0%+1%
+[1149] 462.000  @fedora30-guest:1486 rss:12.2MB vcsw:1596 ivcsw:655 dq.user:10%+28% tev:0%+2% recvUC:1%+5%
+[1149] 462.000  enp1s0: xmit 188.54 Mb/s recv 184.30 Mb/s [16103985996 16108244070]
+[1149] 462.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 463.000  rss:13.1MB vcsw:882 ivcsw:47 dq.user:6%+14% tev:1%+1% recvUC:2%+2%
+[1149] 463.000  @fedora30-guest:1486 rss:12.2MB vcsw:1131 ivcsw:363 dq.user:6%+18% tev:1%+1% recvUC:2%+4%
+[1149] 463.000  enp1s0: xmit 135.94 Mb/s recv 144.76 Mb/s [16120978490 16126339094]
+[1149] 463.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 464.000  rss:13.1MB vcsw:673 ivcsw:368 ddsperf:0%+1% dq.user:5%+13% tev:0%+2% recvUC:2%+6%
+[1149] 464.000  @fedora30-guest:1486 rss:12.2MB vcsw:745 ivcsw:92 ddsperf:0%+1% dq.user:5%+6% tev:0%+3% recvUC:0%+1%
+[1149] 464.000  enp1s0: xmit 112.42 Mb/s recv 114.91 Mb/s [16135031026 16140702766]
+[1149] 464.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 465.000  rss:13.1MB vcsw:1032 ivcsw:255 ddsperf:1%+0% dq.user:7%+24% recvUC:2%+4%
+[1149] 465.000  @fedora30-guest:1486 rss:12.2MB vcsw:1679 ivcsw:146 dq.user:7%+7% tev:1%+3% recvUC:3%+4%
+[1149] 465.000  enp1s0: xmit 166.81 Mb/s recv 164.89 Mb/s [16155881812 16161313580]
+[1149] 465.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 466.000  rss:13.1MB vcsw:1276 ivcsw:531 dq.user:5%+12% tev:2%+3% recvUC:3%+6%
+[1149] 466.000  @fedora30-guest:1486 rss:12.2MB vcsw:1195 ivcsw:260 dq.user:6%+5% tev:1%+5% recvUC:1%+3%
+[1149] 466.000  enp1s0: xmit 127.38 Mb/s recv 136.92 Mb/s [16171805808 16178430570]
+[1149] 466.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 467.000  rss:13.1MB vcsw:1184 ivcsw:36 dq.user:5%+23% recvUC:2%+2%
+[1149] 467.000  @fedora30-guest:1486 rss:12.2MB vcsw:1204 ivcsw:14 dq.user:5%+22%
+[1149] 467.000  enp1s0: xmit 126.64 Mb/s recv 124.69 Mb/s [16187636302 16194017502]
+[1149] 467.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 468.000  rss:13.1MB vcsw:1173 ivcsw:193 dq.user:7%+16% tev:0%+2% recvUC:1%+3%
+[1149] 468.000  @fedora30-guest:1486 rss:12.2MB vcsw:1141 ivcsw:226 dq.user:6%+18% tev:1%+2% recvUC:1%+2%
+[1149] 468.000  enp1s0: xmit 158.31 Mb/s recv 168.18 Mb/s [16207421504 16215037118]
+[1149] 468.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 469.000  rss:13.1MB vcsw:711 ivcsw:44 dq.user:4%+10% tev:1%+3% recvUC:2%+4%
+[1149] 469.000  @fedora30-guest:1486 rss:12.2MB vcsw:899 ivcsw:4 dq.user:5%+4% tev:0%+4% recvUC:1%+1%
+[1149] 469.000  enp1s0: xmit 98.84 Mb/s recv 105.12 Mb/s [16219776358 16228176986]
+[1149] 469.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 470.000  rss:13.1MB vcsw:1509 ivcsw:307 dq.user:5%+18% tev:1%+3% recvUC:1%+2%
+[1149] 470.000  @fedora30-guest:1486 rss:12.2MB vcsw:1431 ivcsw:61 dq.user:5%+16% tev:1%+2% recvUC:2%+4%
+[1149] 470.000  enp1s0: xmit 141.53 Mb/s recv 129.42 Mb/s [16237467108 16244354680]
+[1149] 470.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 471.000  rss:13.1MB vcsw:1260 ivcsw:297 dq.user:10%+15% tev:0%+2% recvUC:1%+4%
+[1149] 471.000  @fedora30-guest:1486 rss:12.2MB vcsw:1644 ivcsw:355 dq.user:5%+12% tev:0%+3% recvUC:1%+3%
+[1149] 471.000  enp1s0: xmit 220.91 Mb/s recv 226.70 Mb/s [16265082894 16272693974]
+[1149] 471.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 472.000  rss:13.1MB vcsw:1285 ivcsw:204 dq.user:11%+12% tev:0%+2% recvUC:3%+4%
+[1149] 472.000  @fedora30-guest:1486 rss:12.2MB vcsw:1009 ivcsw:17 ddsperf:0%+1% dq.user:11%+11% tev:1%+4% recvUC:3%+4%
+[1149] 472.000  enp1s0: xmit 219.79 Mb/s recv 231.15 Mb/s [16292557592 16301587790]
+[1149] 472.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 473.000  rss:13.1MB vcsw:952 ivcsw:14 ddsperf:0%+1% dq.user:6%+23% recvUC:1%+2%
+[1149] 473.000  @fedora30-guest:1486 rss:12.2MB vcsw:1141 ivcsw:38 dq.user:10%+19% tev:0%+1% recvUC:2%+4%
+[1149] 473.000  enp1s0: xmit 122.93 Mb/s recv 125.92 Mb/s [16307922340 16317326418]
+[1149] 473.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 474.000  rss:13.1MB vcsw:351 ivcsw:70 dq.user:4%+22% recvUC:1%+3%
+[1149] 474.000  @fedora30-guest:1486 rss:12.2MB vcsw:1283 ivcsw:44 dq.user:6%+5% tev:1%+2% recvUC:0%+1%
+[1149] 474.000  enp1s0: xmit 112.96 Mb/s recv 126.79 Mb/s [16322041704 16333175110]
+[1149] 474.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 475.000  rss:13.1MB vcsw:1261 ivcsw:15 dq.user:5%+22% tev:1%+1%
+[1149] 475.000  @fedora30-guest:1486 rss:12.2MB vcsw:1073 ivcsw:13 dq.user:4%+15% tev:0%+1% recvUC:0%+1%
+[1149] 475.000  enp1s0: xmit 107.37 Mb/s recv 108.20 Mb/s [16335463052 16346700256]
+[1149] 475.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 476.000  rss:13.1MB vcsw:1266 ivcsw:17 dq.user:5%+21% recvUC:1%+0%
+[1149] 476.000  @fedora30-guest:1486 rss:12.2MB vcsw:1337 ivcsw:14 ddsperf:1%+0% dq.user:5%+22% tev:0%+1%
+[1149] 476.000  enp1s0: xmit 107.95 Mb/s recv 107.37 Mb/s [16348956794 16360121478]
+[1149] 476.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 477.000  rss:13.1MB vcsw:1339 ivcsw:10 dq.user:5%+22%
+[1149] 477.000  @fedora30-guest:1486 rss:12.2MB vcsw:1329 ivcsw:9 dq.user:4%+22%
+[1149] 477.000  enp1s0: xmit 108.77 Mb/s recv 107.37 Mb/s [16362552680 16373543374]
+[1149] 477.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 478.000  rss:13.1MB vcsw:1333 ivcsw:12 ddsperf:1%+0% dq.user:4%+22% tev:0%+1% recvUC:0%+1%
+[1149] 478.000  @fedora30-guest:1486 rss:12.2MB vcsw:1181 ivcsw:35 dq.user:5%+21%
+[1149] 478.000  enp1s0: xmit 108.73 Mb/s recv 107.37 Mb/s [16376143210 16386964794]
+[1149] 478.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 479.000  rss:13.1MB vcsw:1343 ivcsw:7 dq.user:5%+22%
+[1149] 479.000  @fedora30-guest:1486 rss:12.2MB vcsw:1161 ivcsw:54 dq.user:5%+21% tev:0%+1% recvUC:1%+0%
+[1149] 479.000  enp1s0: xmit 109.49 Mb/s recv 107.37 Mb/s [16389829054 16400386068]
+[1149] 479.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 480.000  rss:13.1MB vcsw:1432 ivcsw:8 dq.user:7%+8% tev:0%+2% recvUC:2%+2%
+[1149] 480.000  @fedora30-guest:1486 rss:12.2MB vcsw:760 ivcsw:33 ddsperf:0%+1% dq.user:6%+21% recvUC:0%+2%
+[1149] 480.000  enp1s0: xmit 157.64 Mb/s recv 151.70 Mb/s [16409533406 16419348430]
+[1149] 480.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 481.000  rss:13.1MB vcsw:1887 ivcsw:3 ddsperf:0%+1% dq.user:10%+7% recvUC:3%+4%
+[1149] 481.000  @fedora30-guest:1486 rss:12.2MB vcsw:942 ivcsw:146 dq.user:8%+34% tev:0%+1% recvUC:3%+3%
+[1149] 481.000  enp1s0: xmit 198.19 Mb/s recv 199.63 Mb/s [16434307498 16444302452]
+[1149] 481.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 482.000  rss:13.1MB vcsw:1115 ivcsw:85 dq.user:7%+16% tev:1%+2% recvUC:2%+3%
+[1149] 482.000  @fedora30-guest:1486 rss:12.2MB vcsw:1445 ivcsw:529 dq.user:7%+27% tev:0%+2% recvUC:1%+5%
+[1149] 482.000  enp1s0: xmit 159.05 Mb/s recv 162.43 Mb/s [16454189216 16464605840]
+[1149] 482.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 483.000  rss:13.1MB vcsw:958 ivcsw:91 dq.user:3%+15% tev:0%+1% recvUC:2%+3%
+[1149] 483.000  @fedora30-guest:1486 rss:12.2MB vcsw:902 ivcsw:15 dq.user:4%+4% tev:1%+2% recvUC:1%+1%
+[1149] 483.000  enp1s0: xmit 74.35 Mb/s recv 82.01 Mb/s [16463483424 16474856902]
+[1149] 483.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 484.000  rss:13.1MB vcsw:743 ivcsw:6 dq.user:13%+17% tev:0%+1% recvUC:3%+5%
+[1149] 484.000  @fedora30-guest:1486 rss:12.2MB vcsw:1207 ivcsw:29 dq.user:14%+10% tev:1%+4% recvUC:3%+3%
+[1149] 484.000  enp1s0: xmit 286.87 Mb/s recv 297.92 Mb/s [16499343062 16512098606]
+[1149] 484.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] 485.000  rss:13.1MB vcsw:921 ivcsw:11 dq.user:7%+13% tev:0%+4% recvUC:2%+3%
+[1149] 485.000  @fedora30-guest:1486 rss:12.2MB vcsw:1437 ivcsw:34 dq.user:5%+7% tev:1%+3% recvUC:1%+3%
+[1149] 485.000  enp1s0: xmit 165.52 Mb/s recv 168.57 Mb/s [16520031848 16533169270]
+[1149] 485.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0
+[1149] participant fedora30-guest:1486: gone
+[1149] 486.000  rss:13.1MB vcsw:1167 ivcsw:23 dq.user:8%+6% tev:1%+1% recvUC:1%+2%
+[1149] 486.000  @fedora30-guest:1486 rss:12.2MB vcsw:1213 ivcsw:430 ddsperf:0%+1% dq.user:10%+30% tev:1%+2% recvUC:1%+6%
+[1149] 486.000  enp1s0: xmit 170.08 Mb/s recv 168.55 Mb/s [16541292401 16554238758]
+[1149] 486.000  discarded 0 rexmit 0 Trexmit 0 Tthrottle 0 Nthrottle 0

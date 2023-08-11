@@ -1,0 +1,28 @@
+#!/bin/bash
+# create guest
+OS_NAME=debian-10
+OS_VARIANT=debian10
+VM_IMAGE=./debian9-demo.qcow2
+
+sudo virsh destroy debian9-guest
+sudo virsh undefine debian9-guest
+
+ssh-keygen -t rsa -f keyguest -P ""
+
+sudo virt-builder -v --ssh-inject root:file:./keyguest.pub \
+    --hostname debian9-guest \
+    --upload /root/scriptsforvsockguest/upload/nc-vsock:/home/nc-vsock \
+    --install "python3-dev" \
+    --firstboot-command "dpkg-reconfigure openssh-server" \
+    --root-password password:redhat \
+    --output $VM_IMAGE \
+    #--edit '/etc/default/grub: s/^GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="console=ttyS0"/' \
+    #--run-command '/usr/sbin/update-grub2' \
+    --format qcow2 --update \
+    --size 10G $OS_NAME
+
+qemu-system-x86_64 \
+    -machine accel=kvm:tcg -cpu host -m 2048 -smp 2\
+    -drive file=./debian9-demo.qcow2,format=qcow2,if=virtio \
+    -device vhost-vsock-pci,guest-cid=4 \
+    -nographic

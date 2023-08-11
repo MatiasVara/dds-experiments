@@ -1,0 +1,17 @@
+CPU0:
+	cpu_time          2375.206718515 seconds
+	vcpu_time         2004.927575349 seconds
+CPU1:
+	cpu_time          2630.694454703 seconds
+	vcpu_time         2205.219229581 seconds
+CPU2:
+	cpu_time           214.054310943 seconds
+	vcpu_time            0.000000000 seconds
+CPU3:
+	cpu_time           182.448371760 seconds
+	vcpu_time            0.000000000 seconds
+Total:
+	cpu_time          5402.403855921 seconds
+	user_time            6.690000000 seconds
+	system_time       2213.100000000 seconds
+
